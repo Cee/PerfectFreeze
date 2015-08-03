@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Perfect Freeze!</title><subtitle>Perfect Freeze! | Cee's Blog v3.0</subtitle><updated>2015-08-03T19:27:51+08:00</updated><id>tag:blog.cee.moe,2005:/</id><link rel="alternate" type="text/html" hreflang="en" href="http://blog.cee.moe/"/><link rel="self" type="application/atom+xml" href="http://blog.cee.moe/feed.xml"/><rights>Copyright © 2015, Cee</rights><author><name>Cee</name><uri>http://blog.cee.moe/</uri><email>ceecirno@gmail.com</email></author><entry><title>Dear Assembly（1）</title><id>tag:blog.cee.moe,2014:/dear-assembly-1/</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/dear-assembly-1.html"/><updated>2014-07-26T00:00:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+          
+            &lt;p&gt;苦逼的暑假开始了。&lt;/p&gt;
+
+&lt;p&gt;在 &lt;a href=&quot;http://www.binarythink.net/&quot;&gt;lcb 大神&lt;/a&gt; 的推荐下，毫不犹豫地在六月份就选了 Coursera 上的 CSAPP（Computer Systems: A Programmer&amp;rsquo;s Perspective）。一方面正好自己操作系统也学得很烂，所以趁这个暑假充实一下自己的暑假生活；另一方面，这 CSAPP 的课机会难得，不容错过啊。&lt;/p&gt;
+
+&lt;p&gt;这篇文章的话，主要还是讲一下 Lab 2 的拆炸弹作业。俗话说：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;DDL 是第一生产力！&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;赶在 DDL 前两天，晚上花了 5 个小时终于做完了！&lt;/p&gt;
+
+&lt;p&gt;本文分上下两篇，主要介绍一下 Assembly、gdb 的使用，还有拆炸弹的解题过程/w\&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Phase_1&lt;/h3&gt;
+
+&lt;p&gt;反编译 phase_1 的代码 &lt;code&gt;disassemble phase_1&lt;/code&gt;，得到：&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/cee/70a6a7970cdb6b5c0d3e.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;除去 1，7，8 行，关注剩下的 2 到 6 行。&lt;/p&gt;
+
+&lt;p&gt;程序调用了 &lt;code&gt;strings_not_equal()&lt;/code&gt; 函数，比较输入字符串与 &lt;code&gt;0x401af8&lt;/code&gt; 指向的字符串是否相等。使用 &lt;code&gt;x /sb 0x401af8&lt;/code&gt; 查看 &lt;code&gt;0x401af8&lt;/code&gt; 指向的字符串，就得到了第一个答案：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Science isn&amp;rsquo;t about why, it&amp;rsquo;s about why not?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;phase_1 结束！&lt;/p&gt;
+
+&lt;h3&gt;Phase_2&lt;/h3&gt;
+
+&lt;p&gt;进入 phase_2，&lt;code&gt;disassemble phase_2&lt;/code&gt; 得到：&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/cee/3f304d145331cc0591af.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;第七行调用 &lt;code&gt;read_six_numbers&lt;/code&gt; 函数，&lt;code&gt;disassemble read_six_numbers&lt;/code&gt;：&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/cee/57a0d0b1a745dac52532.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;code&gt;read_six_numbers&lt;/code&gt; 调用了 &lt;code&gt;sscanf&lt;/code&gt;，格式字符串由地址为 &lt;code&gt;0x401eb2&lt;/code&gt; 中的格式解析。查看 &lt;code&gt;0x401eb2&lt;/code&gt; 地址中的格式字符串，使用 &lt;code&gt;x /sb 0x401eb2&lt;/code&gt;：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;0x401eb2:  &amp;ldquo;%d %d %d %d %d %d&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;回到 phase_2 中，我们要知道读完六个数之后做了什么，继续看第 8 行开始的代码。第 8 行让 &lt;code&gt;rbp = rsp&lt;/code&gt; 并且注意到第⑨行中 &lt;code&gt;r13&lt;/code&gt; 寄存器保存了 &lt;code&gt;rsp + 12&lt;/code&gt; （即 &lt;code&gt;rbp + 12&lt;/code&gt; ）的地址，以及第 12、13 行的 &lt;code&gt;eax&lt;/code&gt; 取出了 &lt;code&gt;rbp + 12&lt;/code&gt; 的数并且用 &lt;code&gt;eax&lt;/code&gt; 和 &lt;code&gt;rbp&lt;/code&gt; 两个寄存器之间的书比较是否相等。之后的第 17 行，&lt;code&gt;rbp = rbp + 4&lt;/code&gt;，让指针往后走一个 &lt;code&gt;int&lt;/code&gt; 的大小。看到这里也就知道了 phase_2 的含义：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;输入数组 &lt;code&gt;a[6]&lt;/code&gt; 后，比较是否是一个长度为 3 的循环数组。即是否满足 &lt;code&gt;a[0] = a[3]&lt;/code&gt;，&lt;code&gt;a[1] = a[4]&lt;/code&gt; 和 &lt;code&gt;a[2] = a[5]&lt;/code&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;输入符合条件的六个数即可~难度也不是很大(｢･ω･)｢&lt;/p&gt;
+
+&lt;h3&gt;Phase_3&lt;/h3&gt;
+
+&lt;p&gt;开始进入比较有挑战性的 phase_3，同样使用 &lt;code&gt;disassenmble phase_3&lt;/code&gt;：&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/cee/e90dc2aba7a1372ac2b4.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;比之前更长了，不是么？&lt;/p&gt;
+
+&lt;p&gt;观察一下函数的特征，尤其是 14 - 27行，&lt;code&gt;Switch/Case&lt;/code&gt; 的跳转表，非常的明显！&lt;/p&gt;
+
+&lt;p&gt;查看 &lt;code&gt;sscanf&lt;/code&gt; 的格式字符串，&lt;code&gt;x /sb 0x401ebe&lt;/code&gt;：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;0x401ebe:  &amp;ldquo;%d %d&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;输入两个数，第一个数用于 &lt;code&gt;Switch/Case&lt;/code&gt; 分支判断，第二个数字则用于和 &lt;code&gt;eax&lt;/code&gt; 的比较。注意到 11 行的 &lt;code&gt;cmpl&lt;/code&gt;（每次都是你！）判断了 &lt;code&gt;rsp + 12&lt;/code&gt; 中的数是否大于 7，也就是输入的第一个数是否大于 7（&lt;code&gt;default&lt;/code&gt; 分支）：如果大于就引爆了炸弹，否则就进入不同的 &lt;code&gt;case&lt;/code&gt; 。通过计算不同的组合我们可以很轻松的得到这道题的不同的 7 个解（一行一个解）：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;0 535&lt;br&gt;
+1 926&lt;br&gt;
+2 214&lt;br&gt;
+3 339&lt;br&gt;
+4 119&lt;br&gt;
+5 352&lt;br&gt;
+6 919&lt;br&gt;
+7 412&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;当屏幕显示 &lt;code&gt;Phase 3 cleared!&lt;/code&gt; 的时候，我们已经解决了一半的问题了！&lt;/p&gt;
+
+&lt;h3&gt;Phase_4&lt;/h3&gt;
+
+&lt;p&gt;Move on, 进入到 phase_4，&lt;code&gt;disassemble phase_4&lt;/code&gt;：&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/cee/490ad3fa87efb34cf382.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;第 3 行查看 &lt;code&gt;sscanf&lt;/code&gt; 的格式字符串，&lt;code&gt;x /sb 0x401ec1&lt;/code&gt;：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;0x401ec1:  &amp;ldquo;%d&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;即输入一个数。将这个输入的数放入 &lt;code&gt;edi&lt;/code&gt; 中调用了函数 &lt;code&gt;func4&lt;/code&gt;。&lt;code&gt;func4&lt;/code&gt; 的代码如下：&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/cee/5f2c5ae8f877a1727d29.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;7 - 13 行的主要说明了递归函数目的 &lt;code&gt;f(x) = f(x-1) + f(x-2)&lt;/code&gt;，边际条件在第 5 和 6 行 &lt;code&gt;f(1) = 1&lt;/code&gt;（Fibbonacci 数列)。&lt;/p&gt;
+
+&lt;p&gt;回到原函数，14 行的 &lt;code&gt;cmp&lt;/code&gt; 使用了返回值 &lt;code&gt;eax&lt;/code&gt; 和 &lt;code&gt;0x37 = 55&lt;/code&gt; 比较，题目意图也很明显了：&lt;code&gt;n&lt;/code&gt; 等于几时，有 &lt;code&gt;f(n) = 55&lt;/code&gt;。答案就是：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;del&gt;⑨（这么写当然是错的）&lt;/del&gt;&lt;br&gt;
+9&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;Phase_5&lt;/h3&gt;
+
+&lt;script src=&quot;https://gist.github.com/cee/97931960a941fbda380a.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;同样地先观察格式字符串，&lt;code&gt;x /sb 0x401ebe&lt;/code&gt;：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;0x401ebe:  &amp;ldquo;%d %d&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;格式输入正确后跳转到第 10 行执行函数，这里一行一行解释。&lt;/p&gt;
+
+&lt;p&gt;第 10 行，&lt;code&gt;eax&lt;/code&gt; 存入地址为 &lt;code&gt;rsp + 12&lt;/code&gt; 中的数，也就是第二个参数。11 - 12 行用这个数和 &lt;code&gt;0xf&lt;/code&gt; 做了与操作，取出了最后两位并重新保存到 &lt;code&gt;rsp + 12&lt;/code&gt; 中。13 行判断了这个数是不是 &lt;code&gt;0xf&lt;/code&gt;，若是就引爆了炸弹，否则接下来进入循环。15 - 16 行的两个计数器 &lt;code&gt;ecx&lt;/code&gt; 和 &lt;code&gt;edx&lt;/code&gt; 清零。&lt;/p&gt;
+
+&lt;p&gt;17 到 22 行由 &lt;code&gt;jne&lt;/code&gt; 判断出这是一个循环。17 行的作用让 &lt;code&gt;edx = edx + 1&lt;/code&gt;，马上 18 行 &lt;code&gt;cltq&lt;/code&gt; 对 &lt;code&gt;eax&lt;/code&gt; 进行符号扩展，在 19 行加载 &lt;code&gt;rax * 4 + 0x401ba0&lt;/code&gt; 这个地址中的数到 &lt;code&gt;eax&lt;/code&gt; 中。20 行 &lt;code&gt;ecx&lt;/code&gt; 作为累加器加上 &lt;code&gt;eax&lt;/code&gt; 中的数。21 行依旧判断 &lt;code&gt;eax&lt;/code&gt; 这个数是不是 &lt;code&gt;0xf&lt;/code&gt;，不是则进行循环。&lt;/p&gt;
+
+&lt;p&gt;比较难理解的是 19 行 &lt;code&gt;eax = *(rax * 4 + 0x401ba0)&lt;/code&gt; 即取出了起始地址为 &lt;code&gt;0x401ba0&lt;/code&gt; 的数组中序号为 &lt;code&gt;eax&lt;/code&gt; 的数放入 &lt;code&gt;eax&lt;/code&gt; 中。根据 21 行判断数组大小，用 &lt;code&gt;x /16wd 0x401ba0&lt;/code&gt; 查看一下 &lt;code&gt;0x401ba0&lt;/code&gt; 开始的数组：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;0x401ba0 array.3014:      10  2   14  7&lt;br&gt;
+0x401bb0 array.3014+16:   8   12  15  11&lt;br&gt;
+0x401bc0 array.3014+32:   0   4   1   13&lt;br&gt;
+0x401bd0 array.3014+48:   3   9   6   5&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;整理一下：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;10 2 14 7 8 12 15 11 0 4 1 13 3 9 6 5&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;跳出循环，第 24 行，判断 &lt;code&gt;edx&lt;/code&gt; 即函数的循环次数是不是 &lt;code&gt;0xc = 12&lt;/code&gt;；第 26 行判断了第二个参数是否等于 &lt;code&gt;ecx&lt;/code&gt; 中的数。phase_5 也就被我们转化成了一道数组倒推问题。计算后得到答案：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;7 93&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;至此，作业要求的 5 个函数已经完成！（撒花）&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;What&amp;rsquo;s Next&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Phase 6&lt;/li&gt;
+&lt;li&gt;Secret Phase&lt;/li&gt;
+&lt;li&gt;Gdb Guide&lt;/li&gt;
+&lt;/ul&gt;
+
+          
+          
+        
+      
+        </content></entry><entry><title>Cisco IPSec VPN 配置小记</title><id>tag:blog.cee.moe,2014:/cisco-ipsec-vpn/</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/cisco-ipsec-vpn.html"/><updated>2014-04-09T00:00:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+          
+            &lt;p&gt;咳咳。部署团委的&lt;a href=&quot;http://www.njucqc.com&quot;&gt;创青春网站&lt;/a&gt;(Under Construction 2333)，顺便弄了一下 Cisco 的 VPN。&lt;/p&gt;
+
+&lt;p&gt;比想像中容易配置，主要参考了&lt;a href=&quot;https://plus.google.com/+MartianZ&quot;&gt;MartianZ 菊苣&lt;/a&gt;的 &lt;a href=&quot;http://blog.martianz.cn/article/2014-02-14-centos-cisco-ipsec&quot;&gt;blog&lt;/a&gt; 和&lt;a href=&quot;http://blog.wellsgz.info/?p=1964&quot;&gt;另一篇博文&lt;/a&gt;。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;1.安装 IPSec-Tools Racoon&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;# apt-get install ipsec-tools
+# apt-get install racoon
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;2.配置 IPSec-tools Racoon&lt;/p&gt;
+
+&lt;h6&gt;/etc/racoon/racoon.conf&lt;/h6&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;path pre_shared_key &amp;quot;/etc/racoon/psk.txt&amp;quot;;
+path certificate &amp;quot;/etc/racoon/certs&amp;quot;;
+
+listen {
+    isakmp YOUR.IP.ADDRESS [500];
+    isakmp_natt YOUR.IP.ADDRESS [4500];
+    #上两行 YOUR.IP.ADDRESS 改为 VPS 的外网地址
+}
+
+remote anonymous {
+    exchange_mode aggressive, main, base;
+    mode_cfg on;
+    proposal_check obey;
+    nat_traversal on;
+    generate_policy unique;
+    ike_frag on;
+    passive on;
+    dpd_delay 30;
+
+    proposal {
+        lifetime time 28800 sec;
+        encryption_algorithm 3des;
+        hash_algorithm md5;
+        authentication_method xauth_psk_server;
+        dh_group 2;
+    }
+}
+
+sainfo anonymous {
+    encryption_algorithm aes, 3des, blowfish;
+    authentication_algorithm hmac_sha1, hmac_md5;
+    compression_algorithm deflate;
+}
+
+mode_cfg {
+    auth_source system;
+    dns4 8.8.8.8;
+    banner &amp;quot;/etc/racoon/motd&amp;quot;;
+    save_passwd on;
+    network4 10.1.1.100;#客户端获得的 IP 起始地址
+    netmask4 255.255.255.0;#客户端获得的地址的掩码
+    pool_size 100;#最大客户端数量
+    pfs_group 2;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h6&gt;/etc/racoon/psk.txt&lt;/h6&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;YOUR.GROUP.NAME YOUR.GROUP.SECRET 
+#前面是 Group Name，或者 vpnc 里配置的 IPSec ID
+#后面是 Secret，或者 vpnc 里的 IPSec secret
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h6&gt;/etc/racoon/motd&lt;/h6&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;Fuck GFW!
+#欢迎信息，貌似一定要填写？
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;3.添加用户名和密码&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;# useradd -MN -b /tmp -s /sbin/nologin YOUR.USERNAME 
+# passwd YOUR.USERNAME
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;4.设置 iptables 的规则和 IPv4 forward&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;# iptables -A INPUT -p udp --dport 500 -j ACCEPT
+# iptables -A INPUT -p udp --dport 4500 -j ACCEPT
+# iptables -t nat -A POSTROUTING -s 10.1.1.0/24 -o eth0 -j MASQUERADE
+# iptables -A FORWARD -s 10.1.1.0/24 -j ACCEPT
+# iptables-save
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h6&gt;/etc/sysctl.conf&lt;/h6&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;net.ipv4.ip_forward = 1
+sysctl -p
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;5.最后启动&amp;gt;&amp;lt;&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;# service racoon start
+# chkconfig racoon on
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+          
+          
+        
+      
+        </content></entry></feed>
