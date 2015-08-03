@@ -1,4 +1,1398 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Perfect Freeze!</title><subtitle>Perfect Freeze! | Cee's Blog v3.0</subtitle><updated>2015-08-03T19:27:51+08:00</updated><id>tag:blog.cee.moe,2005:/</id><link rel="alternate" type="text/html" hreflang="en" href="http://blog.cee.moe/"/><link rel="self" type="application/atom+xml" href="http://blog.cee.moe/feed.xml"/><rights>Copyright © 2015, Cee</rights><author><name>Cee</name><uri>http://blog.cee.moe/</uri><email>ceecirno@gmail.com</email></author><entry><title>Dear Assembly（1）</title><id>tag:blog.cee.moe,2014:/dear-assembly-1/</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/dear-assembly-1.html"/><updated>2014-07-26T00:00:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Perfect Freeze!</title><subtitle>Perfect Freeze! | Cee's Blog v3.0</subtitle><updated>2015-08-03T20:08:00+08:00</updated><id>tag:blog.cee.moe,2005:/</id><link rel="alternate" type="text/html" hreflang="en" href="http://blog.cee.moe/"/><link rel="self" type="application/atom+xml" href="http://blog.cee.moe/feed.xml"/><rights>Copyright © 2015, Cee</rights><author><name>Cee</name><uri>http://blog.cee.moe/</uri><email>ceecirno@gmail.com</email></author><entry><title>趣题</title><id>tag:blog.cee.moe,2015:/funny-logic-questions/</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/funny-logic-questions.html"/><updated>2015-07-17T00:00:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+          
+            &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;C 随机产生了两个不同的正整数，分别交给了 A、B，并让两人猜测谁手中的数更大。
+A：不知道。
+B：不知道。
+A：还是不知道。
+B：还是不知道。
+A：知道了。
+B：那我知道了，而且这两个数具体是多少也知道了。
+问这两个数是多少。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;C 从 2 - 99 中随机产生了两个不同的正整数，把它们的和与积分别交给了 A、B，并让两人猜测这两个数分别是多少。
+A：虽然我不知道这两个数是什么，但是我知道你也不知道。
+B：那我知道了。
+A：那我也知道了。
+问这两个数是多少。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;C 随机产生两个不同的形如 n – &amp;frac12;&lt;sup&gt;k&lt;/sup&gt; – &amp;frac12;&lt;sup&gt;k+r&lt;/sup&gt; 的数，其中 n、k 是正整数，r 是非负整数。然后，C 把这两个数分别交给了 A、B，并让两人猜测谁手中的数更大。
+A ：我不知道。
+B ：我也不知道。
+A ：我还是不知道。
+B ：我也还是不知道。
+C ：这样下去是没有用的！可以告诉你们，不管你们像这样来来回回说多少轮，你们仍然都没法知道，谁手中的数更大一些。
+A ：哇，这个信息量好像有点儿大！不过，即使知道了这一点，我还是不知道谁手中的数更大。
+B ：我也还是不知道。
+A ：我继续不知道。
+B ：我也继续不知道。
+C ：还是套用刚才的话，不管你们像这样继续说多少轮，你们仍然没法知道谁手中的数更大。
+A ：哦……不过，我还是不知道谁手中的数更大。
+B ：而且我也还是不知道。我们究竟什么时候才能知道呢？
+C ：事实上啊，如果我们三个就像这样继续重复刚才的一切——你们俩互相说一堆不知道，我告诉你们这样永远没用，然后你们继续互说不知道，我继续说这不管用——那么不管这一切重复多少次，你们仍然不知道谁手中的数更大！
+A ：哇，这次的信息量就真的大了。只可惜，我还是不知道谁的数更大一些。
+B ：我也还是不知道。
+A ：是吗？好，那我现在终于知道谁的数更大了。
+B ：这样的话，那我也知道了。而且，我还知道我们俩手中的数具体是多少了。
+A ：那我也知道了。
+问这两个数是多少。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;参考：&lt;a href=&quot;http://www.matrix67.com/blog/archives/6377&quot;&gt;Matrix67 - 趣题：无限多层嵌套的逻辑推理&lt;/a&gt;&lt;/p&gt;
+
+          
+          
+        
+      
+        </content></entry><entry><title>About Co!orMix (2) - StroopMix!</title><id>tag:blog.cee.moe,2015:/about-colormix-2/</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/about-colormix-2.html"/><updated>2015-07-07T00:00:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+          
+            &lt;blockquote&gt;
+&lt;p&gt;本文作者為 UI/UX 設計師 &lt;a href=&quot;http://blog.zky.science&quot;&gt;@albuszheng&lt;/a&gt; 所寫。&lt;/p&gt;
+
+&lt;p&gt;原文地址：http://blog.zky.science/about-coormix-stroopmix/&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Well，这个题目其实并没有什么特别深层的含义，只是比较表明的理解就可以了。当然，这不是什么专门来介绍 Stroop Effect 的。其实我只是想记录一下关于自己最近参与的一个 iOS 游戏 &lt;a href=&quot;http://colormix.cee.moe&quot;&gt;Co!orMix&lt;/a&gt;，和它诞生背后的一点小故事。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://colormix.cee.moe&quot;&gt;Co!orMix&lt;/a&gt; 本身是一个非常简单的小游戏，至少我们从制作的角度来说，或者从玩法来说。简而言之，就是要在限定的时间内选出合适的颜色；至于什么颜色是合适，这个就比较复杂了，它可以是屏幕的背景色，可以是屏幕上字的颜色，或者就是屏幕上那个单词的意思了（不用担心，这些单词都是对颜色的描述）。&lt;/p&gt;
+
+&lt;p&gt;废话到此，神秘的 Stroop Effect 还没有被正式的介绍过。不过，再次简而言之，这是被一位叫 John Ridley Stroop 的心理学家第一次发现的一种现象，所以就有了这个名字。具体一点，Stroop Effect 是对某一项任务反应时间的干扰的阐述，比较简单的例子就是文字和颜色了。比如用红色墨水写下的「蓝色」二字，无论你是需要说出墨水的颜色还是文字的意思都会收到另一方面的干扰，而影响你的反应时间。这也是 Stroop Effect 最初被发现的原因。&lt;/p&gt;
+
+&lt;p&gt;当然那时候的实验要复杂的多，毕竟是要发文章的。为了防止这篇文章变成一片长篇大论的实验演示问，我按耐了内心的冲动，忍痛删掉了那个实验的过程。其实还是蛮有意思的。但是我们要回到主题上，经过刚刚简单的解释，你大概已经发现，其实 &lt;a href=&quot;http://colormix.cee.moe&quot;&gt;Co!orMix&lt;/a&gt; 和 Stroop Effect 之间还确实有一种独特的联系啊！这是当然，要不然我岂不是花费了 600 多字浪费在了和主题完全没有关系的东西上了？这要是篇高考作文，十有八九会出现在下一版的高考零分作文上了。&lt;/p&gt;
+
+&lt;p&gt;好了，言归正传，关于 Stroop Effect 还有一些事也许你会有兴趣知道：Stroop Effect 现在被广泛的应用在 Stroop Test 上，这是一种广受欢迎的神经心理学测试，测试的主要目标是调查被试人员的心理容量（Psychological Capacities）；如果被试人员有一定程度的脑损伤、痴呆或者患有神经衰退性疾病、注意缺陷多动障碍和一些精神障碍，往往会在测试中呈现一个更高的注意力干扰率。&lt;/p&gt;
+
+&lt;p&gt;不过，不用担心，&lt;a href=&quot;http://colormix.cee.moe&quot;&gt;Co!orMix&lt;/a&gt; 只是一个用来放松的小游戏，并不像临床测试一样有各种非常严密的设定，所以得分高的未必就是比较聪明，而得分低的也不见得就有什么问题，也许别人正好一连二三十个背景颜色选项呢。所以千万不要因为完不到三位数的得分而气疯的摔手机这样，毕竟 iPhone 怎么说值个肾啊，手机虽然是消耗品也经不起那么折腾的。&lt;/p&gt;
+
+&lt;p&gt;最后，如果你读到这里觉得：wow，你们好厉害，居然可以通过这样一个心理学现象就设计出一个游戏！我很真诚的说，谢谢您的赞美但是您想多了那么一点。其实，最初我们只是觉得这个游戏的形式简单而且还挺有趣的，所以就决定开工了，这个 Stroop Effect 只是因为我觉得这种现象在心理学中一定有个比较正式的说法吧，肯定还轮不到我来发现命名这种简单的心理学现象，所以就做了一点搜索，然后果然有人在八十多年前就发现命名了（还决定挺可惜的）。很多时候，事情往往就是这样，一些平常、不起眼的事背后隐藏着一些很有趣的解释和现象（说到这里，关于 Stroop Effect 的产生的原因有不下6种理论，我们对与自己的认知处理过程的认识还有长长的路要走啊。），也许哪天你也不小心就发现了一个之前被人们忽略的现象，然后就有个以自己名字命名的 Effect 了。&lt;/p&gt;
+
+&lt;p&gt;Sounds cool, right?&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;最后的最后，既然都读到这里，如果你还没有玩过 Co!orMix，不妨下载下来试一试吧：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Website: http://colormix.cee.moe&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Twitter: &lt;a href=&quot;https://twitter.com/ColorMix_Game&quot;&gt;@ColorMix_Game&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/co!ormix/id1011677035?ls=1&amp;amp;mt=8&quot;&gt;iTunes Store&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;以及二维码：
+&lt;img src=&quot;http://ww3.sinaimg.cn/thumbnail/aa266f4dgw1etqjoifoi2j20b40b4q4p.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+          
+          
+        
+      
+        </content></entry><entry><title>About Co!orMix (1) - Introduction</title><id>tag:blog.cee.moe,2015:/about-colormix-1/</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/about-colormix-1.html"/><updated>2015-07-04T00:00:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+          
+            &lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/bmiddle/aa266f4dgw1etqi32r084j20k006o3z7.jpg&quot; alt=&quot;logo&quot;&gt;&lt;/p&gt;
+
+&lt;h3&gt;游戏介绍&lt;/h3&gt;
+
+&lt;p&gt;你唯一需要做的就是选择正确的颜色！很简单吧？
+千万别把背景色、词语的颜色和词语的意思搞混了哦！&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/bmiddle/aa266f4dgw1etqi6iaf5xj20ku11240z.jpg&quot; alt=&quot;Screenshot&quot;&gt;&lt;/p&gt;
+
+&lt;h3&gt;开发细节&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Replay 按钮的布局：第一版的设计稿放在了和 Home 按钮一样的位置，考虑到整个游戏用户点按的区域只在屏幕的下方区域，于是后来 Replay 的位置被放在了即使是单手操作也能放到的下方区域。&lt;/li&gt;
+&lt;li&gt;Method Swizzling：处理了很多关于打点监控事件的问题，具体可以看一下 NSHipster 上的&lt;a href=&quot;http://nshipster.com/method-swizzling/&quot;&gt;这篇文章&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;TestFlight：算是第一次真真切切地用上 TestFlight 这个极棒的分发测试工具。对于收集用户反馈很有效果（例如游戏的难度控制：在后面难度变大的情况下的心理变化）。不过在提交 Beta 测试的时候也需要等待 Apple 的批准。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Todo&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;整个游戏由于是围绕着&lt;strong&gt;颜色&lt;/strong&gt;展开，所以在颜色的选取上已经照顾了色盲和色弱的同学。当然，在之后的版本中也会在设置中加上这种开关选项（Grayscale），来满足这小部分人群的需求。&lt;/li&gt;
+&lt;li&gt;对于游戏模式的开发和迭代。&lt;/li&gt;
+&lt;li&gt;对于  Watch 的适配~（现在整个 App 是完美适配 iPhone/iPad 下的横竖屏模式的哦！）&lt;/li&gt;
+&lt;li&gt;Android 版本：快结束了，应该过两天能和大家见面(&amp;lt;ゝω·)☆&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;开发人员&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/bmiddle/aa266f4dgw1etqjgruv1jj20m60hu408.jpg&quot; alt=&quot;GitHub&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;整个开发一共就只有三位大三同学：我，@albuszheng，还有某不上 v2ex 的 iOS 大牛舍友。经过晚上一小时的头脑风暴 + 一天的原型交互和 Demo + 一天的完善 + 一天的测试调整，最后在周六的晚上就提前提交了整个 App。这一次的开发也可谓是最开心最愉快进度最快的一次！代码托管在 GitHub 上，任务分配使用 Issue，文档写在了 GitHub Wiki 上，也方便存档。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;最后，也希望大家能够捧个场，多多下载吧：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Website: http://colormix.cee.moe&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Twitter: &lt;a href=&quot;https://twitter.com/ColorMix_Game&quot;&gt;@ColorMix_Game&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/co!ormix/id1011677035?ls=1&amp;amp;amp;mt=8&quot;&gt;戳我进入 iTunes 下载&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;二维码下载：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/thumbnail/aa266f4dgw1etqjoifoi2j20b40b4q4p.jpg&quot; alt=&quot;二维码&quot;&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+          
+          
+        
+      
+        </content></entry><entry><title>Why CSS transform doesn&#39;t work on inline elements</title><id>tag:blog.cee.moe,2015:/why-css-transform-doesnt-work-on-inline-elements/</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/why-css-transform-doesnt-work-on-inline-elements.html"/><updated>2015-06-30T00:00:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+          
+            &lt;p&gt;&lt;strong&gt;CSS TRANSFORM DOESN&amp;rsquo;T WORK! WHY?&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;// index.html
+&amp;lt;footer&amp;gt;
+    &amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;blablabla&amp;quot;&amp;gt;
+        &amp;lt;i class=&amp;quot;fa fa-twitter fa-2x&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
+    &amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;/footer&amp;gt;
+
+// main.css
+i:hover {
+    color: #468ae9;
+    -webkit-transform: rotate(360deg);  /* Safari &amp;amp; Chrome */
+    -o-transform: rotate(360deg);   /* Opera */
+    -moz-transform: rotate(360deg); /* Firefox 4 */
+    transform: rotate(360deg);
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;p&gt;&lt;strong&gt;Transformable element&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A transformable element is an element in one of these categories:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;an element whose layout is governed by the CSS box model which is either a block-level or atomic inline-level element, or whose display property computes to table-row, table-row-group, table-header-group, table-footer-group, table-cell, or table-caption [CSS21]&lt;/li&gt;
+&lt;li&gt;an element in the SVG namespace and not governed by the CSS box model which has the attributes transform, ‘patternTransform‘ or gradientTransform [SVG11].&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ref：http://dev.w3.org/csswg/css-transforms-1/&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;strong&gt;Fix it:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;// index.html
+&amp;lt;footer&amp;gt;
+    &amp;lt;p class=&amp;quot;animation&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;blablabla&amp;quot;&amp;gt;
+        &amp;lt;i class=&amp;quot;fa fa-twitter fa-2x&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
+    &amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;/footer&amp;gt;
+
+// main.css
+p.animation:hover {
+    color: #468ae9;
+    -webkit-transform: rotate(360deg);  /* Safari &amp;amp; Chrome */
+    -o-transform: rotate(360deg);   /* Opera */
+    -moz-transform: rotate(360deg); /* Firefox 4 */
+    transform: rotate(360deg);
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+          
+          
+        
+      
+        </content></entry><entry><title>Wwdc 15 Session 106 Learning Notes</title><id>tag:blog.cee.moe,2015:/wwdc-15-session-106-learning-notes/</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/wwdc-15-session-106-learning-notes.html"/><updated>2015-06-13T00:00:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+          
+            &lt;blockquote&gt;
+&lt;p&gt;Chris Lattner 實在是太帥了！&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2&gt;Session 106 - What&amp;rsquo;s new in swift&lt;/h2&gt;
+
+&lt;h3&gt;Why Swift 2&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fundamentals: Refine language and tools fundamentals&lt;/li&gt;
+&lt;li&gt;Safety: Affordances for writing robust and safe code&lt;/li&gt;
+&lt;li&gt;Beauty: Enable expressive libraries and APIs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;用更好的語言寫更加安全和漂亮的代碼！&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;What&amp;rsquo;s New in Swift 2&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fundamentals&lt;/li&gt;
+&lt;li&gt;Pattern Matching&lt;/li&gt;
+&lt;li&gt;Availabilty Checking&lt;/li&gt;
+&lt;li&gt;Protocol Extensions&lt;/li&gt;
+&lt;li&gt;Error Handling&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;Fundamentals&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Enums&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;enum Animals {
+    case a, b
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Associated Values in Enums&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;enum Either&amp;lt;T1, T2&amp;gt; {
+    case First(T1)
+    case Second(T2)
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Recursion Enums&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;enum Tree&amp;lt;T&amp;gt; {
+    case Leat(T)
+    indirect case Node(Tree, Tree)
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;do&lt;/code&gt; Statement&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;do {
+    let a = Animals.Troll
+    ...
+}
+// loop
+repeat {
+    ...
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Option Sets&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;[option1, option2]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Defining an Option: Using Protocol-Oriented Programming&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;struct MyFontSyle : SetOptionSetType
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Functions and Methods&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Consistent Argument Labels&lt;/li&gt;
+&lt;li&gt;Duplicate first name&lt;/li&gt;
+&lt;li&gt;Underscore to disable name labels&lt;/li&gt;
+&lt;li&gt;# argument syntax&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Diagnostics&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;SDK Improvements&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Nullability qualifiers&lt;/li&gt;
+&lt;li&gt;Objective-C typed Collections&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Testing&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;@testable
+import MyApp
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Rich Comments&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A Lot More!&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;Pattern Matching&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;if-let&lt;/code&gt; Statment&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Compound Conditions&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Early Exits: &lt;code&gt;guard&lt;/code&gt; Statement&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;  guard let name = json[&amp;quot;name&amp;quot;] as? String else {
+      return .Second(&amp;quot;missing name&amp;quot;)
+  }
+  // Compound Condidtions
+  guard let name = json[&amp;quot;name&amp;quot;] as? String,
+        let year = json[&amp;quot;year&amp;quot;] as? Int else {
+      return .Second(&amp;quot;bad input&amp;quot;)
+  }
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;Switch&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;if case .MyEnumCase(let value) = bar() where value != 42 {
+    doSomething(value)
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;for ... in&lt;/code&gt; Filtering&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;for value in mySequence where value != &amp;quot;&amp;quot; {
+    doSomething(value)
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;Availabilty Checking&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;New APIs&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;springLoaded&lt;/li&gt;
+&lt;li&gt;old: &lt;code&gt;respondsToSeletor&lt;/code&gt; Method&lt;/li&gt;
+&lt;li&gt;new: get a diagnostic&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;if #available(OSX 10.10.3, *) {
+    ...
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;Protocol Extensions&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Extensions&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Old&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;extension Array {
+    func countIf(match: Element -&amp;gt; Bool) -&amp;gt; Int {
+        var n = 0;
+        for value in self {
+            if match(value) {
+                n++;
+            }
+        }
+        return n
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Global Functions&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;New&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;extension CollectionType
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Method&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;.map().filter()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;Error Handling&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Kinds
+
+&lt;ul&gt;
+&lt;li&gt;Trivial Errors&lt;/li&gt;
+&lt;li&gt;Logic Errors&lt;/li&gt;
+&lt;li&gt;Detailed, recoverable Errors&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Example&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;try&lt;/code&gt; Keyword&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;throws&lt;/code&gt; Keyword&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;do-catch&lt;/code&gt; Block&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;do {
+    ...
+} catch let error {
+    ...
+} catch {
+    fatalError()
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;try!&lt;/code&gt; Keyword&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Enums as Error Types&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;enum DataError : ErrorType {
+    case MissingName
+    case MissingFile
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Defer Actions&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;defer { delegate?.didEndProcessing() }
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+          
+          
+        
+      
+        </content></entry><entry><title>Wwdc 15 Session 107 Learning Notes</title><id>tag:blog.cee.moe,2015:/wwdc-15-session-107-learning-notes/</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/wwdc-15-session-107-learning-notes.html"/><updated>2015-06-12T00:00:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+          
+            &lt;h3&gt;Session 107 - What&amp;rsquo;s New in Cocoa Touch&lt;/h3&gt;
+
+&lt;h4&gt;Looking Back&lt;/h4&gt;
+
+&lt;p&gt;在 iOS 9 誕生之前，其實蘋果就已經做了很多基礎建設性的鋪墊了：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;iOS 6：引入了 AutoLayout&lt;/li&gt;
+&lt;li&gt;iOS 7：Dynamic Type，系统可以设置 app 内的字体大小&lt;/li&gt;
+&lt;li&gt;iOS 8：Adaptivity，可以在 Xcode 下看到不同的 Size Classes，以及对于不同的 iPhone/iPad 设备适配的 View Controllers 还有 Action Sheets&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;Now in iOS 9&lt;/h4&gt;
+
+&lt;p&gt;于是来到了 iOS 9 的时代，新增了两个特性：&lt;strong&gt;Multitasking（多任务）&lt;/strong&gt; 和 &lt;strong&gt;Picture-in-Picture（画中画）&lt;/strong&gt;。接下来就是具体介绍了 Cocoa Touch 下的新的特性。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;AutoLayout：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;+ 新增 `UILayoutGuide` 類來實現過去需要使用不可見的 Dummy View 來作為補充對齊元素的功能。例如：
+
+        UILayoutGuide *space1 = [[UILayoutGuide alloc] init];
+        [self.view addLayoutGuide:space1];
+        UILayoutGuide *space2 = [[UILayoutGuide alloc] init];
+        [self.view addLayoutGuide:space2];
+
+        [space1.widthAnchor constraintEqualToAnchor:space2.widthAnchor].active = YES;
+        [self.saveButton.trailingAnchor constraintEqualToAnchor:space1.leadingAnchor].active = YES;
+        [self.cancelButton.leadingAnchor constraintEqualToAnchor:space1.trailingAnchor].active = YES;
+        [self.cancelButton.trailingAnchor constraintEqualToAnchor:space2.leadingAnchor].active = YES;
+        [self.clearButton.leadingAnchor constraintEqualToAnchor:space2.trailingAnchor].active = YES;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;UIStackView&lt;/p&gt;
+
+&lt;p&gt;引入 &lt;code&gt;UIStackView&lt;/code&gt; 來創建流式的佈局。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Shortcuts Bar&lt;/p&gt;
+
+&lt;p&gt;iPad 上輸入法預測的一行在 iOS 9 上同時提供了快捷操作。通過 &lt;code&gt;UITextInputAssistantItem&lt;/code&gt; 來給 Shortcuts Bar 上的左右兩個圖標組（&lt;code&gt;leadingBarButtonGroups&lt;/code&gt; 和 &lt;code&gt;trailingBarButtonGroups&lt;/code&gt;）來添加新的按鈕。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Storyboard&lt;/p&gt;
+
+&lt;p&gt;多 Storyboard 支持。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Right-to-Left&lt;/p&gt;
+
+&lt;p&gt;對阿拉伯語等「從右向左」閱讀的語言進行了支持。對不同的 Controller、Gesture 甚至 UIImage 都可以選擇顯示的方向。在 iOS 9 下，UIView 也增加了 
+&lt;code&gt;UISemanticContentAttribute&lt;/code&gt; 這樣一個屬性來判斷視圖是否會遵循顯示的方向規則（默認是 &lt;code&gt;UISemanticContentAttributeUnspecified&lt;/code&gt;）。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Accessibility：吐槽一下國內的公司很少有接觸這一塊啊&amp;hellip;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Text Editing Gestures：可以在鍵盤上利用手勢來實現對指針的移動、文本的選擇的功能。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Keyboard Commands（Cheatsheet）：連接外接鍵盤的時候長按 &lt;code&gt;⌘&lt;/code&gt; 調出。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Touch Events：優化了觸控的延遲，並且使用了觸控預測（Touch Prediction）。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4&gt;New in Kits&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;UIKit Dynamics：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;支持了非矩形碰撞效果&lt;/li&gt;
+&lt;li&gt;物體關聯時的行為（UIAttachmentBehavior）&lt;/li&gt;
+&lt;li&gt;在不同力場下的行為（UIFieldBehavior）&lt;/li&gt;
+&lt;li&gt;其他的視覺效果（Visual Effects in Spotlight）&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;API Optimizations for Swift：在 Session 106 下有詳細解釋。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Notifications：通知顯示的方式（Behavior）。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Safari：App 內可以使用 &lt;code&gt;SFSafariViewController&lt;/code&gt; 來提供原生瀏覽器的支持。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Extension：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;VPN Tunnel provider&lt;/li&gt;
+&lt;li&gt;App proxy provider&lt;/li&gt;
+&lt;li&gt;Filter control provider&lt;/li&gt;
+&lt;li&gt;Safari
+
+&lt;ul&gt;
+&lt;li&gt;Shared links&lt;/li&gt;
+&lt;li&gt;Content blocking&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Spotlight
+
+&lt;ul&gt;
+&lt;li&gt;Indexing of application data&lt;/li&gt;
+&lt;li&gt;Index maintenance&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Audio Units&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;前面幾點感覺 SS 和 Adblock 即將走進 iOS 9 中。最後的 Audio Units 要提一下，開發者可以使用系統中不支持的視頻或者音頻播放格式了。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Contacts：新的 API，一筆帶過了。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Wallet and PassKit：為  Pay 鋪路。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Core Location：提供了單次獲得地點的 API，使用 &lt;code&gt;CLLocationManager&lt;/code&gt; 中的 &lt;code&gt;requestLocation&lt;/code&gt; 函數。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;MapKit：提供 3D 俯視視圖，可以顯示交通情況以及指南針等功能。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;HealthKit：和 watchOS 2 適配，增加了數(xing)據(sheng)類(huo)型和調用 API 接口。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;ResearchKit：適配 iPad 並且提供了照片捕獲的功能。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;HomeKit：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Detailed change notifications&lt;/li&gt;
+&lt;li&gt;Predefined scenes&lt;/li&gt;
+&lt;li&gt;Expanded trigger support&lt;/li&gt;
+&lt;li&gt;watchOS 2 support&lt;/li&gt;
+&lt;li&gt;Remote access&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;智能家電的春天就要到了！&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;CloudKit：更加優惠的價格和服務，Web 端的支持。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;UIDocument：Open in place。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;On Demand Resources：詳細在 Session 105 中。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Hosted on the App Store&lt;/li&gt;
+&lt;li&gt;Asset Tags&lt;/li&gt;
+&lt;li&gt;App Slicing&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;ReplayKit&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;SpriteKit&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;SceneKit&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;GamePlayKit：編寫遊戲的 AI 和規則系統。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;watchOS 2&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+          
+          
+        
+      
+        </content></entry><entry><title>Wwdc 15 Session 104 Learning Notes</title><id>tag:blog.cee.moe,2015:/wwdc-15-session-104-learning-notes/</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/wwdc-15-session-104-learning-notes.html"/><updated>2015-06-11T00:00:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+          
+            &lt;h3&gt;Session 104 - What&amp;rsquo;s new in Xcode&lt;/h3&gt;
+
+&lt;p&gt;說到 Xcode，不得不說它是最漂亮的 IDE 了（巨硬不要打我，你沒有給五毛安利費）。這次的 Xcode 7.0 更新，給我們也同時帶來了很多方便和快捷的地方。下面就列舉一下學習的要點。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Generic Collection：&lt;/p&gt;
+
+&lt;p&gt;Generic Collection 對自己而言並不陌生，在 Java 中其實就有實現了，不再贅述其優越性。&lt;/p&gt;
+
+&lt;p&gt;例如：&lt;code&gt;@property (nonatomic, strong) NSArray&amp;lt;UIImage *&amp;gt; *imageArray;&lt;/code&gt;。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Size Classes：&lt;/p&gt;
+
+&lt;p&gt;從 Xcode 6 引入的 Size Classes 為 iOS 9 下的 Split View 奠定了基礎。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;App Thinning：&lt;/p&gt;
+
+&lt;p&gt;使用 Bitcode 來提交整個 app，並且對於不同的型號和屏幕的 iPhone/iPad 提供不一樣的圖片支持（Slicing）。&lt;/p&gt;
+
+&lt;p&gt;這裡做了個 Demo 演示，具體介紹了轉移到新的 Xcode 7.0 下的應用配置更新，還有使用了 Data Set 和 On Demand Resource Tags 來下載必要的資源文件（這些文件託管在 App Store 上）。使用 &lt;code&gt;startUsingGenre&lt;/code&gt; 和 &lt;code&gt;stopUsingGenre&lt;/code&gt; 調用。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Debug：&lt;/p&gt;
+
+&lt;p&gt;更強大的 Debug 功能。提供了 Energy Report 來反映整個 app 的資源消耗問題。使用 Address Sanitizer 來追蹤 Crash 的具體位置（在 Run - Diagnostics 下打開，需要重新編譯）。通過 Test Flight 收集 Crash 信息，來追從並且定位故障。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Testing：&lt;/p&gt;
+
+&lt;p&gt;之前用的比較多的用來進行測試的是 XCTest 還有 Xcode Server，之前也寫過&lt;a href=&quot;https://blog.cee.moe/ios-ui-automating-test/&quot;&gt;一篇文章&lt;/a&gt;來講如何進行自動化的 UI 測試。這次 Apple 直接給我們帶來了 &lt;code&gt;UITesting&lt;/code&gt; 這個類，並且可以直接對模擬器進行錄製腳本后插入斷言來實現 UI 測試。這相比之前使用  Automation 測試方便了很多。&lt;/p&gt;
+
+&lt;p&gt;此外，還添加了 Code Coverage 功能來檢測代碼的覆蓋程度。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+          
+          
+        
+      
+        </content></entry><entry><title>别，火花</title><id>tag:blog.cee.moe,2015:/bye-huohua/</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/bye-huohua.html"/><updated>2015-04-15T00:00:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+          
+            &lt;p&gt;眨眼之间，近四个月就过去了。&lt;/p&gt;
+
+&lt;p&gt;记得小学第一本日记本的名字就叫作火花。取这个名字的理由也很简单，就是想要自己的思想能像火花一样，有过绚烂绽放的那一刻。当初决定来布丁的那一刻，我就相信在这里能够展现自己的想法，能让自己的想法转化成现实。在这四个月中，的的确确有很多如火花般闪耀的亮点展现在了用户的眼前，散发着那种美妙而又香甜的氤氲。&lt;/p&gt;
+
+&lt;p&gt;「成长」大概是这四个月来的关键词。从入职时候犯了很多错到慢慢地适应这个快节奏的团队，从一开始代码架构都不懂到逐渐了解，很多在学校里面没有学到的知识都在这里碰到并且消化了解了。&lt;/p&gt;
+
+&lt;p&gt;撇开告别的忧伤，不如来表达自己的感谢。&lt;/p&gt;
+
+&lt;p&gt;谢谢白老师，给了我这么一个机会。作为工作室的学长，永远是我们这些学弟学妹们的榜样和典范。对自我能力提升的意识，这一点上我会更加努力的！&lt;/p&gt;
+
+&lt;p&gt;谢谢呵老师，四个月的悉心指导，尤其是每周的评估交流都能让自己意识到不足。代码上的问题也每次都来请教你，也学习到了很多架构和编程的技巧。&lt;/p&gt;
+
+&lt;p&gt;谢谢 Jim，大概是批评和指责我缺点最多的人。很多职场的规矩和礼仪都是 Jim 你教给我的。还有，如饥似渴地学习、不断地挑战自己、更加关心我需要关心的事物，今后回来的时候一定会表现的更好。&lt;/p&gt;
+
+&lt;p&gt;谢谢技术线上的各位，刁老师、龙兄、瓶子和满姐，配合虽然没有很多，但是很感谢你们的付出和奋斗。&lt;/p&gt;
+
+&lt;p&gt;谢谢设计线上的各位，叉老师、木木和滴滴，你们绝对是最有品味的设计师了，各位真的很 Nice！（还有对不起滴滴啦~）&lt;/p&gt;
+
+&lt;p&gt;谢谢运营线上的各位，格格、渣晨、吱吱、TD，没有你们的努力，我们的活动也不会那么地精彩。&lt;/p&gt;
+
+&lt;p&gt;还有珊姐和星汉，背后的付出支撑着整个团队的正常的运转，真的很感谢你们！&lt;/p&gt;
+
+&lt;p&gt;无论今后的路该怎么走，感谢大家这一路的陪伴，这份共同的梦想和感情，我将铭记在心。最后道一声「ありがとう」，谢谢你们，没有你们的四月，依然也能绽放光芒。&lt;/p&gt;
+
+&lt;p&gt;（写于四月六日凌晨）&lt;/p&gt;
+
+          
+          
+        
+      
+        </content></entry><entry><title>iOS 自动化 UI 测试方案</title><id>tag:blog.cee.moe,2015:/ios-ui-automating-test/</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/ios-ui-automating-test.html"/><updated>2015-03-25T00:00:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+          
+            &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;使用 &lt;code&gt;Instruments&lt;/code&gt; 下的 &lt;code&gt;Automation&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Using UIAScript，类似于 JavaScript&lt;/li&gt;
+&lt;li&gt;打开后选择 &lt;code&gt;Add Script&lt;/code&gt;，编写需要测试的测试用例&lt;/li&gt;
+&lt;li&gt;右侧 &lt;code&gt;Scripts&lt;/code&gt; 有需要运行的列表&lt;/li&gt;
+&lt;li&gt;编写完成后点击下面的 &lt;code&gt;Run&lt;/code&gt; 即可&lt;/li&gt;
+&lt;li&gt;在每个 &lt;code&gt;Trace Log&lt;/code&gt; 中都能明确展示出出现的问题&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Example：对于 HomeVC 进行每个 Cell 的 UI 测试用例&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Code：略&lt;/li&gt;
+&lt;li&gt;Logs：
+
+&lt;ul&gt;
+&lt;li&gt;UIALogger.logStart(testName);&lt;/li&gt;
+&lt;li&gt;UIALogger.logPass(testName);&lt;/li&gt;
+&lt;li&gt;UIALogger.logFail(testName);&lt;/li&gt;
+&lt;li&gt;UIATarget.localTarget().logElementTree();&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Get Elements：
+
+&lt;ul&gt;
+&lt;li&gt;App: UIATarget.localTarget().frontMostApp();&lt;/li&gt;
+&lt;li&gt;MainWindow：UIATarget.localTarget().frontMostApp().mainWindow();&lt;/li&gt;
+&lt;li&gt;.buttons();&lt;/li&gt;
+&lt;li&gt;.collectionViews();&lt;/li&gt;
+&lt;li&gt;.cells();&lt;/li&gt;
+&lt;li&gt;etc…&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Gestures：
+
+&lt;ul&gt;
+&lt;li&gt;.tap({x: 100, y: 200});&lt;/li&gt;
+&lt;li&gt;.doubleTap({x: 100, y: 200});&lt;/li&gt;
+&lt;li&gt;.twoFingerTap({x: 100, y: 200});&lt;/li&gt;
+&lt;li&gt;.dragFromToForDuration({x: 160, y: 200}, {x: 160, y: 400}, 1);&lt;/li&gt;
+&lt;li&gt;.scrollToElementWithPredicate();&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Timing：
+
+&lt;ul&gt;
+&lt;li&gt;.timeout();&lt;/li&gt;
+&lt;li&gt;.setTimeout();&lt;/li&gt;
+&lt;li&gt;.pushTimeout();&lt;/li&gt;
+&lt;li&gt;.popTimeout();&lt;/li&gt;
+&lt;li&gt;.delay();&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;References：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.apple.com/library/ios/documentation/DeveloperTools/Conceptual/InstrumentsUserGuide/UsingtheAutomationInstrument/UsingtheAutomationInstrument.html&quot;&gt;Instruments User Guide - Using the Automation Instrument&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Pro iOS 5 Tools: Xcode, Instruments and Build Tools&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+          
+          
+        
+      
+        </content></entry><entry><title>iOS 持续集成解决方案</title><id>tag:blog.cee.moe,2015:/ios-integration/</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/ios-integration.html"/><updated>2015-03-04T00:00:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+          
+            &lt;ul&gt;
+&lt;li&gt;Using OS X Server &amp;amp; Xcode Server &amp;amp; xcsbuildd&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Basic Steps:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;安裝 OS X Server，打開 Xcode&lt;/li&gt;
+&lt;li&gt;Settings 選項卡配置 Permission&lt;/li&gt;
+&lt;li&gt;添加 SSH Key 到 Xcode Server 上：
+
+&lt;ul&gt;
+&lt;li&gt;Login：&lt;code&gt;sudo -u _xcsbuildd /bin/bash&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Generate SSH Key：&lt;code&gt;ssh-keygen -t rsa -C &amp;quot;$your_email&amp;quot;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Show your public key：&lt;code&gt;cat /var/_xcsbuildd/.ssh/id_rsa.pub&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Put the key to github&lt;/li&gt;
+&lt;li&gt;SSH your server to accept the fingerprint：&lt;code&gt;ssh -T git@gitlab.domain.com&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;配置 Workspace&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Build scheme：勾選 shared&lt;/li&gt;
+&lt;li&gt;添加 Server 到 Xcode 中（Preferences 裡面的 Accounts，匿名登錄）&lt;/li&gt;
+&lt;li&gt;添加 Bot，設置 SSH Key&lt;/li&gt;
+&lt;li&gt;集成日程安排：選擇一次提交更新一次&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Add Trigger：&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;export LC_ALL=&amp;quot;en_US.UTF-8&amp;quot; 
+# Put the git repo name instead of “reponame” variable
+cd reponame
+# Remove the following line if there is no submodules in the project
+git submodule update --init --recursive
+# If podfile is not in the root folder uncomment the following line
+# and replace with the real folder name
+# cd FolderName
+pod install
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;報錯嘗試執行 &lt;code&gt;pod setup&lt;/code&gt; &lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;References：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;http://papaanton.com/setting-up-xcode-6-and-apple-server-4-0-for-continues-integration-with-cocoapods/&lt;/li&gt;
+&lt;li&gt;https://gist.github.com/mtitolo/f5283c54e300d88d9418&lt;/li&gt;
+&lt;li&gt;http://stackoverflow.com/questions/26990057/cocoapods-commands-fail-due-to-no-such-file-or-directory-dir-initialize-us&lt;/li&gt;
+&lt;li&gt;http://blog.cocoapods.org/Repairing-Our-Broken-Specs-Repository/&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+          
+          
+        
+      
+        </content></entry><entry><title>H5 開發小感</title><id>tag:blog.cee.moe,2015:/html-5-develop/</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/html-5-develop.html"/><updated>2015-01-31T00:00:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+          
+            &lt;p&gt;最近這一個星期從 iOS 開發轉向了網頁前端（就是我很久沒有碰過的那一塊東西＋不想碰的那一塊東西）。即使有些不爽，但是這一週開發做下來給自己感覺的進步和提升還是很明顯的。下面來談談 H5 前端開發的感受。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;學會復用：
+做語音彈幕和 233 遊戲的時候考慮了一下彈幕從右往左飄過和小球從上往下掉的邏輯基本是相同的。所以設計刷新的方法邏輯也應該基本相同，只不過維護的對象不同罷了。iOS 上基本也是一個套路，不過容易很多。&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;function refresh() {
+    // move
+    // do something here...
+    // remove
+    // do something here...
+    // add
+    // do something here...
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;做前思考：
+涉及以下幾個方面。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;「設計」是很重要的一點，週四晚上在單位也是做了一個關於「工程師眼中的字體和設計」這麼一個話題的&lt;a href=&quot;https://speakerdeck.com/cee/gong-cheng-shi-yan-zhong-de-zi-ti-he-she-ji&quot;&gt;分享&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;其次是「分層」，網頁的不同元素的疊加考慮好它們的層次結構（尤其是寫樣式表）。&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;最後是「優化」。實現完成後考慮幾個問題：js 中的方法有沒有封裝好，每個調用邏輯有沒有各司其職，是否有可以優化的地方等等等等。舉一個比較簡單的例子就是 Canvas 上的 Button Listener（使用了 CreateJS）：&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;// ...
+btn.addEventListener(&amp;quot;click&amp;quot;, handleBtnClick);
+// ...
+function handleBtnClick() {
+    // Tell stage to update frame
+    // But the button doesn&amp;#39;t know things that the stage does
+    stage.updateGameFrame();
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;莫慌：
+再怎麼急也沒！有！用！尤其是當自己接觸從來沒有接觸過的東西的時候。做 233 小遊戲的時候一開始的確很茫然，在開動前問了很多前端菊苣們用什麼框架、怎麼去寫代碼等等問題，但是因為給的答案實在是太多了所以根本無法繼續。後來冷靜下來後從 Cocoas-2d、CreateJS、Kissy 等框架中選了 CreateJS 下面的 EaselJS 進行開發，再去看 API Documentation，再去編碼就輕鬆多了。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;再讓我說 H5 前端開發的話，絕對是一件很蛋疼的事情。不同的手機適配就是讓人炸掉的一件事。還有對於我這種強迫症工程師，設計稿不好的敵方都會去和設計師去交流改進，所以接觸設計師的時間也比之前做 iOS 更多了（這是件好事，因為新來了個設計師超級 Nice 的說）。與此同時還得接觸後端的內容，也算是對新領域的一種新的嘗試吧。&lt;/p&gt;
+
+          
+          
+        
+      
+        </content></entry><entry><title>Coolshell Puzzle Game 通关记</title><id>tag:blog.cee.moe,2014:/coolshell-puzzle-game-tong-guan-ji/</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/coolshell-puzzle-game-tong-guan-ji.html"/><updated>2014-12-21T00:00:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+          
+            &lt;p&gt;某日，看到&lt;a href=&quot;http://quantize.me/&quot;&gt;zyq女神&lt;/a&gt;在群里发了个链接说：有没有人玩这个游戏啊&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;于是&amp;hellip;就手贱&lt;a href=&quot;http://fun.coolshell.cn&quot;&gt;点进去了&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;（&lt;strong&gt;本文涉及答案，如果要看解答请主动屏蔽LZ&lt;/strong&gt;）&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;0x00 Fuck your brain&lt;/h3&gt;
+
+&lt;p&gt;正如其名：Brainfuck。给了一段brainfuck的代码放在解释器里跑一下就得到了下一关的答案。&lt;/p&gt;
+
+&lt;h4&gt;answer: welcome.html&lt;/h4&gt;
+
+&lt;h4&gt;keypoint:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Brainfuck&quot;&gt;brainfuck&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;0x01 Multiply&lt;/h3&gt;
+
+&lt;p&gt;乘法，求得&lt;code&gt;X * Y&lt;/code&gt;就可以得到答案了。&lt;/p&gt;
+
+&lt;p&gt;算&lt;code&gt;X&lt;/code&gt;：2, 3, 6, 18, 108, ?（1944，&lt;code&gt;a(n) = a(n-1) * a(n-2)&lt;/code&gt;）&lt;/p&gt;
+
+&lt;p&gt;算&lt;code&gt;Y&lt;/code&gt;：生命、宇宙以及任何事情的终极答案——42&lt;/p&gt;
+
+&lt;p&gt;算&lt;code&gt;X * Y&lt;/code&gt;； 1944 * 42 = 81648&lt;/p&gt;
+
+&lt;h4&gt;answer: 81648.html&lt;/h4&gt;
+
+&lt;h4&gt;keypoint:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.google.com.hk/webhp?sourceid=chrome-instant&amp;amp;ion=1&amp;amp;espv=2&amp;amp;ie=UTF-8#ie=UTF-8&amp;amp;q=the%20answer%20to%20life%2C%20the%20universe%20and%20everything&amp;amp;sourceid=chrome-psyapi2&quot;&gt;the answer to life, the universe and everything&lt;/a&gt;（Google Calculator Knows，出自道格拉斯·亚当斯的小说《银河系漫游指南》，值得一读哦）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;0x02 Keyboard&lt;/h3&gt;
+
+&lt;p&gt;点开图是一个Wiki，讲的是Dvorak Simplified Keyboard。意思就是把下面的密文按照键盘替换。得到解密后的程序：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;main() { printf(&amp;amp;unix[&amp;ldquo;\021%six\012\0&amp;rdquo;],(unix)[&amp;ldquo;have&amp;rdquo;]+&amp;ldquo;fun&amp;rdquo;-0x60);}&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Google一下：原来是C语言混乱大赛的代码。详细见keypoint，这里给出答案。&lt;/p&gt;
+
+&lt;h4&gt;answer: unix.html&lt;/h4&gt;
+
+&lt;h4&gt;keypoint:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard&quot;&gt;Dvorak Simplified Keyboard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.chinaunix.net/uid-13701930-id-336417.html&quot;&gt;About the code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;0x03 QR Code&lt;/h3&gt;
+
+&lt;p&gt;扫一下二维码，得到&lt;code&gt;a-z&lt;/code&gt;的转换表&lt;code&gt;[abcdefghijklmnopqrstuvwxyz] &amp;lt;=&amp;gt; [pvwdgazxubqfsnrhocitlkeymj]&lt;/code&gt;。替换下面的乱码得到问题：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Where there is a shell, there is a way. I expect you use the shell command to solve this problem, now, please try using the rot13 of &amp;ldquo;shell&amp;rdquo; to enter next level.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;用Rot13加密方法替换&lt;code&gt;shell&lt;/code&gt;这个单词。嘛继续Wiki。&lt;/p&gt;
+
+&lt;h4&gt;answer: furyy.html&lt;/h4&gt;
+
+&lt;h4&gt;keypoint:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Rot13&quot;&gt;ROT13&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;0x04 Cat&lt;/h3&gt;
+
+&lt;p&gt;（这一关卡了很久，我都快绝望的时候在v2ex上看到了用Sublime正则查找，豁然开朗）&lt;/p&gt;
+
+&lt;p&gt;题目中给的提示有两个，一个是标题很大的&lt;code&gt;Palindrome&lt;/code&gt;（回文），还有一个是&lt;code&gt;The answer has been lost in the source&lt;/code&gt;。View Source之后发现了注释掉的代码，800行。尝试用&lt;code&gt;cat&lt;/code&gt;解密后发现了新的提示：&lt;code&gt;You need to find the pattern of &amp;quot;cat&amp;quot;&lt;/code&gt;，告诉我们要看图片左边的那个8行的特征：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;必须是Palindrome；&lt;/li&gt;
+&lt;li&gt;一个数字，一个大写，一个小写，提取出的都是小写字母。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;打开Sublime写个正则：&lt;code&gt;([A-Z])([0-9])[a-z](\2)(\1)|([0-9])([A-Z])[a-z](\6)(\5)&lt;/code&gt;，得到了符合条件的表达式：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;E1v1E&lt;br&gt;
+4FaF4&lt;br&gt;
+9XrX9&lt;br&gt;
+O3i3O&lt;br&gt;
+0MaM0&lt;br&gt;
+4GbG4&lt;br&gt;
+M5l5M&lt;br&gt;
+0WeW0&lt;br&gt;
+Y0s0Y&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;取出小写字母。&lt;/p&gt;
+
+&lt;h4&gt;answer: variables.html&lt;/h4&gt;
+
+&lt;h4&gt;keypoint:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://deerchao.net/tutorials/regex/regex.htm&quot;&gt;Regex Expression&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;0x05 Variables&lt;/h3&gt;
+
+&lt;p&gt;Keep Going，点开图之后有新的网页，数字是32722。替换2014为32722，又出现了新的数字。猜测和以前的贴吧那种链接差不多，写个js搞定。&lt;/p&gt;
+
+&lt;h4&gt;answer: tree.html&lt;/h4&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;0x06 Tree&lt;/h3&gt;
+
+&lt;p&gt;给了张图，写了一棵树的中序和后序遍历。&lt;del&gt;还好电脑里有大二上学期数据结构的求先序的C++程序就跑了一下。&lt;/del&gt;得到树之后先序遍历得到数的深度最长的路径&lt;code&gt;zWp8LGn01wxJ7&lt;/code&gt;。下面有一串小字&lt;code&gt;openssl enc -aes-128-cbc -a -d -pass pass:???&lt;/code&gt;。经过&lt;a href=&quot;http://ricter.me&quot;&gt;Ricter菊苣&lt;/a&gt;指点，把&lt;code&gt;U2FsdGVkX1+gxunKbemS2193vhGGQ1Y8pc5gPegMAcg=&lt;/code&gt;放入&lt;code&gt;test.in&lt;/code&gt;中再用terminal执行：&lt;code&gt;openssl enc -aes-128-cbc -a -d -pass pass:zWp8LGn01wxJ7 -in test.in -out test.out&lt;/code&gt;得到答案。&lt;/p&gt;
+
+&lt;h4&gt;answer: nqueens.html&lt;/h4&gt;
+
+&lt;h4&gt;keypoint:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Tree_traversal&quot;&gt;Tree Traversal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/as3luyuan123/article/details/14411039&quot;&gt;OpenSSL&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;0x07 N Queens&lt;/h3&gt;
+
+&lt;p&gt;给了个&lt;code&gt;code = 57138642&lt;/code&gt;发现就是图上的解答。提示要我们使用⑨皇后问题生成这个&lt;code&gt;code&lt;/code&gt;。写个python暴力跑一下（python技术烂到家）：&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/cirnocee/9c1ab0d57f4b53159268.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;得到最后结果。&lt;/p&gt;
+
+&lt;h4&gt;answer: 953172864.html&lt;/h4&gt;
+
+&lt;h4&gt;keypoint:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.dayanjia.com/2012/10/solve-n-queen-puzzle-using-python-generator/&quot;&gt;N皇后问题&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;0x08 Excel Column&lt;/h3&gt;
+
+&lt;p&gt;26进制表示。求得&lt;code&gt;COOLSHELL = 3×(26^8)+15×(26^7)+15×(26^6)+12×(26^5)+19×(26^4)+8×(26^3)+5×(26^2)+12×(26^1)+12 = 751743486376&lt;/code&gt;和&lt;code&gt;SHELL = 19×(26^4)+8×(26^3)+5×(26^2)+12×(26^1)+12 = 8826856&lt;/code&gt;。两个除一下得到答案&lt;code&gt;85165&lt;/code&gt;。结果进了这个网页还让我们再用字符表示，也是败了。&lt;/p&gt;
+
+&lt;h4&gt;answer: duyo.html&lt;/h4&gt;
+
+&lt;h4&gt;keypoint:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;数的N进制表示&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;0x09 Fraternal Organisation&lt;/h3&gt;
+
+&lt;p&gt;Google搜索了两张图，原来是&lt;code&gt;Pigpen Cipher&lt;/code&gt;。Wiki上说明这是一种加密方式（&lt;del&gt;zxw大神说他给妹子写过情书&lt;/del&gt;）。根据下面的一张图得到最后的破解密文。&lt;/p&gt;
+
+&lt;h4&gt;answer: helloworld.html&lt;/h4&gt;
+
+&lt;h4&gt;keypoint:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Pigpen_Cipher&quot;&gt;Pigpen Cipher&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;0x0a Congratulations!&lt;/h3&gt;
+
+&lt;p&gt;Update：耗子说还有个迷。于是继续打开这个网页把图片down下来之后vim打开后发现了可以是一个rar~~（感觉就是个种子）~~。解包之后有个txt得到了最终的答案。&lt;/p&gt;
+
+&lt;h4&gt;answer: DennisRitchie.html&lt;/h4&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;恭喜并不代表结束。从这次小小的活动中又一次知道了自己是如此的渣逼。(╯‵□′)╯︵┻━┻&lt;/p&gt;
+
+&lt;p&gt;最后的Ranking是37，前后也做了快5个小时。卡在cat那一关太久了=。=&lt;/p&gt;
+
+&lt;p&gt;Wiki是个好东西，也要善于搜索。更重要的还是要平时积累啊~（摔）&lt;/p&gt;
+
+          
+          
+        
+      
+        </content></entry><entry><title>从零开始</title><id>tag:blog.cee.moe,2014:/rebirth/</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/rebirth.html"/><updated>2014-10-29T00:00:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+          
+            &lt;p&gt;今天上午的早些时候升级 Ghost 到 0.5.3 的时候，挂了。&lt;/p&gt;
+
+&lt;p&gt;之前也做了备份但是重新恢复后死活进不了管理员后台。&lt;/p&gt;
+
+&lt;p&gt;趁着买了泛域名证书之后把博客重新搭了一下，搬家搬到了咱的新域名（cee.moe）。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;从无到有，从简单到复杂，从不懂到懂。&lt;/p&gt;
+
+&lt;p&gt;希望能写出更高质量的博文，所以之前的文章如果还需要的话请Email我或者通过其他方式找到我，我再放上来。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;相信这是一个新的开始，又一次，从零开始。&lt;/strong&gt;&lt;/p&gt;
+
+          
+          
+        
+      
+        </content></entry><entry><title>从二分查找谈起</title><id>tag:blog.cee.moe,2014:/talking-from-binary-search/</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/talking-from-binary-search.html"/><updated>2014-10-03T00:00:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+          
+            &lt;p&gt;前两天在 V2EX 上看到了这篇文章：&lt;a href=&quot;http://www.v2ex.com/t/142371&quot;&gt;挖个坑，作为 python 程序员，面试时要求手写二分查找，可以说不么&lt;/a&gt;。自己觉得作为一个正常的程序员，多多少少必须会点算法和数据结构，不仅仅要学会&lt;strong&gt;怎么用&lt;/strong&gt;，也要知道是&lt;strong&gt;怎么实现&lt;/strong&gt;的。与此同时《编程珠玑》的作者 Jon Bentley 也提到：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;90%以上的程序员无法正确无误的写出二分查找代码。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;今天就谈一下和二分有关的一些算法。&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h4&gt;二分查找（Binary Search）&lt;/h4&gt;
+
+&lt;h5&gt;问题&lt;/h5&gt;
+
+&lt;p&gt;二分查找又叫做折半查找。我们所碰到的问题也很简单：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;对于一个已经排好序且元素唯一的数组，如何找到我们需要的值&lt;code&gt;value&lt;/code&gt;？&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h5&gt;解决思路&lt;/h5&gt;
+
+&lt;p&gt;想法也很明了：通过不断缩小包含我们要找到的这个值&lt;code&gt;value&lt;/code&gt;的范围，我们就能最终找到它。很明显，一开始的范围是整个数组长度，利用中间项的大小和&lt;code&gt;value&lt;/code&gt;比较我们可以缩小一半的比较范围，以此类推直到我们找到这个&lt;code&gt;value&lt;/code&gt;或者判断这个&lt;code&gt;value&lt;/code&gt;不在数组中。通过每次一半一半的筛选，二分查找的时间复杂度就是O（logn）。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;（建议大家试着写一下二分查找的代码，看看自己会有什么问题）&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;二分查找代码如下：&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/Cee/526d4e89d84b3ba22306.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;注意到第五行，很多教科书会写 &lt;code&gt;int mid = (left + right) / 2;&lt;/code&gt; 这样的取中间值的语句，但是在 &lt;code&gt;left&lt;/code&gt; 和 &lt;code&gt;right&lt;/code&gt; 都较大的时候会溢出。这个 Bug 在 &lt;code&gt;java.util.Arrays&lt;/code&gt; 包中存在了 8 年，所以也希望大家注意下。取中间值可以写成 &lt;code&gt;int mid = left + ((right - left) &amp;gt;&amp;gt; 1);&lt;/code&gt; 或者 &lt;code&gt;int mid = right - ((right - left) &amp;gt;&amp;gt; 1);&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;了解了实现的过程，回头想一下为何可以不断的二分查找呢？原因也很简单：因为数组&lt;strong&gt;已经排好序了&lt;/strong&gt;，也就是说这个数组满足&lt;strong&gt;单调性&lt;/strong&gt;。这一点很重要，不满足的话也无从下手缩小查找范围的地方了。总之整个数组判断 &lt;code&gt;f(a[i]) =&amp;lt; value&lt;/code&gt; / &lt;code&gt;f(a[i]) &amp;gt;= value&lt;/code&gt; 的状态结果应该是这个样子的：&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;NO ... ... NO NO YES YES ... ... YES
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h5&gt;应用&lt;/h5&gt;
+
+&lt;p&gt;二分查找的应用也很广泛，尤其是利用单调性这一点，可以利用他来猜测答案。具体的应用相信很多OJ菊苣都知道，渣渣在这里也就不谈了。&lt;/p&gt;
+
+&lt;h4&gt;快速幂（Exponentiation by squaring）&lt;/h4&gt;
+
+&lt;h5&gt;问题&lt;/h5&gt;
+
+&lt;p&gt;问题很简单：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;怎样计算一个数 &lt;code&gt;N&lt;/code&gt; 的 &lt;code&gt;K&lt;/code&gt; 次方？&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h5&gt;解决思路&lt;/h5&gt;
+
+&lt;p&gt;正常的话我们会用一个递归的思路去解决：&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/cee/42341c228c9a44eb133b.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;这个递归算法再简单不过了，算法时间复杂度是 O（n）。但是如果指数非常大的时候，一方面我们无法用 &lt;code&gt;int&lt;/code&gt; 来存储我们的整数了，另一方面计算量实在是太大了。&lt;/p&gt;
+
+&lt;p&gt;快速幂算法就是为了解决这个问题，算法思路就是利用了二分法。对于奇数和偶数我们分开考虑即可。&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/cee/3f416d9180707f91f8e2.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;(非递归的也很好写，Have a try！）&lt;/p&gt;
+
+&lt;h5&gt;应用&lt;/h5&gt;
+
+&lt;ol&gt;
+&lt;li&gt;和矩阵运算有关。计算递推数列 &lt;code&gt;A(n) = C(1)A(n-1) + C(2)A(n-2) + ... + C(k)A(n-k)&lt;/code&gt;（其中&lt;code&gt;C(i)&lt;/code&gt;为常数）时，若 n 较大的时候，我们往往把它转换成向量和矩阵的乘法进行操作，对矩阵求 n 次乘法往往会用到快速幂。&lt;/li&gt;
+&lt;li&gt;快速幂取模。在 RSA 加密中我们会用到 &lt;code&gt;a^b mod c&lt;/code&gt;，当 a 和 b 很大的时候，使用 O（logn）的时间计算 &lt;code&gt;a^b mod c&lt;/code&gt; 是非常有必要的，想法类似于快速幂，可自行实现一下。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;这篇文章希望大家能够看完后对&lt;strong&gt;二分思想&lt;/strong&gt;有个比较清楚的认识，更希望大家不要写错二分查找哦ԅ(╹﹃╹ԅ)&lt;/p&gt;
+
+          
+          
+        
+      
+        </content></entry><entry><title>Dear Assembly（3）</title><id>tag:blog.cee.moe,2014:/dear-assembly-3/</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/dear-assembly-3.html"/><updated>2014-08-01T00:00:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+          
+            &lt;p&gt;&lt;del&gt;（大概是 Lab 三部曲）&lt;/del&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Intro&lt;/h3&gt;
+
+&lt;p&gt;引言的话我想推荐大家先去看 Ricter 菊苣的一篇文章：&lt;a href=&quot;http://www.ricter.me/articles/159&quot;&gt;缓冲区溢出的 Hello World&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;这篇文章的话讲的是 32 位的软娘插屁系统下的缓存区溢出，所以你看到的寄存器还是 &lt;code&gt;eax&lt;/code&gt;、&lt;code&gt;ebx&lt;/code&gt;等等。&lt;/p&gt;
+
+&lt;p&gt;今天给大家介绍的话还是主要是通过 64 位系统下的操作。毕竟寄存器数量翻了一番，位数也翻了一番，效率也更高了。最最最不同的就是汇编的代码也就是实现方式不同了。这里的话先讲一点基础知识(｢･ω･)｢。&lt;/p&gt;
+
+&lt;h4&gt;关于寄存器&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;之前提到过，每个寄存器也是从 32 位升级到了 64 位。对于 64 位的寄存器 &lt;code&gt;%rax&lt;/code&gt;，它的后 32 位就相当于原来的 &lt;code&gt;%eax&lt;/code&gt;。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;新增了 8 个用于存放参数和临时变量的寄存器 &lt;code&gt;%r8&lt;/code&gt; ~ &lt;code&gt;r15&lt;/code&gt;。它们的后 32 位可用作 &lt;code&gt;%r8d&lt;/code&gt; ~ &lt;code&gt;%r15d&lt;/code&gt;。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;所有的寄存器可以按照 8/16/32/64 位读取和写入数据。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;增加了寄存器，减少了 &lt;code&gt;push&lt;/code&gt;（压栈）和 &lt;code&gt;pop&lt;/code&gt;（出栈）的次数。说明一下不同寄存器的作用：&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;%rax&lt;/code&gt;：保存返回值。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;%rdi&lt;/code&gt;/&lt;code&gt;%rsi&lt;/code&gt;/&lt;code&gt;%rdx&lt;/code&gt;/&lt;code&gt;%rcx&lt;/code&gt;/&lt;code&gt;%r8&lt;/code&gt;/&lt;code&gt;%r9&lt;/code&gt;：保存参数，最多可以保存 6 个参数，大于 6 个采取同 32 位的做法压栈。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;%r10&lt;/code&gt;/&lt;code&gt;%r11&lt;/code&gt;：调用函数（Caller）保存调用前环境参数。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;%rsp&lt;/code&gt;：栈顶指针。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;%rbp&lt;/code&gt;：基址指针。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;%rbx&lt;/code&gt;：基地址。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;%r12&lt;/code&gt; ~ &lt;code&gt;%r15&lt;/code&gt;：被调用函数（Callee）的临时变量。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;关于内存&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;分为运行时栈（Stack），堆（Heap），数据（Data）和指令（Text）四部分：&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;栈（Stack）：8MB的限制大小（IA32）。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;堆（Heap）：动态分配，使用&lt;code&gt;malloc&lt;/code&gt;/&lt;code&gt;calloc&lt;/code&gt;/&lt;code&gt;new&lt;/code&gt;函数。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;数据（Data）：静态分配，部分只读，部分可读写。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;指令（Text）：运行时机器指令，只读。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+&lt;li&gt;四部分在内存中的位置由高到低。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Level 0&lt;/h3&gt;
+
+&lt;p&gt;最简单的 level 了。这个 level 前一定要把调用函数的机制搞懂。&lt;/p&gt;
+
+&lt;p&gt;Level 0 是希望在调用 &lt;code&gt;test()&lt;/code&gt; 函数的时候利用内部的 &lt;code&gt;getbuf()&lt;/code&gt; 使程序跳转到 &lt;code&gt;smoke()&lt;/code&gt; 中继续执行。先来看看 &lt;code&gt;getbuf()&lt;/code&gt; 函数的全貌：&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/cee/822ecb72b74a73eaf067.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;buffer 的长度是 36 个 char，加上压栈时的 &lt;code&gt;%rbx&lt;/code&gt; 和 &lt;code&gt;%rbp&lt;/code&gt;，前面一共占用 36 + 16 = 52 个 byte，最后是 8 位的 return address。所以答案就是：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 （36 char）&lt;br&gt;
+00 00 00 00 00 00 00 00 （%rbx）&lt;br&gt;
+00 00 00 00 00 00 00 00 （%rbp）&lt;br&gt;
+00 00 00 00 c0 10 40 00 （Return address，call smoke）&lt;br&gt;
+（注意小端表示）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;Level 1&lt;/h3&gt;
+
+&lt;p&gt;和 Level 0 的区别仅仅在于传递参数的时候有个 &lt;code&gt;val&lt;/code&gt; 要替换成自己的 cookie。看一下调用的代码 &lt;code&gt;fizz()&lt;/code&gt;：&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/cee/e5d4d5c91d87d91a058f.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;参数共 7 个，而且 &lt;code&gt;val&lt;/code&gt; 正好是第 7 个。预备知识里面也提到了，对于一个函数最多可以在寄存器中存放 6 个参数，也就是说 &lt;code&gt;val&lt;/code&gt; 此时是压栈存放的。类似于 Level 0，我们也就知道了 cookie 应该保存在哪里了：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 （36 char）&lt;br&gt;
+00 00 00 00 00 00 00 00 （%rbx）&lt;br&gt;
+00 00 00 00 00 00 00 00 （%rbp）&lt;br&gt;
+00 00 00 00 70 10 40 00 （Return address，call fizz）&lt;br&gt;
+00 00 00 00 （Alignment）&lt;br&gt;
+00 00 00 00 00 00 00 00 0b 43 71 79 17 a7 27 37 （unsigned long long）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这里 Alignment 的作用是为了让 unsigned long long 确保地址是 16 字节对齐。&lt;/p&gt;
+
+&lt;h3&gt;Level 2&lt;/h3&gt;
+
+&lt;p&gt;从这关开始越来越有难度了，Level 2 是第二天睡醒起来的下午时间做的。&lt;code&gt;bang()&lt;/code&gt; 这个函数和上面的 &lt;code&gt;fizz()&lt;/code&gt; 很像，只不过参数变成了全局变量 &lt;code&gt;global_value&lt;/code&gt;：&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/cee/f9f9679be576e6e64322.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Hints 里面也提到了一些 tricks：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Do not attempt to use either a &lt;code&gt;jmp&lt;/code&gt; or a &lt;code&gt;call&lt;/code&gt; instruction to jump to the code for &lt;code&gt;bang()&lt;/code&gt;. These instructions use PC-relative addressing, which is very tricky to set up correctly. Instead, push an address on the stack and use the &lt;code&gt;retq&lt;/code&gt; instruction.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;不能通过 &lt;code&gt;jmp&lt;/code&gt; 和 &lt;code&gt;call&lt;/code&gt; 指令跳转，因为是和 Counter 相对寻址的。我们需要找到 &lt;code&gt;bang()&lt;/code&gt; 的入口地址并且把 &lt;code&gt;cookie&lt;/code&gt; 复制一份到 &lt;code&gt;global_value&lt;/code&gt; 中。继续来看 &lt;code&gt;bang()&lt;/code&gt; 函数的汇编函数：&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/cee/f96b2e2fd0ba6768be62.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;找到我们需要的函数入口 &lt;code&gt;0x401020&lt;/code&gt;，&lt;code&gt;cookie&lt;/code&gt; 的地址 &lt;code&gt;0x602320&lt;/code&gt;，&lt;code&gt;global_value&lt;/code&gt; 的地址 &lt;code&gt;0x602308&lt;/code&gt;。这时我们需要写一段汇编来实现函数的跳转：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;movabs 0x602320, %rax   ;自己用的直接是立即数&lt;br&gt;
+movabs %rax, 0x602308&lt;br&gt;
+pushq $0x401020&lt;br&gt;
+retq&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;生成对应的 &lt;code&gt;.d&lt;/code&gt; 文件：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;gcc -c bang.s&lt;br&gt;
+objdump -d bang.o &amp;gt; bang.d&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;写出最后的答案：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;48 b8 0b 43 71 79 17 a7 27 37 48 a3 08 23 60 00 00 00 00 00 68 20 10 40 00 c3 （attack code, 26 bytes）&lt;br&gt;
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 （26 bytes）&lt;br&gt;
+00 00 a0 be ff ff ff 7f （%rax，where we read buffer）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;Level 3&lt;/h3&gt;
+
+&lt;p&gt;最后一关，啊哈，Instruction 上又&lt;del&gt;很邪恶地&lt;/del&gt;（This style of attack is tricky）写出了要求：要更改 &lt;code&gt;%rbp&lt;/code&gt; 和返回地址来实现攻击。最终是需要我们在 &lt;code&gt;getbuf()&lt;/code&gt; 函数中返回我们的 &lt;code&gt;cookie&lt;/code&gt; 来调用 &lt;code&gt;test()&lt;/code&gt;：&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/cee/f4cc0270a4c57aa036b3.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;思想其实和上一题类似，也是要写一段 attack code：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;movabs $0x3727a7177971430b, %rax  ;复制cookie&lt;br&gt;
+movabs $0x7fffffffbf00, %rbp  ;更改%rbp&lt;br&gt;
+pushq  $0x400ef3  ;getbuf调用后的第一条指令，接着继续执行&lt;br&gt;
+retq&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;生成后写出答案：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;48 b8 0b 43 71 79 17 a7 27 37 48 bd 00 bf ff ff ff 7f 00 00 68 f3 0e 40 00 c3 （attack code, 26 bytes）&lt;br&gt;
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00（26 bytes）&lt;br&gt;
+00 00 a0 be ff ff ff 7f （%rax，where we start comparing）&lt;br&gt;
+&lt;strong&gt;撒花完工，55分到手~&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;Why Within Gdb&lt;/h3&gt;
+
+&lt;p&gt;Instruction 在 Level 2 里面提到了这么一段话：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;For level 2, you will need to run your exploit within gdb for it to succeed. (the VM has special memory protection that prevents execution of memory locations in the stack. Since gdb works a little differently, it will allow the exploit to succeed.)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Level 3 也同样有类似的话：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;For level 3, you will need to run your exploit within gdb for it to succeed.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这是为什么呢？自己一开始表示很困惑，于是在 Forum 上提出了&lt;a href=&quot;https://class.coursera.org/hwswinterface-002/forum/thread?thread_id=863&quot;&gt;这个问题&lt;/a&gt;，很快就有个好心的同学回答了。&lt;/p&gt;
+
+&lt;p&gt;我们知道对于大多数 GNU/Linux 的发行版都有内存保护机制。其中有一种用来保护内存不被攻击的方法叫做 &lt;strong&gt;Address Space Layout Randomization（ASLR，位址空间配置随机加载）&lt;/strong&gt;。位址空间配置随机加载利用随机方式配置资料位址，让某些敏感资料（例如操作系统内核）能配置到一个恶意程式未能事先得知的位址，令攻击者难于进行攻击。在系统中，ASLR 是默认开启的，而 gdb 则默认禁用了 ASLR。所以我们编译后的 &lt;code&gt;bufbomb&lt;/code&gt; 中的地址是可以被确认的，这也就解释了为什么在 gdb 中可以改写全局变量。&lt;/p&gt;
+
+&lt;p&gt;如果想要在系统下执行，可以通过 &lt;code&gt;sysctl kernel.randomize_va_space = 0&lt;/code&gt; 或者 &lt;code&gt;echo 0 &amp;gt; /proc/sys/kernel/randomize_va_space&lt;/code&gt; 来解除 ASLR，但是这里&lt;strong&gt;肯定不推荐&lt;/strong&gt;这么做/w\。&lt;/p&gt;
+
+&lt;h3&gt;References&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;两篇在 32 位 Linux 下的解释也相当精彩：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/u013648407/article/details/25742553&quot;&gt;CSApp Buffer Lab&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.youlingman.info/csapp-bufbomb-lab-solve/&quot;&gt;CSApp Bufbomb Lab解题记录&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;当然还有 Ricter 菊苣的：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.ricter.me/articles/159&quot;&gt;缓冲区溢出的 Hello World&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;什么是 ASLR：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Address_space_layout_randomization&quot;&gt;Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;课本《深入理解计算机系统（原作第二版）》P180&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;GNU/Linux 下的缓存区溢出：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://drops.wooyun.org/papers/1421&quot;&gt;做个试验：简单的缓冲区溢出&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.exploit-db.com/papers/24085/&quot;&gt;Stack Smashing On A Modern Linux System&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;感谢观众姥爷们翻完了这篇毫无技术的文章。两次实验给自己带来了很多知识上的长进，甚至是做出来后的惊喜，也再一次深入了解了 C/C++ 的函数调用和 x86-64 下的汇编，算是对课堂知识的一次扩充。&lt;/p&gt;
+
+&lt;p&gt;如果有机会的话之后的 lab 作业也会写点总结的文章。恩就这样~&lt;/p&gt;
+
+          
+          
+        
+      
+        </content></entry><entry><title>Dear Assembly（2）</title><id>tag:blog.cee.moe,2014:/dear-assembly-2/</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/dear-assembly-2.html"/><updated>2014-07-30T00:00:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+          
+            &lt;blockquote&gt;
+&lt;p&gt;继续我们的拆炸弹之旅~&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Phase_6&lt;/h3&gt;
+
+&lt;p&gt;作业的要求也就是做到 phase_5，但是很感兴趣所以继续往下做~&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/cee/484ffb088d2130999a67.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;代码如上。&lt;/p&gt;
+
+&lt;p&gt;第 4 行的 &lt;code&gt;strtol&lt;/code&gt; 函数：字符串按照 10 进制转换成长整形，这里不再赘述（就是得到输入的数）。并且第 5 行把它放在了 &lt;code&gt;node0&lt;/code&gt; 中。&lt;/p&gt;
+
+&lt;p&gt;目光投向第 12 行的 &lt;code&gt;cmp&lt;/code&gt;（很重要啊混蛋！），&lt;code&gt;%edx == *(%rax)&lt;/code&gt;，往上再看三行相当于 &lt;code&gt;%rax = %rax + 8&lt;/code&gt; 做了 3 次，指针向后移动了三个 address 长度。再来分析 &lt;code&gt;fun6&lt;/code&gt; 究竟做了什么：&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/cee/b5dca8183efedd5abf21.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;（&lt;code&gt;fun6&lt;/code&gt; 就是长长长+看不懂！）&lt;/p&gt;
+
+&lt;p&gt;尽管如此还是得继续，手写一下各个寄存器的转化，分析一下 &lt;code&gt;fun6&lt;/code&gt; 的作用：排序。&lt;/p&gt;
+
+&lt;p&gt;题目就转换成对所有数排序后第四个数是否等于输入的数，观察一下 &lt;code&gt;node1&lt;/code&gt; 到 &lt;code&gt;node9&lt;/code&gt; ，答案也就出来了：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;取 600 ~ 673（分别对应 &lt;code&gt;node8&lt;/code&gt; 和 &lt;code&gt;node6&lt;/code&gt;）中的任意一个整数&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;Secret_Phase&lt;/h3&gt;
+
+&lt;p&gt;最好玩的莫过于做完了布置的作业继续探索了！Let&amp;rsquo;s Go On！&lt;/p&gt;
+
+&lt;p&gt;说到 Secret Phase，第一次看到是因为用 &lt;code&gt;x /32c&lt;/code&gt; 看格式化字符串的时候发现了：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;austinpowers&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;后来发现在每个 phase 做完后的 &lt;code&gt;phase_defused&lt;/code&gt; 有个调用：&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/cee/118c76e20cc232aabdaf.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;顺藤摸瓜，看了一下地址在 &lt;code&gt;0x401ec4&lt;/code&gt; 中的格式化字符串：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;%d %s&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;并且和 &lt;code&gt;austinpowers&lt;/code&gt; 比较了。并且 &lt;code&gt;0x603030&lt;/code&gt; 这个入口也就是第四题的输入，即在 ⑨ 后面加上 &lt;code&gt;austinpowers&lt;/code&gt; 就进入了 &lt;code&gt;secret_phase&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;最后来看一下 &lt;code&gt;secret_phase&lt;/code&gt; 和调用的 &lt;code&gt;fun7&lt;/code&gt;：&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/cee/f703ad785c8aa3fd8337.js&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;https://gist.github.com/cee/c68cded3572f66e29759.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;这里建立了一棵树，他的数据结构就是节点自身和左右孩子。第 15 行的 &lt;code&gt;cmp&lt;/code&gt;（跟你们说了很重要！）函数要求我们 &lt;code&gt;fun7&lt;/code&gt; 的返回值是 3。画出树得到最后的答案：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;107&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;撒花，成绩就是 &lt;code&gt;62.5/50&lt;/code&gt; 了！&lt;/p&gt;
+
+&lt;h3&gt;About GDB&lt;/h3&gt;
+
+&lt;p&gt;关于 gdb 这里也想谈谈。&lt;/p&gt;
+
+&lt;p&gt;通过这次的 lab 作业提升了很多关于 gdb 调试的技巧。&lt;/p&gt;
+
+&lt;p&gt;给大家列一些常用的命令吧~&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;gdb &amp;lt;file&amp;gt;&lt;/code&gt;: 开始调试&amp;gt;&amp;lt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;run&lt;/code&gt;, &lt;code&gt;quit&lt;/code&gt;: 开始和退出&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;break func/*0x804820&lt;/code&gt;: 给 &lt;code&gt;func&lt;/code&gt; 函数/在地址为 &lt;code&gt;0x804820&lt;/code&gt; 处设置断点&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;delete/disable/enable 1&lt;/code&gt;: 删除/禁用/启用断点 1（自动标号）&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;stepi&lt;/code&gt;: 执行一条指令&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;nexti&lt;/code&gt;: 执行一条指令，但是在函数调用中不停止&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;step&lt;/code&gt;: 执行一条C指令&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;disassemble func/0x804820&lt;/code&gt;: 查看 &lt;code&gt;func&lt;/code&gt; 函数/地址在 &lt;code&gt;0x804820&lt;/code&gt; 的汇编语句&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;print /x $rip&lt;/code&gt;: 16进制输出PC&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;print /d $rip&lt;/code&gt;: 10进制输出PC&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;print /t $rip&lt;/code&gt;: 2进制输出PC&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;x /[NUM][SIZE][FORMAT] where&lt;/code&gt;: 指定格式输出，&lt;code&gt;NUM&lt;/code&gt; 位数，&lt;code&gt;SIZE&lt;/code&gt; 代表每一位的大小（例如 b=byte，w=word，g=giant），&lt;code&gt;FORMAT&lt;/code&gt; 代表格式（x，d，t），&lt;code&gt;WHERE&lt;/code&gt; 代表地址。&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;info r&lt;/code&gt;: 查看寄存器&lt;/p&gt;
+
+&lt;h3&gt;References&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://lifeofzjs.com/blog/2014/02/03/csapp-bomb-lab/&quot;&gt;CSAPP Bomb Lab&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;What&amp;rsquo;s Next&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;下一篇会主要介绍一下 lab3 的缓存区攻击的作业。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+          
+          
+        
+      
+        </content></entry><entry><title>Dear Assembly（1）</title><id>tag:blog.cee.moe,2014:/dear-assembly-1/</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/dear-assembly-1.html"/><updated>2014-07-26T00:00:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;p&gt;苦逼的暑假开始了。&lt;/p&gt;
 

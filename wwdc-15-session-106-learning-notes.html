@@ -1,0 +1,70 @@
+<blockquote> <p>Chris Lattner 實在是太帥了！</p> </blockquote> <h2>Session 106 - What&rsquo;s new in swift</h2> <h3>Why Swift 2</h3> <ul> <li>Fundamentals: Refine language and tools fundamentals</li> <li>Safety: Affordances for writing robust and safe code</li> <li>Beauty: Enable expressive libraries and APIs</li> </ul> <blockquote> <p>用更好的語言寫更加安全和漂亮的代碼！</p> </blockquote> <h3>What&rsquo;s New in Swift 2</h3> <ul> <li>Fundamentals</li> <li>Pattern Matching</li> <li>Availabilty Checking</li> <li>Protocol Extensions</li> <li>Error Handling</li> </ul> <h4>Fundamentals</h4> <ul> <li><p>Enums</p> <div class="highlight"><pre><code class="language-text" data-lang="text">enum Animals {
+    case a, b
+}
+</code></pre></div></li> <li><p>Associated Values in Enums</p> <div class="highlight"><pre><code class="language-text" data-lang="text">enum Either&lt;T1, T2&gt; {
+    case First(T1)
+    case Second(T2)
+}
+</code></pre></div></li> <li><p>Recursion Enums</p> <div class="highlight"><pre><code class="language-text" data-lang="text">enum Tree&lt;T&gt; {
+    case Leat(T)
+    indirect case Node(Tree, Tree)
+}
+</code></pre></div></li> <li><p><code>do</code> Statement</p> <div class="highlight"><pre><code class="language-text" data-lang="text">do {
+    let a = Animals.Troll
+    ...
+}
+// loop
+repeat {
+    ...
+}
+</code></pre></div></li> <li><p>Option Sets</p> <div class="highlight"><pre><code class="language-text" data-lang="text">[option1, option2]
+</code></pre></div> <ul> <li><p>Defining an Option: Using Protocol-Oriented Programming</p> <div class="highlight"><pre><code class="language-text" data-lang="text">struct MyFontSyle : SetOptionSetType
+</code></pre></div></li> </ul></li> <li><p>Functions and Methods</p> <ul> <li>Consistent Argument Labels</li> <li>Duplicate first name</li> <li>Underscore to disable name labels</li> <li># argument syntax</li> </ul></li> <li><p>Diagnostics</p></li> <li><p>SDK Improvements</p> <ul> <li>Nullability qualifiers</li> <li>Objective-C typed Collections</li> </ul></li> <li><p>Testing</p> <div class="highlight"><pre><code class="language-text" data-lang="text">@testable
+import MyApp
+</code></pre></div></li> <li><p>Rich Comments</p></li> <li><p>A Lot More!</p></li> </ul> <h4>Pattern Matching</h4> <ul> <li><p><code>if-let</code> Statment</p> <ul> <li>Compound Conditions</li> <li><p>Early Exits: <code>guard</code> Statement</p> <div class="highlight"><pre><code class="language-text" data-lang="text">  guard let name = json[&quot;name&quot;] as? String else {
+      return .Second(&quot;missing name&quot;)
+  }
+  // Compound Condidtions
+  guard let name = json[&quot;name&quot;] as? String,
+        let year = json[&quot;year&quot;] as? Int else {
+      return .Second(&quot;bad input&quot;)
+  }
+</code></pre></div></li> </ul></li> <li><p><code>Switch</code></p> <div class="highlight"><pre><code class="language-text" data-lang="text">if case .MyEnumCase(let value) = bar() where value != 42 {
+    doSomething(value)
+}
+</code></pre></div></li> <li><p><code>for ... in</code> Filtering</p> <div class="highlight"><pre><code class="language-text" data-lang="text">for value in mySequence where value != &quot;&quot; {
+    doSomething(value)
+}
+</code></pre></div></li> </ul> <h4>Availabilty Checking</h4> <ul> <li><p>New APIs</p> <ul> <li>springLoaded</li> <li>old: <code>respondsToSeletor</code> Method</li> <li>new: get a diagnostic</li> <li><p>Example:</p> <div class="highlight"><pre><code class="language-text" data-lang="text">if #available(OSX 10.10.3, *) {
+    ...
+}
+</code></pre></div></li> </ul></li> </ul> <h4>Protocol Extensions</h4> <ul> <li><p>Extensions</p> <ul> <li><p>Old</p> <div class="highlight"><pre><code class="language-text" data-lang="text">extension Array {
+    func countIf(match: Element -&gt; Bool) -&gt; Int {
+        var n = 0;
+        for value in self {
+            if match(value) {
+                n++;
+            }
+        }
+        return n
+    }
+}
+</code></pre></div> <ul> <li>Global Functions</li> </ul></li> <li><p>New</p> <div class="highlight"><pre><code class="language-text" data-lang="text">extension CollectionType
+</code></pre></div></li> </ul></li> <li><p>Method</p> <div class="highlight"><pre><code class="language-text" data-lang="text">.map().filter()
+</code></pre></div></li> </ul> <h4>Error Handling</h4> <ul> <li>Kinds <ul> <li>Trivial Errors</li> <li>Logic Errors</li> <li>Detailed, recoverable Errors</li> </ul></li> <li><p>Example</p> <ul> <li><code>try</code> Keyword</li> <li><code>throws</code> Keyword</li> <li><p><code>do-catch</code> Block</p> <div class="highlight"><pre><code class="language-text" data-lang="text">do {
+    ...
+} catch let error {
+    ...
+} catch {
+    fatalError()
+}
+</code></pre></div></li> <li><p><code>try!</code> Keyword</p></li> </ul></li> <li><p>Enums as Error Types</p> <div class="highlight"><pre><code class="language-text" data-lang="text">enum DataError : ErrorType {
+    case MissingName
+    case MissingFile
+}
+</code></pre></div></li> <li><p>Defer Actions</p> <div class="highlight"><pre><code class="language-text" data-lang="text">defer { delegate?.didEndProcessing() }
+</code></pre></div></li> </ul>
+<!--
+ © Tunghsiao Liu.
+ almace-scaffolding - v0.0.26
+ -->
