@@ -1,4 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Perfect Freeze!</title><subtitle>Perfect Freeze! | Cee's Blog v3.0</subtitle><updated>2015-08-05T19:43:42+08:00</updated><id>tag:blog.cee.moe,2005:/</id><link rel="alternate" type="text/html" hreflang="en" href="http://blog.cee.moe/"/><link rel="self" type="application/atom+xml" href="http://blog.cee.moe/feed.xml"/><rights>Copyright © 2015, Cee</rights><author><name>Cee</name><uri>http://blog.cee.moe/</uri><email>ceecirno@gmail.com</email></author><entry><title>Learning CALayer</title><id>tag:blog.cee.moe,2015:/learning-CALayer/</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/learning-CALayer.html"/><updated>2015-08-04T00:00:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/"></content></entry><entry><title>趣题</title><id>tag:blog.cee.moe,2015:/funny-logic-questions/</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/funny-logic-questions.html"/><updated>2015-07-17T00:00:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Perfect Freeze!</title><subtitle>Perfect Freeze! | Cee's Blog v3.0</subtitle><updated>2015-08-05T20:05:50+08:00</updated><id>tag:blog.cee.moe,2005:/</id><link rel="alternate" type="text/html" hreflang="en" href="http://blog.cee.moe/"/><link rel="self" type="application/atom+xml" href="http://blog.cee.moe/feed.xml"/><rights>Copyright © 2015, Cee</rights><author><name>Cee</name><uri>http://blog.cee.moe/</uri><email>ceecirno@gmail.com</email></author><entry><title>PFNavigationDropdownMenu</title><id>tag:blog.cee.moe,2015:/PFNavigationDropdownMenu/</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/PFNavigationDropdownMenu.html"/><updated>2015-08-02T00:00:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+          
+            &lt;p&gt;The Objective-C version of &lt;a href=&quot;https://github.com/PhamBaTho/BTNavigationDropdownMenu&quot;&gt;BTNavigationDropdownMenu&lt;/a&gt;. Supports iOS 7.0+.&lt;/p&gt;
+
+&lt;h2&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;The simplest option is to use &lt;code&gt;pod &amp;quot;PFNavigationDropdownMenu&amp;quot;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can also add the &lt;code&gt;Classes&lt;/code&gt; folder to your project. There are no further requirements.&lt;/p&gt;
+
+&lt;h2&gt;Usage&lt;/h2&gt;
+
+&lt;p&gt;See BTNavigationDropdownMenu &lt;a href=&quot;https://github.com/PhamBaTho/BTNavigationDropdownMenu#usage&quot;&gt;Usage Part&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Requirement&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;iOS 7.0+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;License&lt;/h2&gt;
+
+&lt;p&gt;Released under the MIT License.&lt;/p&gt;
+
+          
+          
+        
+          &lt;p&gt;&lt;a href=&quot;https://github.com/PerfectFreeze/PFNavigationDropdownMenu&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
+        
+      
+        </content></entry><entry><title>Pangu.objective-c</title><id>tag:blog.cee.moe,2015:/Pangu.objective-c/</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/Pangu.objective-c.html"/><updated>2015-07-27T00:00:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+          
+            &lt;p&gt;Paranoid text spacing for good readability, to automatically insert whitespace between CJK (Chinese, Japanese, Korean), half-width English, digit and symbol characters.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Go version: &lt;a href=&quot;https://github.com/vinta/pangu&quot;&gt;pangu.go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Java version: &lt;a href=&quot;https://github.com/vinta/pangu.java&quot;&gt;pangu.java&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;JavaScript version: &lt;a href=&quot;https://github.com/vinta/paranoid-auto-spacing/blob/master/src/pangu.js&quot;&gt;pangu.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Node.js version: &lt;a href=&quot;https://github.com/huei90/pangu.node&quot;&gt;pangu.node&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Python version: &lt;a href=&quot;https://github.com/vinta/pangu.py&quot;&gt;pangu.py&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Ruby version: &lt;a href=&quot;https://github.com/dlackty/pangu.rb&quot;&gt;pangu.rb&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;The simplest option is to use &lt;code&gt;pod &amp;quot;Pangu&amp;quot;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can also add the two files &lt;code&gt;NSString+Pangu.h/m&lt;/code&gt; to your project. There are no further requirements.&lt;/p&gt;
+
+&lt;h2&gt;Usage&lt;/h2&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objective-c&quot; data-lang=&quot;objective-c&quot;&gt;&lt;span class=&quot;cp&quot;&gt;#import &amp;quot;NSString+Pangu.h&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSString&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;spacing&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;@&amp;quot;請問Jackie的鼻子有幾個？123個！&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// 請問 Jackie 的鼻子有幾個？123 個！&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;License&lt;/h2&gt;
+
+&lt;p&gt;Released under the MIT License.&lt;/p&gt;
+
+          
+          
+        
+          &lt;p&gt;&lt;a href=&quot;https://github.com/Cee/pangu.objective-c&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
+        
+      
+        </content></entry><entry><title>趣题</title><id>tag:blog.cee.moe,2015:/funny-logic-questions/</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/funny-logic-questions.html"/><updated>2015-07-17T00:00:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;C 随机产生了两个不同的正整数，分别交给了 A、B，并让两人猜测谁手中的数更大。&lt;/p&gt;
@@ -588,6 +653,48 @@ import MyApp
 
           
           
+        
+      
+        </content></entry><entry><title>PNJU-Workflow</title><id>tag:blog.cee.moe,2015:/PNJU-Workflow/</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/PNJU-Workflow.html"/><updated>2015-06-04T00:00:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+          
+            &lt;p&gt;An Alfred Workflow to Login PNJU.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Be sure you have your Node.js / io.js installed.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2&gt;How To Use&lt;/h2&gt;
+
+&lt;p&gt;Open &lt;code&gt;post.js&lt;/code&gt; file and complete the &lt;code&gt;username&lt;/code&gt; and &lt;code&gt;password&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Screenshot&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://github.com/Cee/PNJU-Workflow/raw/master/Screenshot.jpeg&quot; alt=&quot;Screenshot&quot;&gt;&lt;/p&gt;
+
+&lt;h2&gt;See Also&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/miaoxw/Auto-p.nju&quot;&gt;Windows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/Cee/PNJU-TodayWidget&quot;&gt;Mac&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/Cee/PNJU-Watch&quot;&gt;iOS &amp;amp;  Watch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/padeoe/AutoConnect&quot;&gt;Android&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Dependency&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Request&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/XadillaX/alfred-item&quot;&gt;Alfred-Item&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;License&lt;/h2&gt;
+
+&lt;p&gt;This application is released under &lt;a href=&quot;http://www.gnu.org/licenses/gpl-2.0.html&quot;&gt;GNU General Public License v2.0&lt;/a&gt;.&lt;/p&gt;
+
+          
+          
+        
+          &lt;p&gt;&lt;a href=&quot;https://github.com/Cee/PNJU-Workflow&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
         
       
         </content></entry><entry><title>别，火花</title><id>tag:blog.cee.moe,2015:/bye-huohua/</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/bye-huohua.html"/><updated>2015-04-15T00:00:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
