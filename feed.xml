@@ -1,39 +1,70 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Perfect Freeze!</title><subtitle>Perfect Freeze! | Cee's Blog v3.0</subtitle><updated>2015-08-03T20:08:00+08:00</updated><id>tag:blog.cee.moe,2005:/</id><link rel="alternate" type="text/html" hreflang="en" href="http://blog.cee.moe/"/><link rel="self" type="application/atom+xml" href="http://blog.cee.moe/feed.xml"/><rights>Copyright © 2015, Cee</rights><author><name>Cee</name><uri>http://blog.cee.moe/</uri><email>ceecirno@gmail.com</email></author><entry><title>趣题</title><id>tag:blog.cee.moe,2015:/funny-logic-questions/</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/funny-logic-questions.html"/><updated>2015-07-17T00:00:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Perfect Freeze!</title><subtitle>Perfect Freeze! | Cee's Blog v3.0</subtitle><updated>2015-08-05T17:09:29+08:00</updated><id>tag:blog.cee.moe,2005:/</id><link rel="alternate" type="text/html" hreflang="en" href="http://blog.cee.moe/"/><link rel="self" type="application/atom+xml" href="http://blog.cee.moe/feed.xml"/><rights>Copyright © 2015, Cee</rights><author><name>Cee</name><uri>http://blog.cee.moe/</uri><email>ceecirno@gmail.com</email></author><entry><title>Learning CALayer</title><id>tag:blog.cee.moe,2015:/learning-CALayer/</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/learning-CALayer.html"/><updated>2015-08-04T00:00:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/"></content></entry><entry><title>趣题</title><id>tag:blog.cee.moe,2015:/funny-logic-questions/</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/funny-logic-questions.html"/><updated>2015-07-17T00:00:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;C 随机产生了两个不同的正整数，分别交给了 A、B，并让两人猜测谁手中的数更大。
-A：不知道。
-B：不知道。
-A：还是不知道。
-B：还是不知道。
-A：知道了。
-B：那我知道了，而且这两个数具体是多少也知道了。
-问这两个数是多少。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;C 从 2 - 99 中随机产生了两个不同的正整数，把它们的和与积分别交给了 A、B，并让两人猜测这两个数分别是多少。
-A：虽然我不知道这两个数是什么，但是我知道你也不知道。
-B：那我知道了。
-A：那我也知道了。
-问这两个数是多少。&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;C 随机产生两个不同的形如 n – &amp;frac12;&lt;sup&gt;k&lt;/sup&gt; – &amp;frac12;&lt;sup&gt;k+r&lt;/sup&gt; 的数，其中 n、k 是正整数，r 是非负整数。然后，C 把这两个数分别交给了 A、B，并让两人猜测谁手中的数更大。
-A ：我不知道。
-B ：我也不知道。
-A ：我还是不知道。
-B ：我也还是不知道。
-C ：这样下去是没有用的！可以告诉你们，不管你们像这样来来回回说多少轮，你们仍然都没法知道，谁手中的数更大一些。
-A ：哇，这个信息量好像有点儿大！不过，即使知道了这一点，我还是不知道谁手中的数更大。
-B ：我也还是不知道。
-A ：我继续不知道。
-B ：我也继续不知道。
-C ：还是套用刚才的话，不管你们像这样继续说多少轮，你们仍然没法知道谁手中的数更大。
-A ：哦……不过，我还是不知道谁手中的数更大。
-B ：而且我也还是不知道。我们究竟什么时候才能知道呢？
-C ：事实上啊，如果我们三个就像这样继续重复刚才的一切——你们俩互相说一堆不知道，我告诉你们这样永远没用，然后你们继续互说不知道，我继续说这不管用——那么不管这一切重复多少次，你们仍然不知道谁手中的数更大！
-A ：哇，这次的信息量就真的大了。只可惜，我还是不知道谁的数更大一些。
-B ：我也还是不知道。
-A ：是吗？好，那我现在终于知道谁的数更大了。
-B ：这样的话，那我也知道了。而且，我还知道我们俩手中的数具体是多少了。
-A ：那我也知道了。
-问这两个数是多少。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;C 随机产生了两个不同的正整数，分别交给了 A、B，并让两人猜测谁手中的数更大。&lt;/p&gt;
+
+&lt;p&gt;A：不知道。&lt;/p&gt;
+
+&lt;p&gt;B：不知道。&lt;/p&gt;
+
+&lt;p&gt;A：还是不知道。&lt;/p&gt;
+
+&lt;p&gt;B：还是不知道。&lt;/p&gt;
+
+&lt;p&gt;A：知道了。&lt;/p&gt;
+
+&lt;p&gt;B：那我知道了，而且这两个数具体是多少也知道了。&lt;/p&gt;
+
+&lt;p&gt;问这两个数是多少。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;C 从 2 - 99 中随机产生了两个不同的正整数，把它们的和与积分别交给了 A、B，并让两人猜测这两个数分别是多少。&lt;/p&gt;
+
+&lt;p&gt;A：虽然我不知道这两个数是什么，但是我知道你也不知道。&lt;/p&gt;
+
+&lt;p&gt;B：那我知道了。&lt;/p&gt;
+
+&lt;p&gt;A：那我也知道了。&lt;/p&gt;
+
+&lt;p&gt;问这两个数是多少。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;C 随机产生两个不同的形如 n – &amp;frac12;&lt;sup&gt;k&lt;/sup&gt; – &amp;frac12;&lt;sup&gt;k+r&lt;/sup&gt; 的数，其中 n、k 是正整数，r 是非负整数。然后，C 把这两个数分别交给了 A、B，并让两人猜测谁手中的数更大。&lt;/p&gt;
+
+&lt;p&gt;A ：我不知道。&lt;/p&gt;
+
+&lt;p&gt;B ：我也不知道。&lt;/p&gt;
+
+&lt;p&gt;A ：我还是不知道。&lt;/p&gt;
+
+&lt;p&gt;B ：我也还是不知道。&lt;/p&gt;
+
+&lt;p&gt;C ：这样下去是没有用的！可以告诉你们，不管你们像这样来来回回说多少轮，你们仍然都没法知道，
+谁手中的数更大一些。&lt;/p&gt;
+
+&lt;p&gt;A ：哇，这个信息量好像有点儿大！不过，即使知道了这一点，我还是不知道谁手中的数更大。&lt;/p&gt;
+
+&lt;p&gt;B ：我也还是不知道。&lt;/p&gt;
+
+&lt;p&gt;A ：我继续不知道。&lt;/p&gt;
+
+&lt;p&gt;B ：我也继续不知道。&lt;/p&gt;
+
+&lt;p&gt;C ：还是套用刚才的话，不管你们像这样继续说多少轮，你们仍然没法知道谁手中的数更大。&lt;/p&gt;
+
+&lt;p&gt;A ：哦……不过，我还是不知道谁手中的数更大。&lt;/p&gt;
+
+&lt;p&gt;B ：而且我也还是不知道。我们究竟什么时候才能知道呢？&lt;/p&gt;
+
+&lt;p&gt;C ：事实上啊，如果我们三个就像这样继续重复刚才的一切——你们俩互相说一堆不知道，我告诉你们这样永远没用，然后你们继续互说不知道，我继续说这不管用——那么不管这一切重复多少次，你们仍然不知道谁手中的数更大！&lt;/p&gt;
+
+&lt;p&gt;A ：哇，这次的信息量就真的大了。只可惜，我还是不知道谁的数更大一些。&lt;/p&gt;
+
+&lt;p&gt;B ：我也还是不知道。&lt;/p&gt;
+
+&lt;p&gt;A ：是吗？好，那我现在终于知道谁的数更大了。&lt;/p&gt;
+
+&lt;p&gt;B ：这样的话，那我也知道了。而且，我还知道我们俩手中的数具体是多少了。&lt;/p&gt;
+
+&lt;p&gt;A ：那我也知道了。&lt;/p&gt;
+
+&lt;p&gt;问这两个数是多少。&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;参考：&lt;a href=&quot;http://www.matrix67.com/blog/archives/6377&quot;&gt;Matrix67 - 趣题：无限多层嵌套的逻辑推理&lt;/a&gt;&lt;/p&gt;
