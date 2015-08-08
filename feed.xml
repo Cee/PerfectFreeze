@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Perfect Freeze!</title><subtitle>Perfect Freeze! | Cee's Blog v3.0</subtitle><updated>2015-08-06T14:43:12+08:00</updated><id>tag:blog.cee.moe,2005:/</id><link rel="alternate" type="text/html" hreflang="en" href="http://blog.cee.moe/"/><link rel="self" type="application/atom+xml" href="http://blog.cee.moe/feed.xml"/><rights>Copyright © 2015, Cee</rights><author><name>Cee</name><uri>http://blog.cee.moe/</uri><email>ceecirno@gmail.com</email></author><entry><title>PFNavigationDropdownMenu</title><id>tag:blog.cee.moe,2015:/PFNavigationDropdownMenu/</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/PFNavigationDropdownMenu.html"/><updated>2015-08-02T00:00:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Perfect Freeze!</title><subtitle>Perfect Freeze! | Cee's Blog v3.0</subtitle><updated>2015-08-08T22:20:44+08:00</updated><id>tag:blog.cee.moe,2005:/</id><link rel="alternate" type="text/html" hreflang="en" href="http://blog.cee.moe/"/><link rel="self" type="application/atom+xml" href="http://blog.cee.moe/feed.xml"/><rights>Copyright © 2015, Cee</rights><author><name>Cee</name><uri>http://blog.cee.moe/</uri><email>ceecirno@gmail.com</email></author><entry><title>PFAvatar</title><id>tag:blog.cee.moe,2015:/PFAvatar/</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/PFAvatar.html"/><updated>2015-08-08T00:00:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+          
+            &lt;p&gt;Generate material design avatar!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://github.com/PerfectFreeze/PFAvatar/raw/master/ScreenShot.png&quot; alt=&quot;ScreenShot&quot;&gt;&lt;/p&gt;
+
+&lt;h2&gt;Todo&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;[ ] Custom Fonts&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;License&lt;/h2&gt;
+
+&lt;p&gt;Released under the MIT License.&lt;/p&gt;
+
+          
+          
+        
+          &lt;p&gt;&lt;a href=&quot;https://github.com/PerfectFreeze/PFAvatar&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
+        
+      
+        </content></entry><entry><title>PFNavigationDropdownMenu</title><id>tag:blog.cee.moe,2015:/PFNavigationDropdownMenu/</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/PFNavigationDropdownMenu.html"/><updated>2015-08-02T00:00:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;p&gt;The Objective-C version of &lt;a href=&quot;https://github.com/PhamBaTho/BTNavigationDropdownMenu&quot;&gt;BTNavigationDropdownMenu&lt;/a&gt;. Supports iOS 7.0+.&lt;/p&gt;
 
