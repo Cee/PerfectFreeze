@@ -1,4 +1,64 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Perfect Freeze!</title><subtitle>Perfect Freeze! | Cee's Blog v3.0</subtitle><updated>2015-09-16T00:41:08+08:00</updated><id>tag:blog.cee.moe,2005:/</id><link rel="alternate" type="text/html" hreflang="en" href="http://blog.cee.moe/"/><link rel="self" type="application/atom+xml" href="http://blog.cee.moe/feed.xml"/><rights>Copyright © 2015, Cee</rights><author><name>Cee</name><uri>http://blog.cee.moe/</uri><email>ceecirno@gmail.com</email></author><entry><title>About Co!orMix (3) - Co!orMix 小记：关于开发的那点儿事</title><id>tag:blog.cee.moe,2015:/about-colormix-3/</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/about-colormix-3.html"/><updated>2015-09-10T00:00:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Perfect Freeze!</title><subtitle>Perfect Freeze! | Cee's Blog v3.0</subtitle><updated>2015-12-08T15:35:59+08:00</updated><id>tag:blog.cee.moe,2005:/</id><link rel="alternate" type="text/html" hreflang="en" href="http://blog.cee.moe/"/><link rel="self" type="application/atom+xml" href="http://blog.cee.moe/feed.xml"/><rights>Copyright © 2015, Cee</rights><author><name>Cee</name><uri>http://blog.cee.moe/</uri><email>ceecirno@gmail.com</email></author><entry><title>猿题库实习面试经历</title><id>tag:blog.cee.moe,2015:/ytk-intern-experience/</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/ytk-intern-experience.html"/><updated>2015-12-08T00:00:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+          
+            &lt;p&gt;每次面试完都会有一篇面经，猿题库也不例外，还是要来说一下的。&lt;/p&gt;
+
+&lt;p&gt;约的 12.7 的下午两点半开始面试。一面面试官是 &lt;a href=&quot;http://weibo.com/lancy1014&quot;&gt;Lancy&lt;/a&gt;，二面是&lt;a href=&quot;http://weibo.com/kaixinger&quot;&gt;毛佳俊&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;（下面就只谈谈题目，答案各自都有各自的答案:) ）&lt;/p&gt;
+
+&lt;h3&gt;一面&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;理所当然简单介绍一下自己和做过的项目，没什么好说的都在简历上。&lt;/li&gt;
+&lt;li&gt;谈一下项目中感触最深的一个：自然是 ColorMix，因为从设计到上市场都走了一遍，时间也很紧。&lt;/li&gt;
+&lt;li&gt;做过的项目中遇到的最大的问题是什么，如何解决的：
+这个问题重点谈一下，当时是在布丁动画写音频弹幕的时候遇到了比较大的问题。
+先问了我一些 AVFundation 的知识比较容易。
+然后问弹幕如何实现——类似于 TableView 一样的重用机制，NSRunLoop、NSOperationQueue 的考察。
+询问了一下你们是如何做大量弹幕的处理的：切片，time+offset。&lt;/li&gt;
+&lt;li&gt;property 的默认属性有什么。&lt;/li&gt;
+&lt;li&gt;笔试题，给定两个 str1，str2（比如「BDAFEC」和「DAFCEA」）作为起始和终止态和一个交换规则（B &amp;lt;&amp;ndash;&amp;gt; A），能否从 str1 转换为 str2。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;二面&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;1. 你是来实习还是来做正式员工？&lt;/strong&gt;
+    &lt;strong&gt;此时我心中千万头草泥马飞奔而过。&lt;/strong&gt;
+2. 讲一下自我经历。
+3. 添加圆角的方式有几种。性能如何？
+4. 上面提到了 UIBezierPath 讲一下怎么画直线曲线，CG 几个类中有什么方法，drawRect 的性能会有什么问题。
+5. Masonry（或者 Autolayout）如何使用，当键盘弹出时一个 View 需要加动画如何更改它的 Contraints。
+6. 当 TabelViewCell 高度是可变的的时候如何优化性能。（需要包括 iOS7）
+7. 笔试题：翻转单向链表中的一段。&lt;/p&gt;
+
+&lt;h3&gt;High&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;问的问题是面到现在非常详细的一次。深度很广。&lt;/li&gt;
+&lt;li&gt;中间还让我停下来赶紧吃药。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Low&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;整个面试过程（从定时间到面试）都是在用 QQ！用 QQ 视频面试真的很 Low，而且整个面试过程&lt;strong&gt;没有一封正式的邮件&lt;/strong&gt;！&lt;/li&gt;
+&lt;li&gt;二面的第一个问题真是气到爆炸。&lt;/li&gt;
+&lt;li&gt;代码题考了两道算法。如果不会 C 的话，我怎么做第二题呢？&lt;/li&gt;
+&lt;li&gt;面试官都感觉阴阳怪气。&lt;/li&gt;
+&lt;li&gt;面试过程全是对方在面我，连一个提问的机会都没有！还经常打断我回答！&lt;/li&gt;
+&lt;li&gt;最后都是以「我们时间很紧」匆匆结束。虽说有一个小时，但是感觉没有认认真真地对待面试人员。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;P.S. 几个问题的答案也希望大家在评论区积极地讨论一下~
+P.S.2 业务驱动 or 技术驱动？I don&amp;rsquo;t know, and don&amp;rsquo;t ask me.&lt;/p&gt;
+
+          
+          
+        
+      
+        </content></entry><entry><title>About Co!orMix (3) - Co!orMix 小记：关于开发的那点儿事</title><id>tag:blog.cee.moe,2015:/about-colormix-3/</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/about-colormix-3.html"/><updated>2015-09-10T00:00:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;h2&gt;关于 Co!orMix&lt;/h2&gt;
 
