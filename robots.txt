@@ -1,3 +1,4 @@
 User-agent: *
-Disallow: /lab/version/
+
+
 Sitemap: http://blog.cee.moe/sitemap.xml
