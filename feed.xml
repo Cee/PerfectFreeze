@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Perfect Freeze!</title><subtitle>Perfect Freeze! | Cee's Blog v3.0</subtitle><updated>2016-01-29T10:37:54+08:00</updated><id>http://blog.cee.moe/</id><rights>Copyright © 2016, Cee</rights><link rel="alternate" type="text/html" hreflang="en" href="http://blog.cee.moe/" /><link rel="self" type="application/atom+xml" href="http://blog.cee.moe/feed.xml" /><author><name>Cee</name><uri>http://blog.cee.moe/</uri><email>ceecirno@gmail.com</email></author><entry><title>Oh My 2015</title><id>http://blog.cee.moe/Oh-My-2015.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/Oh-My-2015.html" /><published>2015-12-31T00:00:00+08:00</published><updated>2016-01-28T22:59:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Perfect Freeze!</title><subtitle>Perfect Freeze! | Cee's Blog v3.0</subtitle><updated>2016-02-02T12:44:37+08:00</updated><id>http://blog.cee.moe/</id><rights>Copyright © 2016, Cee</rights><link rel="alternate" type="text/html" hreflang="en" href="http://blog.cee.moe/" /><link rel="self" type="application/atom+xml" href="http://blog.cee.moe/feed.xml" /><author><name>Cee</name><uri>http://blog.cee.moe/</uri><email>ceecirno@gmail.com</email></author><entry><title>Oh My 2015</title><id>http://blog.cee.moe/Oh-My-2015.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/Oh-My-2015.html" /><published>2015-12-31T00:00:00+08:00</published><updated>2016-01-28T22:59:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
 &lt;p&gt;Be ready on the way to 30.&lt;/p&gt;
@@ -289,7 +289,8 @@ CMSettingViewController ：游戏设置界面&lt;/p&gt;
 
 &lt;p&gt;为求最简，我们的分享使用的系统原生的 &lt;code class=&quot;highlighter-rouge&quot;&gt;UIActivityViewController&lt;/code&gt; 来实现。不过这里在适配的时候遇到了个坑，直接上代码：&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&quot;language-objective-c&quot;&gt;- (IBAction )onShareButtonClicked:(id )sender {
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;objective-c
+- (IBAction )onShareButtonClicked:(id )sender {
     [MobClick event:@&quot;Share&quot;];
     CMScoreView *scoreView = [[CMScoreView alloc] initWithScore:self.score];
     UIImage *imageToShare = [UIImage captureImageFromView:scoreView];
@@ -306,7 +307,7 @@ CMSettingViewController ：游戏设置界面&lt;/p&gt;
         [self presentViewController:activityVC animated:YES completion:nil];
     }
 }
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;对于 &lt;code class=&quot;highlighter-rouge&quot;&gt;UIActivityViewController&lt;/code&gt;，在 &lt;code class=&quot;highlighter-rouge&quot;&gt;iPhone&lt;/code&gt; 上，我们可以直接使用 &lt;code class=&quot;highlighter-rouge&quot;&gt;present&lt;/code&gt; 的方式；但是在 &lt;code class=&quot;highlighter-rouge&quot;&gt;iPad&lt;/code&gt; 上，这会引起崩溃，可以使用 &lt;code class=&quot;highlighter-rouge&quot;&gt;UIPopoverController&lt;/code&gt; 来包装 &lt;code class=&quot;highlighter-rouge&quot;&gt;UIActivityViewController&lt;/code&gt;。&lt;/p&gt;
 
@@ -318,8 +319,9 @@ CMSettingViewController ：游戏设置界面&lt;/p&gt;
 
 &lt;p&gt;个人还是很喜欢这个效果的，使用的是 iOS8 自带的毛玻璃效果。上代码：&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&quot;language-objective-c&quot;&gt;- (IBAction )onSettingButtonClicked:(id )sender {
-    [MobClick event:@&quot;Setting&quot;];
+&lt;p&gt;```objective-c
+- (IBAction )onSettingButtonClicked:(id )sender {
+    [MobClick event:@”Setting”];
     self.settingViewController = [[CMSettingViewController alloc] initWithNibName:NSStringFromClass ([CMSettingViewController class]) bundle:nil];
     self.settingViewController.view.frame = self.view.bounds;
     self.settingViewController.view.alpha = 0;
@@ -330,20 +332,23 @@ CMSettingViewController ：游戏设置界面&lt;/p&gt;
         _blurView.alpha = 1;
         self.settingViewController.view.alpha = 1;
     } completion:nil];
-}
-
-- (UIView *)blurView {
-    if (!_blurView ) {
-        _blurView = [[UIVisualEffectView alloc] initWithEffect:[UIBlurEffect effectWithStyle:UIBlurEffectStyleDark]];
-        _blurView.frame = [[UIScreen mainScreen] bounds];
-        _blurView.alpha = 0;
-    }
-    return _blurView;
-}
-&lt;/code&gt;&lt;/pre&gt;
+}&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;GameCenter 和友盟&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;(UIView *)blurView {
+  if (!_blurView ) {
+      _blurView = [[UIVisualEffectView alloc] initWithEffect:[UIBlurEffect effectWithStyle:UIBlurEffectStyleDark]];
+      _blurView.frame = [[UIScreen mainScreen] bounds];
+      _blurView.alpha = 0;
+  }
+  return _blurView;
+}
+```&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;GameCenter 和友盟&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;这两块都是 @Cee 负责弄的。友盟的接入相对简单，不过 GameCenter @Cee 弄了一晚上，还吐槽网上没有成熟的 GameCenter 接入指南，我觉得有必要让他专门写一份了。&lt;/p&gt;
@@ -767,11 +772,12 @@ CMSettingViewController ：游戏设置界面&lt;/p&gt;
 
 &lt;h2 id=&quot;usage&quot;&gt;Usage&lt;/h2&gt;
 
-&lt;pre&gt;&lt;code class=&quot;language-objective-c&quot;&gt;#import &quot;NSString+Pangu.h&quot;
+&lt;p&gt;```objective-c
+#import “NSString+Pangu.h”&lt;/p&gt;
 
-[NSString spacing:@&quot;請問Jackie的鼻子有幾個？123個！&quot;];
+&lt;p&gt;[NSString spacing:@”請問Jackie的鼻子有幾個？123個！”];
 // 請問 Jackie 的鼻子有幾個？123 個！
-&lt;/code&gt;&lt;/pre&gt;
+```&lt;/p&gt;
 
 &lt;h2 id=&quot;license&quot;&gt;License&lt;/h2&gt;
 
