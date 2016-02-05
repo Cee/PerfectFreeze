@@ -1,4 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Perfect Freeze!</title><subtitle>Perfect Freeze! | Cee's Blog v3.0</subtitle><updated>2016-02-04T14:05:50+08:00</updated><id>http://blog.cee.moe/</id><rights>Copyright © 2016, Cee</rights><link rel="alternate" type="text/html" hreflang="en" href="http://blog.cee.moe/" /><link rel="self" type="application/atom+xml" href="http://blog.cee.moe/feed.xml" /><author><name>Cee</name><uri>http://blog.cee.moe/</uri><email>ceecirno@gmail.com</email></author><entry><title>Oh My 2015</title><id>http://blog.cee.moe/Oh-My-2015.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/Oh-My-2015.html" /><published>2015-12-31T00:00:00+08:00</published><updated>2016-01-28T22:59:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Perfect Freeze!</title><subtitle>Perfect Freeze! | Cee's Blog v3.0</subtitle><updated>2016-02-05T23:21:06+08:00</updated><id>http://blog.cee.moe/</id><rights>Copyright © 2016, Cee</rights><link rel="alternate" type="text/html" hreflang="en" href="http://blog.cee.moe/" /><link rel="self" type="application/atom+xml" href="http://blog.cee.moe/feed.xml" /><author><name>Cee</name><uri>http://blog.cee.moe/</uri><email>ceecirno@gmail.com</email></author><entry><title>作为一个码农，你还需要了解什么？</title><id>http://blog.cee.moe/secrets-that-a-programmer-should-know.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/secrets-that-a-programmer-should-know.html" /><published>2016-02-05T00:00:00+08:00</published><updated>2016-02-05T23:21:01+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+          
+            &lt;p&gt;统计了一下公共号后台所回复的信息，结合自身的思考给大家一些提示。&lt;/p&gt;
+
+&lt;h3 id=&quot;xue-hui-shi-yong-he-gua-de-sou-suo-yin-qing-&quot;&gt;学会使用合适的&lt;strong&gt;搜索引擎&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;搜索，就要选算法好的 &lt;strong&gt;Google&lt;/strong&gt;，而且请学会看&lt;strong&gt;英文&lt;/strong&gt;。Google 能够提供很多的功能，例如：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;指定站内搜索：比如想搜索 Blog 中和 ColorMix 有关的文章，输入 &lt;code class=&quot;highlighter-rouge&quot;&gt;ColorMix site:blog.cee.moe&lt;/code&gt; 即可&lt;/li&gt;
+  &lt;li&gt;星号模糊搜索：例如 &lt;code class=&quot;highlighter-rouge&quot;&gt;支持*吼不吼&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;指定类型文件搜索：加上 &lt;code class=&quot;highlighter-rouge&quot;&gt;filetype&lt;/code&gt; 参数即可，例如 &lt;code class=&quot;highlighter-rouge&quot;&gt;论文名称 filetype:pdf&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;等等，具体可以参看 https://www.zhihu.com/question/28013848&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;百度&lt;/strong&gt;不是什么正经的东西，最近有很多的负面新闻已经报道了，不再一一赘述。如果没法去外面看看的童鞋推荐使用&lt;strong&gt;必应&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;此外码农需要多多接触 &lt;strong&gt;StackOverflow&lt;/strong&gt;，其实很多你们犯过的问题大多都能在上面搜索得到。&lt;/p&gt;
+
+&lt;h3 id=&quot;tiao-xuan--kuan-he-gua-de-wen-ben-bian-ji-qi-&quot;&gt;挑选一款合适的&lt;strong&gt;文本编辑器&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;当碰到「你会推荐用什么文本编辑器？」这种问题时，我都会比较小心谨慎地推荐你使用 &lt;strong&gt;Sublime Text&lt;/strong&gt; 或者 &lt;strong&gt;Atom&lt;/strong&gt;，因为并不想发起 &lt;strong&gt;Vim&lt;/strong&gt; 和 &lt;strong&gt;Emacs&lt;/strong&gt; 之争。自然以上都是玩笑话，用什么文本编辑器还是得看个人习惯。文本编辑器用顺了比其他一切都重要。所以尽早挑定一款适合自己的文本编辑器吧！当发现另有一款能够提高效率的文本编辑器时，请尽早切换过去（例如 &lt;strong&gt;Nano&lt;/strong&gt; → &lt;strong&gt;Vim&lt;/strong&gt;，并不是说 &lt;strong&gt;Emacs&lt;/strong&gt; 不好）。&lt;/p&gt;
+
+&lt;h3 id=&quot;xue-hui--chong-xiang-mu-guan-li-de-ji-neng-&quot;&gt;学会一种&lt;strong&gt;项目管理&lt;/strong&gt;的技能&lt;/h3&gt;
+
+&lt;p&gt;同样，重要的不是你会 &lt;strong&gt;Git&lt;/strong&gt; 还是 &lt;strong&gt;SVN&lt;/strong&gt;，更重要的是培养这种&lt;strong&gt;项目管理&lt;/strong&gt;的技能。知道数据的重要性，懂得为什么能够通过这样的&lt;strong&gt;版本控制系统&lt;/strong&gt;来保存你的文件。学会使用 &lt;strong&gt;Git&lt;/strong&gt; 或者 &lt;strong&gt;SVN&lt;/strong&gt; 的最基础的功能。尤其是随着 &lt;strong&gt;Git&lt;/strong&gt; 的普及，更多得懂一些 &lt;strong&gt;Git&lt;/strong&gt; 的高级知识显得格外的重要。感谢 @loddit 推荐了一篇关于如何写好 Commit 做好 Code Review 的&lt;a href=&quot;http://blog.psjay.com/posts/code-review-guide/&quot;&gt;文章&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;学会如何和团队的成员&lt;strong&gt;沟通&lt;/strong&gt;和&lt;strong&gt;写作&lt;/strong&gt;，使用你们所用的&lt;strong&gt;项目管理工具&lt;/strong&gt;进行无缝交流和对接。&lt;/p&gt;
+
+&lt;h3 id=&quot;dong--dian-she-ji-&quot;&gt;懂一点&lt;strong&gt;设计&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;带上一本小本子、一支笔，背上包，出去走走。碰到灵感来了，马上拿出来把灵感&lt;strong&gt;记录&lt;/strong&gt;下来，甚至&lt;strong&gt;画&lt;/strong&gt;下来。&lt;/p&gt;
+
+&lt;p&gt;打开电脑上的 &lt;strong&gt;Sketch&lt;/strong&gt;、&lt;strong&gt;Photoshop&lt;/strong&gt; 还有 &lt;strong&gt;Illustrator&lt;/strong&gt;，用简单的图形构建出理想的那种感觉。从点到线再到面，从草稿到原型到产品，在设计中会不断提升对产品的理解（越是理解产品，越能写出好代码哦）。&lt;/p&gt;
+
+&lt;h3 id=&quot;zui-hou-ji-de-yong-yuan-jiang-jian-kang-he-zi-you-fang-zai-shou-wei-&quot;&gt;最后记得永远将&lt;strong&gt;健康&lt;/strong&gt;和&lt;strong&gt;自由&lt;/strong&gt;放在首位&lt;/h3&gt;
+
+&lt;p&gt;引用一段话：「要为自己喜欢的而活；健康与自由比一切都重要；业余爱好和工作一样重要；有能力的人绝不加班；远离那些不聪明且勤奋的人。」&lt;/p&gt;
+
+&lt;p&gt;当自己经历过重大的健康问题之后，这两点才会显得如此重要。太多人在浪费时间，消耗青春，做着自己不喜欢的事情。为何不停下来考虑清楚「自己想做的到底是什么」这个问题呢？与其在无聊地敲代码，不如多去&lt;strong&gt;健身&lt;/strong&gt;、&lt;strong&gt;出 Cos&lt;/strong&gt; 或者&lt;strong&gt;勾搭妹子&lt;/strong&gt;啊（下一期一定会讲如何勾搭妹子了）！&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;最后发一个并没有关注本公共号的童鞋的留言，很有哲理，不做评价，聪明人自然懂了：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;汝果欲学诗，功夫在诗外。我觉得，问怎样做好程序员而需要学习那些 Coding 之外的东西这种问法本身就已经本末倒置了。应该是怎样做一个自己理想中的人，以 Coding 这种行为方式实践自己的理想。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+          
+          
+        
+      
+        </content><summary>统计了一下公共号后台所回复的信息，结合自身的思考给大家一些提示。</summary></entry><entry><title>Oh My 2015</title><id>http://blog.cee.moe/Oh-My-2015.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/Oh-My-2015.html" /><published>2015-12-31T00:00:00+08:00</published><updated>2016-01-28T22:59:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
 &lt;p&gt;Be ready on the way to 30.&lt;/p&gt;
