@@ -1,4 +1,198 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Perfect Freeze!</title><subtitle>Perfect Freeze! | Cee's Blog v3.0</subtitle><updated>2016-03-30T14:54:10+08:00</updated><id>http://blog.cee.moe/</id><rights>Copyright © 2016, Cee</rights><link rel="alternate" type="text/html" hreflang="en" href="http://blog.cee.moe/" /><link rel="self" type="application/atom+xml" href="http://blog.cee.moe/feed.xml" /><author><name>Cee</name><uri>http://blog.cee.moe/</uri><email>ceecirno@gmail.com</email></author><entry><title>作为一个码农，你还需要了解什么？</title><id>http://blog.cee.moe/secrets-that-a-programmer-should-know.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/secrets-that-a-programmer-should-know.html" /><published>2016-02-05T00:00:00+08:00</published><updated>2016-02-05T23:21:27+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Perfect Freeze!</title><subtitle>Perfect Freeze! | Cee's Blog v3.0</subtitle><updated>2016-04-05T13:38:53+08:00</updated><id>http://blog.cee.moe/</id><rights>Copyright © 2016, Cee</rights><link rel="alternate" type="text/html" hreflang="en" href="http://blog.cee.moe/" /><link rel="self" type="application/atom+xml" href="http://blog.cee.moe/feed.xml" /><author><name>Cee</name><uri>http://blog.cee.moe/</uri><email>ceecirno@gmail.com</email></author><entry><title>How to build megadl on your Synology DS215j</title><id>http://blog.cee.moe/how-to-build-megadl-on-your-synology-ds215j.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/how-to-build-megadl-on-your-synology-ds215j.html" /><published>2016-04-05T00:00:00+08:00</published><updated>2016-04-05T13:38:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+          
+            &lt;h2 id=&quot;optware-bootstrap&quot;&gt;Optware Bootstrap&lt;/h2&gt;
+
+&lt;h3 id=&quot;set-up-ipkg&quot;&gt;Set up ipkg&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nv&quot;&gt;feed&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;http://ipkg.nslu2-linux.org/feeds/optware/cs08q1armel/cross/unstable
+&lt;span class=&quot;nv&quot;&gt;ipk_name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;wget -qO- &lt;span class=&quot;nv&quot;&gt;$feed&lt;/span&gt;/Packages | awk &lt;span class=&quot;s1&quot;&gt;&#39;/^Filename: ipkg-opt/ {print $2}&#39;&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;
+wget &lt;span class=&quot;nv&quot;&gt;$feed&lt;/span&gt;/&lt;span class=&quot;nv&quot;&gt;$ipk_name&lt;/span&gt;
+tar -xOvzf &lt;span class=&quot;nv&quot;&gt;$ipk_name&lt;/span&gt; ./data.tar.gz | tar -C / -xzvf -
+mkdir -p /opt/etc/ipkg
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;src cross &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$feed&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &amp;gt; /opt/etc/ipkg/feeds.conf&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;create-the-optware-root-directory&quot;&gt;Create the optware root directory&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;mkdir /volume1/@optware
+mv /opt/&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt; /volume1/@optware/
+rm -r /opt
+ln -s /volume1/@optware /opt&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;add-opt-to-path&quot;&gt;Add &lt;code class=&quot;highlighter-rouge&quot;&gt;/opt&lt;/code&gt; to PATH&lt;/h3&gt;
+
+&lt;p&gt;Add the following line to /root/.profile or if you are using a user-account to get SSH access /home/username/.bashrc or the ZSH equivalent /home/username/.zshrc.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/opt/bin:/opt/sbin:&lt;span class=&quot;nv&quot;&gt;$PATH&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;set-up-the-init-scripts&quot;&gt;Set up the init-scripts&lt;/h3&gt;
+
+&lt;p&gt;Create the folder where the script will be placed.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;mkdir -p /usr/local/etc/rc.d/&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/usr/local/etc/rc.d/optware.sh&lt;/code&gt;:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/sh&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# Optware setup&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# Alternatives Optware Startup und Shutdown Script #/usr/local/etc/rc.d/optware.sh&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in
+&lt;/span&gt;start&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+       &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; ! -h /opt -a ! -d /opt &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; ln -s /volume1/@optware /opt
+       &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;i &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; /opt/etc/init.d/S??&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt; ;&lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#&lt;/span&gt;
+               &lt;span class=&quot;c&quot;&gt;# Ignore dangling symlinks (if any).&lt;/span&gt;
+               &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; ! -f &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$i&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;continue&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#&lt;/span&gt;
+               &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$i&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt;
+                  &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.sh&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+                       &lt;span class=&quot;c&quot;&gt;# Source shell script for speed.&lt;/span&gt;
+                       &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;
+                               &lt;span class=&quot;nb&quot;&gt;trap&lt;/span&gt; - INT QUIT TSTP
+                               &lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;start
+                               . &lt;span class=&quot;nv&quot;&gt;$i&lt;/span&gt;
+                       &lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+                       &lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
+                  &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+                       &lt;span class=&quot;c&quot;&gt;# No sh extension, so fork subprocess.&lt;/span&gt;
+                       &lt;span class=&quot;nv&quot;&gt;$i&lt;/span&gt; start
+                       &lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
+               &lt;span class=&quot;k&quot;&gt;esac&lt;/span&gt;
+       &lt;span class=&quot;k&quot;&gt;done&lt;/span&gt;
+       &lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#&lt;/span&gt;
+stop&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#&lt;/span&gt;
+       &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;i &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; /opt/etc/init.d/S??&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt; ;&lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#&lt;/span&gt;
+               &lt;span class=&quot;c&quot;&gt;# Ignore dangling symlinks (if any).&lt;/span&gt;
+               &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; ! -f &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$i&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;continue&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#&lt;/span&gt;
+               &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$i&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt;
+                  &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.sh&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+                       &lt;span class=&quot;c&quot;&gt;# Source shell script for speed.&lt;/span&gt;
+                       &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;
+                               &lt;span class=&quot;nb&quot;&gt;trap&lt;/span&gt; - INT QUIT TSTP
+                               &lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;stop
+                              . &lt;span class=&quot;nv&quot;&gt;$i&lt;/span&gt;
+                       &lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+                       &lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
+                  &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+                       &lt;span class=&quot;c&quot;&gt;# No sh extension, so fork subprocess.&lt;/span&gt;
+                       &lt;span class=&quot;nv&quot;&gt;$i&lt;/span&gt; stop                       &lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
+               &lt;span class=&quot;k&quot;&gt;esac&lt;/span&gt;
+         &lt;span class=&quot;k&quot;&gt;done&lt;/span&gt;
+         &lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+         &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Usage: &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$0&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; [start|stop]&quot;&lt;/span&gt;
+         &lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;esac&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# End&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Make it executable.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;chmod +x /usr/local/etc/rc.d/optware.sh&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Then reboot.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;reboot&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;install-packages-with-ipkg&quot;&gt;Install packages with &lt;code class=&quot;highlighter-rouge&quot;&gt;ipkg&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;Update the packages list and install packages that you need (like &lt;code class=&quot;highlighter-rouge&quot;&gt;gawk&lt;/code&gt; etc.).&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;ipkg update
+ipkg install &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;YOUR PACKAGES] &lt;span class=&quot;c&quot;&gt;# I forget to take notes&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;build-megadl&quot;&gt;Build megadl&lt;/h2&gt;
+
+&lt;p&gt;Download toolchains from &lt;a href=&quot;https://sourceforge.net/projects/dsgpl&quot;&gt;sourceforge&lt;/a&gt; and export correct paths.&lt;/p&gt;
+
+&lt;p&gt;Download &lt;a href=&quot;https://megatools.megous.com&quot;&gt;megatools&lt;/a&gt;, unzip, configure, make, and you can build now.&lt;/p&gt;
+
+          
+          
+        
+      
+        </content><summary>Optware Bootstrap</summary></entry><entry><title>作为一个码农，你还需要了解什么？</title><id>http://blog.cee.moe/secrets-that-a-programmer-should-know.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/secrets-that-a-programmer-should-know.html" /><published>2016-02-05T00:00:00+08:00</published><updated>2016-02-05T23:21:27+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;p&gt;统计了一下公共号后台所回复的信息，结合自身的思考给大家一些提示。&lt;/p&gt;
 
