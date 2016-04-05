@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Perfect Freeze!</title><subtitle>Perfect Freeze! | Cee's Blog v3.0</subtitle><updated>2016-04-05T13:38:53+08:00</updated><id>http://blog.cee.moe/</id><rights>Copyright © 2016, Cee</rights><link rel="alternate" type="text/html" hreflang="en" href="http://blog.cee.moe/" /><link rel="self" type="application/atom+xml" href="http://blog.cee.moe/feed.xml" /><author><name>Cee</name><uri>http://blog.cee.moe/</uri><email>ceecirno@gmail.com</email></author><entry><title>How to build megadl on your Synology DS215j</title><id>http://blog.cee.moe/how-to-build-megadl-on-your-synology-ds215j.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/how-to-build-megadl-on-your-synology-ds215j.html" /><published>2016-04-05T00:00:00+08:00</published><updated>2016-04-05T13:38:00+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Perfect Freeze!</title><subtitle>Perfect Freeze! | Cee's Blog v3.0</subtitle><updated>2016-04-05T13:42:41+08:00</updated><id>http://blog.cee.moe/</id><rights>Copyright © 2016, Cee</rights><link rel="alternate" type="text/html" hreflang="en" href="http://blog.cee.moe/" /><link rel="self" type="application/atom+xml" href="http://blog.cee.moe/feed.xml" /><author><name>Cee</name><uri>http://blog.cee.moe/</uri><email>ceecirno@gmail.com</email></author><entry><title>How to build megadl on your Synology DS215j</title><id>http://blog.cee.moe/how-to-build-megadl-on-your-synology-ds215j.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/how-to-build-megadl-on-your-synology-ds215j.html" /><published>2016-04-05T00:00:00+08:00</published><updated>2016-04-05T13:42:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
-            &lt;h2 id=&quot;optware-bootstrap&quot;&gt;Optware Bootstrap&lt;/h2&gt;
+            &lt;h1 id=&quot;optware-bootstrap&quot;&gt;Optware Bootstrap&lt;/h1&gt;
 
-&lt;h3 id=&quot;set-up-ipkg&quot;&gt;Set up ipkg&lt;/h3&gt;
+&lt;h2 id=&quot;set-up-ipkg&quot;&gt;Set up ipkg&lt;/h2&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 2
@@ -17,7 +17,7 @@ mkdir -p /opt/etc/ipkg
 &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;src cross &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$feed&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &amp;gt; /opt/etc/ipkg/feeds.conf&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h3 id=&quot;create-the-optware-root-directory&quot;&gt;Create the optware root directory&lt;/h3&gt;
+&lt;h2 id=&quot;create-the-optware-root-directory&quot;&gt;Create the optware root directory&lt;/h2&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 2
@@ -28,21 +28,21 @@ rm -r /opt
 ln -s /volume1/@optware /opt&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h3 id=&quot;add-opt-to-path&quot;&gt;Add &lt;code class=&quot;highlighter-rouge&quot;&gt;/opt&lt;/code&gt; to PATH&lt;/h3&gt;
+&lt;h2 id=&quot;add-opt-to-path&quot;&gt;Add &lt;code class=&quot;highlighter-rouge&quot;&gt;/opt&lt;/code&gt; to PATH&lt;/h2&gt;
 
 &lt;p&gt;Add the following line to /root/.profile or if you are using a user-account to get SSH access /home/username/.bashrc or the ZSH equivalent /home/username/.zshrc.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/opt/bin:/opt/sbin:&lt;span class=&quot;nv&quot;&gt;$PATH&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h3 id=&quot;set-up-the-init-scripts&quot;&gt;Set up the init-scripts&lt;/h3&gt;
+&lt;h2 id=&quot;set-up-the-init-scripts&quot;&gt;Set up the init-scripts&lt;/h2&gt;
 
 &lt;p&gt;Create the folder where the script will be placed.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;mkdir -p /usr/local/etc/rc.d/&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;/usr/local/etc/rc.d/optware.sh&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;/usr/local/etc/rc.d/optware.sh:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 2
@@ -173,7 +173,7 @@ stop&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;reboot&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h2 id=&quot;install-packages-with-ipkg&quot;&gt;Install packages with &lt;code class=&quot;highlighter-rouge&quot;&gt;ipkg&lt;/code&gt;&lt;/h2&gt;
+&lt;h1 id=&quot;install-packages-with-ipkg&quot;&gt;Install packages with &lt;code class=&quot;highlighter-rouge&quot;&gt;ipkg&lt;/code&gt;&lt;/h1&gt;
 
 &lt;p&gt;Update the packages list and install packages that you need (like &lt;code class=&quot;highlighter-rouge&quot;&gt;gawk&lt;/code&gt; etc.).&lt;/p&gt;
 
@@ -182,11 +182,15 @@ stop&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 ipkg install &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;YOUR PACKAGES] &lt;span class=&quot;c&quot;&gt;# I forget to take notes&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h2 id=&quot;build-megadl&quot;&gt;Build megadl&lt;/h2&gt;
+&lt;h1 id=&quot;build-megadl&quot;&gt;Build megadl&lt;/h1&gt;
 
 &lt;p&gt;Download toolchains from &lt;a href=&quot;https://sourceforge.net/projects/dsgpl&quot;&gt;sourceforge&lt;/a&gt; and export correct paths.&lt;/p&gt;
 
 &lt;p&gt;Download &lt;a href=&quot;https://megatools.megous.com&quot;&gt;megatools&lt;/a&gt;, unzip, configure, make, and you can build now.&lt;/p&gt;
+
+&lt;h1 id=&quot;reference--thanks-to&quot;&gt;Reference &amp;amp; Thanks to&lt;/h1&gt;
+
+&lt;p&gt;http://freshest.me/bootstrap-ds215j&lt;/p&gt;
 
           
           
