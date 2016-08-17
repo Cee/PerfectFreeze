@@ -1,4 +1,71 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Perfect Freeze!</title><subtitle>Perfect Freeze! | Cee's Blog v3.0</subtitle><updated>2016-08-08T14:37:23+08:00</updated><id>http://blog.cee.moe/</id><rights>Copyright © 2016, Cee</rights><link rel="alternate" type="text/html" hreflang="en" href="http://blog.cee.moe/" /><link rel="self" type="application/atom+xml" href="http://blog.cee.moe/feed.xml" /><author><name>Cee</name><uri>http://blog.cee.moe/</uri><email>ceecirno@gmail.com</email></author><entry><title>帝都生存日记（07/13 - 08/07）</title><id>http://blog.cee.moe/live-in-beijing-month-one.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/live-in-beijing-month-one.html" /><published>2016-08-07T00:00:00+08:00</published><updated>2016-08-07T14:55:06+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Perfect Freeze!</title><subtitle>Perfect Freeze! | Cee's Blog v3.0</subtitle><updated>2016-08-18T00:23:18+08:00</updated><id>http://blog.cee.moe/</id><rights>Copyright © 2016, Cee</rights><link rel="alternate" type="text/html" hreflang="en" href="http://blog.cee.moe/" /><link rel="self" type="application/atom+xml" href="http://blog.cee.moe/feed.xml" /><author><name>Cee</name><uri>http://blog.cee.moe/</uri><email>ceecirno@gmail.com</email></author><entry><title>从 Bot 谈起</title><id>http://blog.cee.moe/talking-from-bot.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/talking-from-bot.html" /><published>2016-08-17T00:00:00+08:00</published><updated>2016-08-18T00:22:43+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+          
+            &lt;h2 id=&quot;bot&quot;&gt;Bot&lt;/h2&gt;
+
+&lt;p&gt;最近看到 Telegram 上涌现出很多很有意思的 Bot（机器人），自己也在写一个 Bot。把这些 Bot 归归类无非也就分为以下几种：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;娱乐类型的 Bot，比如狼人（&lt;code class=&quot;highlighter-rouge&quot;&gt;@werewolfIIbot&lt;/code&gt;）、UNO（&lt;code class=&quot;highlighter-rouge&quot;&gt;@mau_mau_bot&lt;/code&gt;）等；&lt;/li&gt;
+  &lt;li&gt;图片视频类型的 Bot，比如 GIF 图片（&lt;code class=&quot;highlighter-rouge&quot;&gt;@gif&lt;/code&gt;）等；&lt;/li&gt;
+  &lt;li&gt;资讯信息类型的 Bot，比如投票（&lt;code class=&quot;highlighter-rouge&quot;&gt;@vote&lt;/code&gt;）等。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;重点谈谈第三个，区别于前两者，这里我们在&lt;strong&gt;获取知识（Acquire knowledge）&lt;/strong&gt;。尽管说互联网让我们获取信息的速度变快了，但是随着信息数量爆炸式地增长，有用的信息也相对在减少。如何在最短的时间内获得质量较高的内容和信息点必然是今后研究或者探讨的重点。&lt;/p&gt;
+
+&lt;p&gt;举个例子：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;您的 User ID: 63322333&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;对于一个普通用户来说知道自己的 Telegram ID 有个〇〇用！(╯°Д°)╯︵ ┻━┻&lt;/p&gt;
+
+&lt;p&gt;真正值得人们吸收营养的消息必然需要信息的加工处理。如果不，Bot 生成出来 99% 消息对 99% 的人来说都没啥用（我是说在座的各位写的 Bot，〇〇〇〇【自行脑补】），也可称其为 Toy（玩具）了。&lt;/p&gt;
+
+&lt;h2 id=&quot;toy&quot;&gt;Toy&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Wikipedia：玩具泛指可用来玩的物品，通常与儿童或宠物有关。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;最近有和一些呆在创业公司的机油们聊天，都在说诸如：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;啊我们的产品又是像素级抄袭〇〇。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;大家都知道的〇付宝的某界面像素级还原〇信。又或者：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;PM 整天改需求真是〇〇〇〇〇〇〇。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这种情况就是做产品的 PM 脑子进了水，像个孩子一样不考虑周全就把程序员当玩具耍，想做什么就是什么。反过来想想，各位的家长一定在你小（or 发脾气 or 过年 or 过生日）的时候会说：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;「长大了，该像大人一样思考了。」&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;然而上了班发现大多数人（尤其是 PM）还在和小孩子一样思考。「给我在几天中做一个〇〇」、「做不完〇〇就继续加班」已经是家长便饭了。&lt;strong&gt;缺乏理性的任务拆解、人员分配、时间估算，是绝大多数公司的通病。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;75 年出版的「人月神话」中说明了复杂的软件工程问题无法在短期内无靠简单的答案来解决，而到现在却很少有单位在实行具有意义的敏捷开发理论。使用 &lt;strong&gt;Scrum&lt;/strong&gt; 组织开发流程真的是我在&lt;a href=&quot;http://pudding.cc&quot;&gt;布丁&lt;/a&gt;实习中学到的最好的东西。&lt;/p&gt;
+
+&lt;h2 id=&quot;others&quot;&gt;Others&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;我们总是会变成曾经自己讨厌的那种人。&lt;/li&gt;
+  &lt;li&gt;自由是自己选择的：「要为自己喜欢的而活；健康与自由比一切都重要；业余爱好和工作一样重要；有能力的人绝不加班；远离那些不聪明且勤奋的人。」&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;PS：上一次写「从…谈起」还是写&lt;a href=&quot;http://blog.cee.moe/talking-from-binary-search.html&quot;&gt;二分法&lt;/a&gt;的时候。Time flies.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+          
+          
+        
+      
+        </content><summary>Bot</summary></entry><entry><title>帝都生存日记（07/13 - 08/07）</title><id>http://blog.cee.moe/live-in-beijing-month-one.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/live-in-beijing-month-one.html" /><published>2016-08-07T00:00:00+08:00</published><updated>2016-08-08T14:38:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;p&gt;来北京快一个月了，真的算是忙得飞起。想给自己一点时间记录记录生活工作，结果每天都是「感觉身体被掏空」。不过也很正常，一个月的时间来调整一下自己的作息，有机会和师傅（&lt;a href=&quot;http://www.justzht.com&quot;&gt;@JustZht&lt;/a&gt;）一样每天更新一下（前提是电脑天天带回家）。&lt;/p&gt;
 
@@ -49,7 +116,7 @@
           
         
       
-        </content><summary>来北京快一个月了，真的算是忙得飞起。想给自己一点时间记录记录生活工作，结果每天都是「感觉身体被掏空」。不过也很正常，一个月的时间来调整一下自己的作息，有机会和师傅（@JustZht）一样每天更新一下（前提是电脑天天带回家）。</summary></entry><entry><title>How to build megadl on your Synology DS215j</title><id>http://blog.cee.moe/how-to-build-megadl-on-your-synology-ds215j.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/how-to-build-megadl-on-your-synology-ds215j.html" /><published>2016-04-05T00:00:00+08:00</published><updated>2016-04-05T13:42:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary>来北京快一个月了，真的算是忙得飞起。想给自己一点时间记录记录生活工作，结果每天都是「感觉身体被掏空」。不过也很正常，一个月的时间来调整一下自己的作息，有机会和师傅（@JustZht）一样每天更新一下（前提是电脑天天带回家）。</summary></entry><entry><title>How to build megadl on your Synology DS215j</title><id>http://blog.cee.moe/how-to-build-megadl-on-your-synology-ds215j.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/how-to-build-megadl-on-your-synology-ds215j.html" /><published>2016-04-05T00:00:00+08:00</published><updated>2016-08-08T14:38:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;h1 id=&quot;optware-bootstrap&quot;&gt;Optware Bootstrap&lt;/h1&gt;
 
@@ -247,7 +314,7 @@ ipkg install &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;YOUR PACKAGES] &lt;sp
           
         
       
-        </content><summary>Optware Bootstrap</summary></entry><entry><title>作为一个码农，你还需要了解什么？</title><id>http://blog.cee.moe/secrets-that-a-programmer-should-know.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/secrets-that-a-programmer-should-know.html" /><published>2016-02-05T00:00:00+08:00</published><updated>2016-02-05T23:21:27+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary>Optware Bootstrap</summary></entry><entry><title>作为一个码农，你还需要了解什么？</title><id>http://blog.cee.moe/secrets-that-a-programmer-should-know.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/secrets-that-a-programmer-should-know.html" /><published>2016-02-05T00:00:00+08:00</published><updated>2016-08-08T14:38:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;p&gt;统计了一下公共号后台所回复的信息，结合自身的思考给大家一些提示。&lt;/p&gt;
 
@@ -1874,7 +1941,7 @@ p.animation:hover {
           &lt;p&gt;&lt;a href=&quot;https://github.com/Cee/PNJU-Workflow&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
         
       
-        </content><summary>An Alfred Workflow to Login PNJU.</summary></entry><entry><title>39 - Thank you</title><id>http://blog.cee.moe/39-thank-you.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/39-thank-you.html" /><published>2015-05-31T00:00:00+08:00</published><updated>2016-02-06T14:40:26+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary>An Alfred Workflow to Login PNJU.</summary></entry><entry><title>39 - Thank you</title><id>http://blog.cee.moe/39-thank-you.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/39-thank-you.html" /><published>2015-05-31T00:00:00+08:00</published><updated>2016-08-08T14:38:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;iframe width=&quot;800&quot; height=&quot;450&quot; src=&quot;https://www.youtube.com/embed/Gb5npQ5_YHk&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
@@ -1884,7 +1951,7 @@ p.animation:hover {
           &lt;p&gt;&lt;a href=&quot;http://www.bilibili.com/video/av2386400/&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
         
       
-        </content><summary></summary></entry><entry><title>I ❤</title><id>http://blog.cee.moe/i-love.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/i-love.html" /><published>2015-04-27T00:00:00+08:00</published><updated>2016-02-06T14:20:48+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary></summary></entry><entry><title>I ❤</title><id>http://blog.cee.moe/i-love.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/i-love.html" /><published>2015-04-27T00:00:00+08:00</published><updated>2016-08-08T14:38:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;iframe width=&quot;800&quot; height=&quot;450&quot; src=&quot;https://www.youtube.com/embed/CFUZ7jyp8FI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
@@ -1894,7 +1961,7 @@ p.animation:hover {
           &lt;p&gt;&lt;a href=&quot;http://www.bilibili.com/video/av2261681/&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
         
       
-        </content><summary></summary></entry><entry><title>Gravity=Reality</title><id>http://blog.cee.moe/gravity-reality.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/gravity-reality.html" /><published>2015-04-19T00:00:00+08:00</published><updated>2016-02-06T14:22:21+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary></summary></entry><entry><title>Gravity=Reality</title><id>http://blog.cee.moe/gravity-reality.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/gravity-reality.html" /><published>2015-04-19T00:00:00+08:00</published><updated>2016-08-08T14:38:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;iframe width=&quot;800&quot; height=&quot;450&quot; src=&quot;https://www.youtube.com/embed/EnZV-raeiSU&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
@@ -2316,7 +2383,7 @@ Y0s0Y&lt;/p&gt;
           
         
       
-        </content><summary>某日，看到zyq女神在群里发了个链接说：有没有人玩这个游戏啊…</summary></entry><entry><title>金曜日のおはよう</title><id>http://blog.cee.moe/kin-you-bi-no-o-ha-you.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/kin-you-bi-no-o-ha-you.html" /><published>2014-12-12T00:00:00+08:00</published><updated>2016-02-06T15:03:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary>某日，看到zyq女神在群里发了个链接说：有没有人玩这个游戏啊…</summary></entry><entry><title>金曜日のおはよう</title><id>http://blog.cee.moe/kin-you-bi-no-o-ha-you.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/kin-you-bi-no-o-ha-you.html" /><published>2014-12-12T00:00:00+08:00</published><updated>2016-08-08T14:38:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;iframe width=&quot;800&quot; height=&quot;450&quot; src=&quot;https://www.youtube.com/embed/Yszj6jbs-xg&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
@@ -2326,7 +2393,7 @@ Y0s0Y&lt;/p&gt;
           &lt;p&gt;&lt;a href=&quot;http://www.bilibili.com/video/av1792779/&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
         
       
-        </content><summary></summary></entry><entry><title>Girls</title><id>http://blog.cee.moe/girls.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/girls.html" /><published>2014-11-17T00:00:00+08:00</published><updated>2016-02-06T22:31:46+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary></summary></entry><entry><title>Girls</title><id>http://blog.cee.moe/girls.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/girls.html" /><published>2014-11-17T00:00:00+08:00</published><updated>2016-08-08T14:38:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;iframe width=&quot;800&quot; height=&quot;450&quot; src=&quot;https://www.youtube.com/embed/6ffy0120yjw&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
@@ -2431,7 +2498,7 @@ Y0s0Y&lt;/p&gt;
           
         
       
-        </content><summary>前两天在 V2EX 上看到了这篇文章：挖个坑，作为 python 程序员，面试时要求手写二分查找，可以说不么。自己觉得作为一个正常的程序员，多多少少必须会点算法和数据结构，不仅仅要学会怎么用，也要知道是怎么实现的。与此同时《编程珠玑》的作者 Jon Bentley 也提到：</summary></entry><entry><title>Colorful World</title><id>http://blog.cee.moe/colorful-world.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/colorful-world.html" /><published>2014-08-29T00:00:00+08:00</published><updated>2016-02-06T22:33:30+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary>前两天在 V2EX 上看到了这篇文章：挖个坑，作为 python 程序员，面试时要求手写二分查找，可以说不么。自己觉得作为一个正常的程序员，多多少少必须会点算法和数据结构，不仅仅要学会怎么用，也要知道是怎么实现的。与此同时《编程珠玑》的作者 Jon Bentley 也提到：</summary></entry><entry><title>Colorful World</title><id>http://blog.cee.moe/colorful-world.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/colorful-world.html" /><published>2014-08-29T00:00:00+08:00</published><updated>2016-08-08T14:38:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;iframe width=&quot;800&quot; height=&quot;450&quot; src=&quot;https://www.youtube.com/embed/h_Je8dYPouw&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
@@ -2987,7 +3054,7 @@ retq&lt;/p&gt;
           
         
       
-        </content><summary>苦逼的暑假开始了。</summary></entry><entry><title>Cisco IPSec VPN 配置小记</title><id>http://blog.cee.moe/cisco-ipsec-vpn.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/cisco-ipsec-vpn.html" /><published>2014-04-09T00:00:00+08:00</published><updated>2016-01-28T22:59:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary>苦逼的暑假开始了。</summary></entry><entry><title>Cisco IPSec VPN 配置小记</title><id>http://blog.cee.moe/cisco-ipsec-vpn.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/cisco-ipsec-vpn.html" /><published>2014-04-09T00:00:00+08:00</published><updated>2016-08-08T14:38:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;p&gt;咳咳。部署团委的&lt;a href=&quot;http://www.njucqc.com&quot;&gt;创青春网站&lt;/a&gt;(Under Construction 2333)，顺便弄了一下 Cisco 的 VPN。&lt;/p&gt;
 
@@ -3158,7 +3225,7 @@ retq&lt;/p&gt;
           
         
       
-        </content><summary>咳咳。部署团委的创青春网站(Under Construction 2333)，顺便弄了一下 Cisco 的 VPN。</summary></entry><entry><title>Over The Time Dance</title><id>http://blog.cee.moe/over-the-time-dance.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/over-the-time-dance.html" /><published>2013-12-12T00:00:00+08:00</published><updated>2016-02-06T22:34:47+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary>咳咳。部署团委的创青春网站(Under Construction 2333)，顺便弄了一下 Cisco 的 VPN。</summary></entry><entry><title>Over The Time Dance</title><id>http://blog.cee.moe/over-the-time-dance.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/over-the-time-dance.html" /><published>2013-12-12T00:00:00+08:00</published><updated>2016-08-08T14:38:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;iframe width=&quot;800&quot; height=&quot;450&quot; src=&quot;https://www.youtube.com/embed/SpT4aMjs0Y0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
