@@ -1,24 +1,887 @@
- <!doctype html> <meta charset=utf-8> <title>How to build megadl on your Synology DS215j · Perfect Freeze!</title> <meta name=viewport content="width=device-width,initial-scale=1"> <meta name=description content="Optware Bootstrap"> <link rel=alternate href=/feed.xml type=application/atom+xml> <link rel=icon href=/favicon.ico> <link rel=apple-touch-icon href=/apple-touch-icon.png> <link rel=mask-icon href=/favicon.svg color=#54C7FC> <style>body,html{background:#fff}.content a,.navigation{font-weight:700}.content:after{clear:both}*,:after,:before{box-sizing:border-box;margin:0;padding:0}html{font-size:100%;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;text-size-adjust:none;text-rendering:optimizelegibility;image-rendering:optimizequality}body{font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue','Hiragino Sans GB',Arial,sans-serif;font-size:1.6vw;line-height:1.42857143;margin:0 auto;padding:0 22vw;transition:all .2s ease;color:#000;font-feature-settings:'case','ss01','ss02'}@media (max-width:1080px){body{font-size:2.24vw;padding-right:8vw;padding-left:8vw}}@media (max-width:640px){body{font-size:3.84vw;padding-right:4vw;padding-left:4vw}}@media (max-width:400px){body{font-size:5.12vw}}a{transition:color .5s ease,border-color .5s ease,background .5s ease,opacity 1.5s ease;text-decoration:none;color:#000}a:focus,a:hover{transition:color .1s ease,border-color .1s ease,background .1s ease,opacity .1s ease;text-decoration:underline;-webkit-text-decoration-skip:ink;text-decoration-skip:ink}::-moz-selection{background:rgba(108,181,252,.1)}::selection{background:rgba(108,181,252,.1)}::-moz-placeholder{opacity:.2;color:#000}:-ms-input-placeholder{opacity:.2;color:#000}::placeholder{opacity:.2;color:#000}:focus::-moz-placeholder{color:#6cb5fc}:focus:-ms-input-placeholder{color:#6cb5fc}:focus::placeholder{color:#6cb5fc}.navigation{font-size:60%;margin-right:-1.1em;margin-left:-1.1em;padding-top:1.4vmax;padding-bottom:1.4vmax;letter-spacing:.45em;text-transform:uppercase}.navigation li{line-height:2;display:inline-block;list-style:none}.navigation li a{padding:.5em 1.2em}.navigation li a:focus,.navigation li a:hover{text-decoration:none;color:#6cb5fc}.content{margin-bottom:16vmin}.content:after,.content:before{display:table;content:''}.content article>:last-child,.content article>:last-child>:last-child,.content article>:last-child>:last-child>:last-child,.content article>:last-child>:last-child>:last-child>:last-child{margin-bottom:0!important}.content .post-content>:first-child{margin-top:0}.content p{line-height:1.71428571;margin-bottom:1.6rem}.content header{display:-ms-flexbox;display:flex;flex-direction:column;min-height:calc(100vh - 5.6vmax - 5ex);margin-right:-22vw;margin-bottom:16vmin;margin-left:-22vw;background:rgba(0,0,0,.02);-ms-flex-direction:column;-ms-flex-pack:center;justify-content:center;padding:10vmin 22vw}@media (max-width:1080px){.content header{min-height:calc(64vh - 1.4vmax * 2 - 3ex);margin-right:-8vw;margin-left:-8vw;padding:16vmin 8vw}}@media (max-width:640px){.content header{margin-right:-4vw;margin-left:-4vw;padding-right:4vw;padding-left:4vw}}.content header h1{font-size:360%;font-weight:700;line-height:1.1;margin-left:-2px;letter-spacing:-.04em;-webkit-hyphens:none;hyphens:none;-webkit-font-smoothing:antialiased;-ms-hyphens:none}.content header small{display:block;margin-top:2vmin}.content h2{font-weight:400;margin:10vmin 0 1rem}@media (max-width:640px){.content header h1{font-size:280%}}.highlight .c{font-style:italic}.content code,.content pre{font-family:Menlo,Consolas,monospace;color:#54c7fc}.content p code{word-break:break-all}.content pre{font-size:80%;line-height:1.71428571;overflow-x:auto;margin-right:-1.2vw;margin-bottom:1.8rem;margin-left:-1.2vw;padding:1.2vw;background:rgba(0,136,255,.04);-webkit-overflow-scrolling:touch}@media (max-width:1080px){.content pre{margin-right:-8vw;margin-left:-8vw;padding-right:8vw;padding-left:8vw}}@media (max-width:640px){.content pre{margin-right:-4vw;margin-left:-4vw;padding-right:4vw;padding-left:4vw}}.content table{font-size:90%;width:100%;margin-right:-1.2vw;margin-bottom:1.8rem;margin-left:-1.2vw;border-spacing:0;border-collapse:collapse}.content table td{padding:.6em 1.2vw}.content table td:first-child{padding-left:1.2vw}.content table td:last-child{padding-right:1.2vw}@media (max-width:1080px){.content table{width:calc(100% + (8vw * 2));margin-right:-8vw;margin-left:-8vw}.content table td:first-child{padding-left:8vw}.content table td:last-child{padding-right:8vw}}@media (max-width:640px){.content table{width:calc(100% + (4vw * 2));margin-right:-4vw;margin-left:-4vw}.content table td:first-child{padding-left:4vw}.content table td:last-child{padding-right:4vw}}.content table td{border-top:1px solid rgba(0,0,0,.04)}.post-modified-date{font-size:75%;opacity:.5}.footer{font-size:75%;padding:0 0 16vmin;text-transform:lowercase}.footer ul li{display:inline}.footer ul li:after{padding:0 .6vw;content:' / ';opacity:.3}.footer ul li:last-child:after{content:none}@media print{.content .post-content{max-width:100%!important}*,:after,:before{color:#000!important;background:0 0!important;box-shadow:none!important;text-shadow:none!important}body{margin:0!important;padding:10mm!important}a,a:visited{text-decoration:none}.content header{min-height:0;padding-bottom:0}.content .post-content a[href]:after{font-weight:400;content:' (' attr(href) ')'}pre,tr{page-break-inside:avoid}h2,p{orphans:3;widows:3}h2{page-break-after:avoid}.footer,.navigation{display:none}}.highlight .k,.highlight .o{font-weight:700}.highlight>pre{background:rgba(32,54,76,.02)}.highlight code{color:#b3b4b5}.highlight .nb{color:#5987fc}.highlight .nv{color:#c967fc}.highlight .gl{color:#df8076}.highlight .k{color:#df8c76}.highlight .w{color:#dfec76}.highlight .sb{color:#b1ee76}.highlight .s2{color:#8dee76}.highlight .s1{color:#59ee8a}.highlight .o{color:#59e8fc}.highlight .p{color:#59cffc}.highlight .c{opacity:.6;color:#9a95c5}.highlight table,.highlight table td,.highlight table td pre{font-size:100%;margin:0;padding:0;border:none;background:0 0}.highlight table pre{overflow-x:visible}.highlight table .gutter:first-child{padding:0!important}.highlight table .gutter .lineno{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;opacity:.5;color:#b3b4b5}.highlight table .code{padding-left:1em}.content h2{font-size:108%;opacity:.8}.navigation{text-align:center}</style> <link rel=canonical href=http://blog.cee.moe/how-to-build-megadl-on-your-synology-ds215j.html> <meta property=og:type content=article> <meta property=og:site_name content="Perfect Freeze!"> <meta property=og:title content="How to build megadl on your Synology DS215j"> <meta property=og:url content=http://blog.cee.moe/how-to-build-megadl-on-your-synology-ds215j.html> <meta property=og:description content="Optware Bootstrap"> <meta name=twitter:card content=summary> <meta name=twitter:title content="How to build megadl on your Synology DS215j"> <meta name=twitter:url content=http://blog.cee.moe/how-to-build-megadl-on-your-synology-ds215j.html> <meta name=twitter:description content="Optware Bootstrap"> <meta property=article:published_time content=2016-04-05T00:00:00+08:00> <meta property=article:modified_time content=2016-08-18T11:53:25+08:00> <meta name=twitter:label1 value=Words> <meta name=twitter:data1 value="624 words"> <meta name=twitter:label2 value="Reading time"> <meta name=twitter:data2 value="3 mins"> <meta name=twitter:site content=@Ceecirno> <meta name=twitter:creator content=@Ceecirno> <nav class=navigation> <ul> <li> <a href=/ > Home </a> </li> <li> <a href=/articles/ > Articles </a> </li> <li> <a href=/works/ > Works </a> </li> <li> <a href=/friends/ > Friends </a> </li> <li> <a href=/about/ > About </a> </li> </ul> </nav> <main class=content role=main> <article> <header> <h1 title="How to build megadl on your Synology DS215j" data-title="How to build megadl on your Synology DS215j"> How to build megadl on your Synology DS215j<span class="dot dot--post"> </span> </h1> <small> By <span rel=author>Cee</span> on <time datetime=2016-04-05T00:00:00+08:00>Apr 5, 2016</time> </small> <small class=reading-time title="Estimated read time" style=color:gray> 15 mins read </small> </header> <div class=post-content> <h1 id=optware-bootstrap>Optware Bootstrap</h1> <h2 id=set-up-ipkg>Set up ipkg</h2> <figure class=highlight><pre><code class=language-bash data-lang=bash><table style=border-spacing:0><tr><td class="gutter gl" style=text-align:right><pre class=lineno>1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!doctype html>
+
+
+  <meta charset="utf-8">
+
+
+<title>How to build megadl on your Synology DS215j · Perfect Freeze!</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Define a description for better SEO result -->
+<meta name="description" content="Optware Bootstrap">
+
+<!-- Feed URL -->
+<link rel="alternate" href="/feed.xml" type="application/atom+xml">
+
+<!-- Site icons -->
+
+  <link rel="icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<!-- Pinned icon for Safari -->
+<link rel="mask-icon" href="/favicon.svg" color="#54C7FC">
+
+<!-- Main CSS -->
+<style>body,
+html {
+  background: #fff;
+}
+
+.content a,
+.navigation {
+  font-weight: 700;
+}
+
+.content:after {
+  clear: both;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  text-size-adjust: none;
+  text-rendering: optimizelegibility;
+  image-rendering: optimizequality;
+}
+
+body {
+  font-family: -apple-system,BlinkMacSystemFont,'Helvetica Neue','Hiragino Sans GB',Arial,sans-serif;
+  font-size: 1.6vw;
+  line-height: 1.42857143;
+  margin: 0 auto;
+  padding: 0 22vw;
+  transition: all .2s ease;
+  color: #000;
+  font-feature-settings: 'case','ss01','ss02';
+}
+
+@media (max-width:1080px) {
+  body {
+    font-size: 2.24vw;
+    padding-right: 8vw;
+    padding-left: 8vw;
+  }
+}
+
+@media (max-width:640px) {
+  body {
+    font-size: 3.84vw;
+    padding-right: 4vw;
+    padding-left: 4vw;
+  }
+}
+
+@media (max-width:400px) {
+  body {
+    font-size: 5.12vw;
+  }
+}
+
+a {
+  transition: color .5s ease,border-color .5s ease,background .5s ease,opacity 1.5s ease;
+  text-decoration: none;
+  color: #000;
+}
+
+a:focus,
+a:hover {
+  transition: color .1s ease,border-color .1s ease,background .1s ease,opacity .1s ease;
+  text-decoration: underline;
+  -webkit-text-decoration-skip: ink;
+  text-decoration-skip: ink;
+}
+
+::-moz-selection {
+  background: rgba(108,181,252,.1);
+}
+
+::selection {
+  background: rgba(108,181,252,.1);
+}
+
+::-moz-placeholder {
+  opacity: .2;
+  color: #000;
+}
+
+:-ms-input-placeholder {
+  opacity: .2;
+  color: #000;
+}
+
+::placeholder {
+  opacity: .2;
+  color: #000;
+}
+
+:focus::-moz-placeholder {
+  color: #6cb5fc;
+}
+
+:focus:-ms-input-placeholder {
+  color: #6cb5fc;
+}
+
+:focus::placeholder {
+  color: #6cb5fc;
+}
+
+.navigation {
+  font-size: 60%;
+  margin-right: -1.1em;
+  margin-left: -1.1em;
+  padding-top: 1.4vmax;
+  padding-bottom: 1.4vmax;
+  letter-spacing: .45em;
+  text-transform: uppercase;
+}
+
+.navigation li {
+  line-height: 2;
+  display: inline-block;
+  list-style: none;
+}
+
+.navigation li a {
+  padding: .5em 1.2em;
+}
+
+.navigation li a:focus,
+.navigation li a:hover {
+  text-decoration: none;
+  color: #6cb5fc;
+}
+
+.content {
+  margin-bottom: 16vmin;
+}
+
+.content:after,
+.content:before {
+  display: table;
+  content: '';
+}
+
+.content article>:last-child,
+.content article>:last-child>:last-child,
+.content article>:last-child>:last-child>:last-child,
+.content article>:last-child>:last-child>:last-child>:last-child {
+  margin-bottom: 0!important;
+}
+
+.content .post-content>:first-child {
+  margin-top: 0;
+}
+
+.content p {
+  line-height: 1.71428571;
+  margin-bottom: 1.6rem;
+}
+
+.content header {
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 5.6vmax - 5ex);
+  margin-right: -22vw;
+  margin-bottom: 16vmin;
+  margin-left: -22vw;
+  background: rgba(0,0,0,.02);
+  -ms-flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 10vmin 22vw;
+}
+
+@media (max-width:1080px) {
+  .content header {
+    min-height: calc(64vh - 1.4vmax * 2 - 3ex);
+    margin-right: -8vw;
+    margin-left: -8vw;
+    padding: 16vmin 8vw;
+  }
+}
+
+@media (max-width:640px) {
+  .content header {
+    margin-right: -4vw;
+    margin-left: -4vw;
+    padding-right: 4vw;
+    padding-left: 4vw;
+  }
+}
+
+.content header h1 {
+  font-size: 360%;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-left: -2px;
+  letter-spacing: -.04em;
+  -webkit-hyphens: none;
+  hyphens: none;
+  -webkit-font-smoothing: antialiased;
+  -ms-hyphens: none;
+}
+
+.content header small {
+  display: block;
+  margin-top: 2vmin;
+}
+
+.content h2 {
+  font-weight: 400;
+  margin: 10vmin 0 1rem;
+}
+
+@media (max-width:640px) {
+  .content header h1 {
+    font-size: 280%;
+  }
+}
+
+.highlight .c {
+  font-style: italic;
+}
+
+.content code,
+.content pre {
+  font-family: Menlo,Consolas,monospace;
+  color: #54c7fc;
+}
+
+.content p code {
+  word-break: break-all;
+}
+
+.content pre {
+  font-size: 80%;
+  line-height: 1.71428571;
+  overflow-x: auto;
+  margin-right: -1.2vw;
+  margin-bottom: 1.8rem;
+  margin-left: -1.2vw;
+  padding: 1.2vw;
+  background: rgba(0,136,255,.04);
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width:1080px) {
+  .content pre {
+    margin-right: -8vw;
+    margin-left: -8vw;
+    padding-right: 8vw;
+    padding-left: 8vw;
+  }
+}
+
+@media (max-width:640px) {
+  .content pre {
+    margin-right: -4vw;
+    margin-left: -4vw;
+    padding-right: 4vw;
+    padding-left: 4vw;
+  }
+}
+
+.content table {
+  font-size: 90%;
+  width: 100%;
+  margin-right: -1.2vw;
+  margin-bottom: 1.8rem;
+  margin-left: -1.2vw;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.content table td {
+  padding: .6em 1.2vw;
+}
+
+.content table td:first-child {
+  padding-left: 1.2vw;
+}
+
+.content table td:last-child {
+  padding-right: 1.2vw;
+}
+
+@media (max-width:1080px) {
+  .content table {
+    width: calc(100% + (8vw * 2));
+    margin-right: -8vw;
+    margin-left: -8vw;
+  }
+
+  .content table td:first-child {
+    padding-left: 8vw;
+  }
+
+  .content table td:last-child {
+    padding-right: 8vw;
+  }
+}
+
+@media (max-width:640px) {
+  .content table {
+    width: calc(100% + (4vw * 2));
+    margin-right: -4vw;
+    margin-left: -4vw;
+  }
+
+  .content table td:first-child {
+    padding-left: 4vw;
+  }
+
+  .content table td:last-child {
+    padding-right: 4vw;
+  }
+}
+
+.content table td {
+  border-top: 1px solid rgba(0,0,0,.04);
+}
+
+.post-modified-date {
+  font-size: 75%;
+  opacity: .5;
+}
+
+.footer {
+  font-size: 75%;
+  padding: 0 0 16vmin;
+  text-transform: lowercase;
+}
+
+.footer ul li {
+  display: inline;
+}
+
+.footer ul li:after {
+  padding: 0 .6vw;
+  content: ' / ';
+  opacity: .3;
+}
+
+.footer ul li:last-child:after {
+  content: none;
+}
+
+@media print {
+  .content .post-content {
+    max-width: 100%!important;
+  }
+
+  *,
+  :after,
+  :before {
+    color: #000!important;
+    background: 0 0!important;
+    box-shadow: none!important;
+    text-shadow: none!important;
+  }
+
+  body {
+    margin: 0!important;
+    padding: 10mm!important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: none;
+  }
+
+  .content header {
+    min-height: 0;
+    padding-bottom: 0;
+  }
+
+  .content .post-content a[href]:after {
+    font-weight: 400;
+    content: ' (' attr(href) ')';
+  }
+
+  pre,
+  tr {
+    page-break-inside: avoid;
+  }
+
+  h2,
+  p {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2 {
+    page-break-after: avoid;
+  }
+
+  .footer,
+  .navigation {
+    display: none;
+  }
+}
+
+.highlight .k,
+.highlight .o {
+  font-weight: 700;
+}
+
+.highlight>pre {
+  background: rgba(32,54,76,.02);
+}
+
+.highlight code {
+  color: #b3b4b5;
+}
+
+.highlight .nb {
+  color: #5987fc;
+}
+
+.highlight .nv {
+  color: #c967fc;
+}
+
+.highlight .gl {
+  color: #df8076;
+}
+
+.highlight .k {
+  color: #df8c76;
+}
+
+.highlight .w {
+  color: #dfec76;
+}
+
+.highlight .sb {
+  color: #b1ee76;
+}
+
+.highlight .s2 {
+  color: #8dee76;
+}
+
+.highlight .s1 {
+  color: #59ee8a;
+}
+
+.highlight .o {
+  color: #59e8fc;
+}
+
+.highlight .p {
+  color: #59cffc;
+}
+
+.highlight .c {
+  opacity: .6;
+  color: #9a95c5;
+}
+
+.highlight table,
+.highlight table td,
+.highlight table td pre {
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: 0 0;
+}
+
+.highlight table pre {
+  overflow-x: visible;
+}
+
+.highlight table .gutter:first-child {
+  padding: 0!important;
+}
+
+.highlight table .gutter .lineno {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  opacity: .5;
+  color: #b3b4b5;
+}
+
+.highlight table .code {
+  padding-left: 1em;
+}
+
+.content h2 {
+  font-size: 108%;
+  opacity: .8;
+}
+
+.navigation {
+  text-align: center;
+}
+
+/*
+    TODO: You have to speicify background color for `html` in order to make `-webkit-filter` work
+    Link: https://bugs.chromium.org/p/chromium/issues/detail?id=591015
+    Date: Mar 1, 2016, 5:41 PM
+  */
+
+
+
+
+
+/*
+    TODO: Need a better solution. I have to redefine the whole box-shadow here because no invidual box-shadow-color exists
+    Date: Mar 12, 2016, 12:09 AM
+  */
+</style>
+
+<!-- Canonical links, avoid duplicate content problems -->
+<link rel="canonical" href="http://blog.cee.moe/how-to-build-megadl-on-your-synology-ds215j.html">
+
+<!-- DNS prefetching for static files -->
+
+
+<!-- browser-sync, don't remove this -->
+<!-- BS_INSERT -->
+
+<!-- Head hooks -->
+
+
+<!-- Open Graph and Twitter Cards support, more info: https://dev.twitter.com/docs/cards -->
+
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Perfect Freeze!">
+<meta property="og:title" content="How to build megadl on your Synology DS215j">
+<meta property="og:url" content="http://blog.cee.moe/how-to-build-megadl-on-your-synology-ds215j.html">
+<meta property="og:description" content="Optware Bootstrap">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="How to build megadl on your Synology DS215j">
+<meta name="twitter:url" content="http://blog.cee.moe/how-to-build-megadl-on-your-synology-ds215j.html">
+<meta name="twitter:description" content="Optware Bootstrap">
+
+
+  <meta property="article:published_time" content="2016-04-05T00:00:00+08:00">
+  <meta property="article:modified_time" content="2016-08-18T11:53:25+08:00">
+
+  <meta name="twitter:label1" value="Words">
+  <meta name="twitter:data1" value="624 words">
+  <meta name="twitter:label2" value="Reading time">
+  <meta name="twitter:data2" value="3 mins">
+
+
+
+  <meta name="twitter:site" content="@Ceecirno">
+
+
+
+  <meta name="twitter:creator" content="@Ceecirno">
+
+
+
+
+<!-- Post / page specified styles -->
+
+
+<!-- Post specified styles -->
+
+
+<!-- Main navigation with current page / categoriy highlighted -->
+<nav class="navigation">
+  <ul>
+    
+      
+      <li>
+        <a href="/">
+          
+            Home
+          
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/articles/">
+          
+            Articles
+          
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/works/">
+          
+            Works
+          
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/friends/">
+          
+            Friends
+          
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/about/">
+          
+            About
+          
+        </a>
+      </li>
+    
+  </ul>
+</nav>
+
+<!-- Main content wrap -->
+<main class="content " role="main">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Post-wide custom CSS -->
+
+  
+
+
+<!-- Prepare for image headers -->
+
+
+<!-- Prepare for SVG header -->
+
+
+
+
+
+
+
+
+
+
+<!-- Article wrapper, limit width -->
+<article>
+
+  <!-- Post title -->
+  <header>
+
+    <h1 class="
+  
+" title="How to build megadl on your Synology DS215j" data-title="How to build megadl on your Synology DS215j">
+      
+  
+    
+  
+    How to build megadl on your Synology DS215j<span class="dot dot--post"> </span>
+  
+
+  
+
+    </h1>
+
+    
+      <small>
+        By <span rel="author">Cee</span>
+        on <time datetime="2016-04-05T00:00:00+08:00">Apr 5, 2016</time>
+      </small>
+    
+
+    
+
+    <small class="reading-time" title="Estimated read time" style="color: gray;">
+      
+      
+        15 mins read
+      
+    </small>
+
+  </header>
+
+  <!-- Post content -->
+  <div class="post-content">
+    <h1 id="optware-bootstrap">Optware Bootstrap</h1>
+
+<h2 id="set-up-ipkg">Set up ipkg</h2>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
 2
 3
 4
 5
-6</pre><td class=code><pre><span class=nv>feed</span><span class=o>=</span>http://ipkg.nslu2-linux.org/feeds/optware/cs08q1armel/cross/unstable
-<span class=nv>ipk_name</span><span class=o>=</span><span class=sb>`</span>wget -qO- <span class=nv>$feed</span>/Packages | awk <span class=s1>'/^Filename: ipkg-opt/ {print $2}'</span><span class=sb>`</span>
-wget <span class=nv>$feed</span>/<span class=nv>$ipk_name</span>
-tar -xOvzf <span class=nv>$ipk_name</span> ./data.tar.gz | tar -C / -xzvf -
+6</pre></td><td class="code"><pre><span class="nv">feed</span><span class="o">=</span>http://ipkg.nslu2-linux.org/feeds/optware/cs08q1armel/cross/unstable
+<span class="nv">ipk_name</span><span class="o">=</span><span class="sb">`</span>wget -qO- <span class="nv">$feed</span>/Packages | awk <span class="s1">'/^Filename: ipkg-opt/ {print $2}'</span><span class="sb">`</span>
+wget <span class="nv">$feed</span>/<span class="nv">$ipk_name</span>
+tar -xOvzf <span class="nv">$ipk_name</span> ./data.tar.gz | tar -C / -xzvf -
 mkdir -p /opt/etc/ipkg
-<span class=nb>echo</span> <span class=s2>"src cross </span><span class=nv>$feed</span><span class=s2>"</span> &gt; /opt/etc/ipkg/feeds.conf<span class=w>
-</span></pre></table></code></pre></figure> <h2 id=create-the-optware-root-directory>Create the optware root directory</h2> <figure class=highlight><pre><code class=language-bash data-lang=bash><table style=border-spacing:0><tr><td class="gutter gl" style=text-align:right><pre class=lineno>1
+<span class="nb">echo</span> <span class="s2">"src cross </span><span class="nv">$feed</span><span class="s2">"</span> &gt; /opt/etc/ipkg/feeds.conf<span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
+
+<h2 id="create-the-optware-root-directory">Create the optware root directory</h2>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
 2
 3
-4</pre><td class=code><pre>mkdir /volume1/@optware
-mv /opt/<span class=k>*</span> /volume1/@optware/
+4</pre></td><td class="code"><pre>mkdir /volume1/@optware
+mv /opt/<span class="k">*</span> /volume1/@optware/
 rm -r /opt
-ln -s /volume1/@optware /opt<span class=w>
-</span></pre></table></code></pre></figure> <h2 id=add-opt-to-path>Add <code class=highlighter-rouge>/opt</code> to PATH</h2> <p>Add the following line to /root/.profile or if you are using a user-account to get SSH access /home/username/.bashrc or the ZSH equivalent /home/username/.zshrc.</p> <figure class=highlight><pre><code class=language-bash data-lang=bash><table style=border-spacing:0><tr><td class="gutter gl" style=text-align:right><pre class=lineno>1</pre><td class=code><pre><span class=nb>export </span><span class=nv>PATH</span><span class=o>=</span>/opt/bin:/opt/sbin:<span class=nv>$PATH</span><span class=w>
-</span></pre></table></code></pre></figure> <h2 id=set-up-the-init-scripts>Set up the init-scripts</h2> <p>Create the folder where the script will be placed.</p> <figure class=highlight><pre><code class=language-bash data-lang=bash><table style=border-spacing:0><tr><td class="gutter gl" style=text-align:right><pre class=lineno>1</pre><td class=code><pre>mkdir -p /usr/local/etc/rc.d/<span class=w>
-</span></pre></table></code></pre></figure> <p>/usr/local/etc/rc.d/optware.sh:</p> <figure class=highlight><pre><code class=language-bash data-lang=bash><table style=border-spacing:0><tr><td class="gutter gl" style=text-align:right><pre class=lineno>1
+ln -s /volume1/@optware /opt<span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
+
+<h2 id="add-opt-to-path">Add <code class="highlighter-rouge">/opt</code> to PATH</h2>
+
+<p>Add the following line to /root/.profile or if you are using a user-account to get SSH access /home/username/.bashrc or the ZSH equivalent /home/username/.zshrc.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre><span class="nb">export </span><span class="nv">PATH</span><span class="o">=</span>/opt/bin:/opt/sbin:<span class="nv">$PATH</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
+
+<h2 id="set-up-the-init-scripts">Set up the init-scripts</h2>
+
+<p>Create the folder where the script will be placed.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>mkdir -p /usr/local/etc/rc.d/<span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
+
+<p>/usr/local/etc/rc.d/optware.sh:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
 2
 3
 4
@@ -76,68 +939,169 @@ ln -s /volume1/@optware /opt<span class=w>
 56
 57
 58
-59</pre><td class=code><pre><span class=c>#!/bin/sh</span>
-<span class=c>#</span>
-<span class=c># Optware setup</span>
-<span class=c># Alternatives Optware Startup und Shutdown Script #/usr/local/etc/rc.d/optware.sh</span>
-<span class=c>#</span>
-<span class=k>case</span> <span class=nv>$1</span> <span class=k>in
-</span>start<span class=p>)</span>
-       <span class=o>[</span> ! -h /opt -a ! -d /opt <span class=o>]</span> <span class=o>&amp;&amp;</span> ln -s /volume1/@optware /opt
-       <span class=k>for </span>i <span class=k>in</span> /opt/etc/init.d/S??<span class=k>*</span> ;<span class=k>do</span>
-<span class=c>#</span>
-               <span class=c># Ignore dangling symlinks (if any).</span>
-               <span class=o>[</span> ! -f <span class=s2>"</span><span class=nv>$i</span><span class=s2>"</span> <span class=o>]</span> <span class=o>&amp;&amp;</span> <span class=k>continue</span>
-<span class=c>#</span>
-               <span class=k>case</span> <span class=s2>"</span><span class=nv>$i</span><span class=s2>"</span> <span class=k>in</span>
-                  <span class=k>*</span>.sh<span class=p>)</span>
-                       <span class=c># Source shell script for speed.</span>
-                       <span class=o>(</span>
-                               <span class=nb>trap</span> - INT QUIT TSTP
-                               <span class=nb>set </span>start
-                               . <span class=nv>$i</span>
-                       <span class=o>)</span>
-                       <span class=p>;;</span>
-                  <span class=k>*</span><span class=p>)</span>
-                       <span class=c># No sh extension, so fork subprocess.</span>
-                       <span class=nv>$i</span> start
-                       <span class=p>;;</span>
-               <span class=k>esac</span>
-       <span class=k>done</span>
-       <span class=p>;;</span>
-<span class=c>#</span>
-stop<span class=p>)</span>
-<span class=c>#</span>
-       <span class=k>for </span>i <span class=k>in</span> /opt/etc/init.d/S??<span class=k>*</span> ;<span class=k>do</span>
-<span class=c>#</span>
-               <span class=c># Ignore dangling symlinks (if any).</span>
-               <span class=o>[</span> ! -f <span class=s2>"</span><span class=nv>$i</span><span class=s2>"</span> <span class=o>]</span> <span class=o>&amp;&amp;</span> <span class=k>continue</span>
-<span class=c>#</span>
-               <span class=k>case</span> <span class=s2>"</span><span class=nv>$i</span><span class=s2>"</span> <span class=k>in</span>
-                  <span class=k>*</span>.sh<span class=p>)</span>
-                       <span class=c># Source shell script for speed.</span>
-                       <span class=o>(</span>
-                               <span class=nb>trap</span> - INT QUIT TSTP
-                               <span class=nb>set </span>stop
-                              . <span class=nv>$i</span>
-                       <span class=o>)</span>
-                       <span class=p>;;</span>
-                  <span class=k>*</span><span class=p>)</span>
-                       <span class=c># No sh extension, so fork subprocess.</span>
-                       <span class=nv>$i</span> stop                       <span class=p>;;</span>
-               <span class=k>esac</span>
-         <span class=k>done</span>
-         <span class=p>;;</span>
-<span class=c>#</span>
-<span class=k>*</span><span class=p>)</span>
-         <span class=nb>echo</span> <span class=s2>"Usage: </span><span class=nv>$0</span><span class=s2> [start|stop]"</span>
-         <span class=p>;;</span>
-<span class=k>esac</span>
-<span class=c>#</span>
-<span class=c># End</span><span class=w>
-</span></pre></table></code></pre></figure> <p>Make it executable.</p> <figure class=highlight><pre><code class=language-bash data-lang=bash><table style=border-spacing:0><tr><td class="gutter gl" style=text-align:right><pre class=lineno>1</pre><td class=code><pre>chmod +x /usr/local/etc/rc.d/optware.sh<span class=w>
-</span></pre></table></code></pre></figure> <p>Then reboot.</p> <figure class=highlight><pre><code class=language-bash data-lang=bash><table style=border-spacing:0><tr><td class="gutter gl" style=text-align:right><pre class=lineno>1</pre><td class=code><pre>reboot<span class=w>
-</span></pre></table></code></pre></figure> <h1 id=install-packages-with-ipkg>Install packages with <code class=highlighter-rouge>ipkg</code></h1> <p>Update the packages list and install packages that you need (like <code class=highlighter-rouge>gawk</code> etc.).</p> <figure class=highlight><pre><code class=language-bash data-lang=bash><table style=border-spacing:0><tr><td class="gutter gl" style=text-align:right><pre class=lineno>1
-2</pre><td class=code><pre>ipkg update
-ipkg install <span class=o>[</span>YOUR PACKAGES] <span class=c># I forget to take notes</span><span class=w>
-</span></pre></table></code></pre></figure> <h1 id=build-megadl>Build megadl</h1> <p>Download toolchains from <a href=https://sourceforge.net/projects/dsgpl>sourceforge</a> and export correct paths.</p> <p>Download <a href=https://megatools.megous.com>megatools</a>, unzip, configure, make, and you can build now.</p> <h1 id=reference--thanks-to>Reference &amp; Thanks to</h1> <p>http://freshest.me/bootstrap-ds215j</p> <footer class=post-modified-date> <p> Updated <time datetime=" 2016-08-18T11:53:25+08:00 "> Thursday, Aug 18, 2016 </time> </p> </footer> </div> </article> </main> <footer class=footer> <ul> <li><a href=/ >Perfect Freeze!</a></li> <li><a href=https://github.com/Cee title=GitHub>GitHub</a></li> <li><a href=https://github.com/PerfectFreeze title="Perfect Freeze - Lab">Lab</a></li> <li><a href=/feed.xml title="Feed - Atom (The Atom Syndication Format)">Atom</a></li> </ul>  <script type=text/javascript>var disqus_shortname="perfectfreeze",disqus_identifier="/how-to-build-megadl-on-your-synology-ds215j.html";!function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="//"+disqus_shortname+".disqus.com/embed.js",(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(e)}()</script> <noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript rel=nofollow>comments powered by Disqus.</a></noscript> </footer>   <script>!function(e,a,t,n,c,o,s){e.GoogleAnalyticsObject=c,e[c]=e[c]||function(){(e[c].q=e[c].q||[]).push(arguments)},e[c].l=1*new Date,o=a.createElement(t),s=a.getElementsByTagName(t)[0],o.async=1,o.src=n,s.parentNode.insertBefore(o,s)}(window,document,"script","//www.google-analytics.com/analytics.js","ga"),ga("create","UA-48656879-8","auto"),ga("send","pageview")</script> 
+59</pre></td><td class="code"><pre><span class="c">#!/bin/sh</span>
+<span class="c">#</span>
+<span class="c"># Optware setup</span>
+<span class="c"># Alternatives Optware Startup und Shutdown Script #/usr/local/etc/rc.d/optware.sh</span>
+<span class="c">#</span>
+<span class="k">case</span> <span class="nv">$1</span> <span class="k">in
+</span>start<span class="p">)</span>
+       <span class="o">[</span> ! -h /opt -a ! -d /opt <span class="o">]</span> <span class="o">&amp;&amp;</span> ln -s /volume1/@optware /opt
+       <span class="k">for </span>i <span class="k">in</span> /opt/etc/init.d/S??<span class="k">*</span> ;<span class="k">do</span>
+<span class="c">#</span>
+               <span class="c"># Ignore dangling symlinks (if any).</span>
+               <span class="o">[</span> ! -f <span class="s2">"</span><span class="nv">$i</span><span class="s2">"</span> <span class="o">]</span> <span class="o">&amp;&amp;</span> <span class="k">continue</span>
+<span class="c">#</span>
+               <span class="k">case</span> <span class="s2">"</span><span class="nv">$i</span><span class="s2">"</span> <span class="k">in</span>
+                  <span class="k">*</span>.sh<span class="p">)</span>
+                       <span class="c"># Source shell script for speed.</span>
+                       <span class="o">(</span>
+                               <span class="nb">trap</span> - INT QUIT TSTP
+                               <span class="nb">set </span>start
+                               . <span class="nv">$i</span>
+                       <span class="o">)</span>
+                       <span class="p">;;</span>
+                  <span class="k">*</span><span class="p">)</span>
+                       <span class="c"># No sh extension, so fork subprocess.</span>
+                       <span class="nv">$i</span> start
+                       <span class="p">;;</span>
+               <span class="k">esac</span>
+       <span class="k">done</span>
+       <span class="p">;;</span>
+<span class="c">#</span>
+stop<span class="p">)</span>
+<span class="c">#</span>
+       <span class="k">for </span>i <span class="k">in</span> /opt/etc/init.d/S??<span class="k">*</span> ;<span class="k">do</span>
+<span class="c">#</span>
+               <span class="c"># Ignore dangling symlinks (if any).</span>
+               <span class="o">[</span> ! -f <span class="s2">"</span><span class="nv">$i</span><span class="s2">"</span> <span class="o">]</span> <span class="o">&amp;&amp;</span> <span class="k">continue</span>
+<span class="c">#</span>
+               <span class="k">case</span> <span class="s2">"</span><span class="nv">$i</span><span class="s2">"</span> <span class="k">in</span>
+                  <span class="k">*</span>.sh<span class="p">)</span>
+                       <span class="c"># Source shell script for speed.</span>
+                       <span class="o">(</span>
+                               <span class="nb">trap</span> - INT QUIT TSTP
+                               <span class="nb">set </span>stop
+                              . <span class="nv">$i</span>
+                       <span class="o">)</span>
+                       <span class="p">;;</span>
+                  <span class="k">*</span><span class="p">)</span>
+                       <span class="c"># No sh extension, so fork subprocess.</span>
+                       <span class="nv">$i</span> stop                       <span class="p">;;</span>
+               <span class="k">esac</span>
+         <span class="k">done</span>
+         <span class="p">;;</span>
+<span class="c">#</span>
+<span class="k">*</span><span class="p">)</span>
+         <span class="nb">echo</span> <span class="s2">"Usage: </span><span class="nv">$0</span><span class="s2"> [start|stop]"</span>
+         <span class="p">;;</span>
+<span class="k">esac</span>
+<span class="c">#</span>
+<span class="c"># End</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
+
+<p>Make it executable.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>chmod +x /usr/local/etc/rc.d/optware.sh<span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
+
+<p>Then reboot.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre>reboot<span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
+
+<h1 id="install-packages-with-ipkg">Install packages with <code class="highlighter-rouge">ipkg</code></h1>
+
+<p>Update the packages list and install packages that you need (like <code class="highlighter-rouge">gawk</code> etc.).</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2</pre></td><td class="code"><pre>ipkg update
+ipkg install <span class="o">[</span>YOUR PACKAGES] <span class="c"># I forget to take notes</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
+
+<h1 id="build-megadl">Build megadl</h1>
+
+<p>Download toolchains from <a href="https://sourceforge.net/projects/dsgpl">sourceforge</a> and export correct paths.</p>
+
+<p>Download <a href="https://megatools.megous.com">megatools</a>, unzip, configure, make, and you can build now.</p>
+
+<h1 id="reference--thanks-to">Reference &amp; Thanks to</h1>
+
+<p>http://freshest.me/bootstrap-ds215j</p>
+
+
+    
+    
+
+    
+      <footer class="post-modified-date">
+        <p>
+          Updated
+          <time datetime=" 2016-08-18T11:53:25+08:00 ">
+            Thursday, Aug 18, 2016
+          </time>
+        </p>
+      </footer>
+    
+  </div>
+
+</article>
+
+
+</main>
+
+<!-- Footer section -->
+
+  <footer class="footer">
+    <ul>
+      <li><a href="/">Perfect Freeze!</a></li>
+      <li><a href="https://github.com/Cee" title="GitHub">GitHub</a></li>
+      <li><a href="https://github.com/PerfectFreeze" title="Perfect Freeze - Lab">Lab</a></li>
+      <li><a href="/feed.xml" title="Feed - Atom (The Atom Syndication Format)">Atom</a></li>
+    </ul>
+    
+      <div id="disqus_thread"> </div>
+      <script type="text/javascript">
+          /* * * CONFIGURATION VARIABLES * * */
+          var disqus_shortname = 'perfectfreeze';
+          var disqus_identifier = "/how-to-build-megadl-on-your-synology-ds215j.html";
+          /* * * DON'T EDIT BELOW THIS LINE * * */
+          (function() {
+              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+              dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    
+  </footer>
+
+
+<!-- The following code is an example use of including external JavaScript libraries -->
+
+
+<!-- Theme scripts -->
+<script></script>
+
+<!-- User custom scripts -->
+<script></script>
+
+<!-- Google Analytics tracking code -->
+
+  
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-48656879-8', 'auto');
+      ga('send', 'pageview');
+    </script>
+  
+
+
+<!-- Foot hooks -->
+
+
+
