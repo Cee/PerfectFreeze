@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Perfect Freeze!</title><subtitle>Perfect Freeze! | Cee's Blog v3.0</subtitle><updated>2016-08-18T00:23:18+08:00</updated><id>http://blog.cee.moe/</id><rights>Copyright © 2016, Cee</rights><link rel="alternate" type="text/html" hreflang="en" href="http://blog.cee.moe/" /><link rel="self" type="application/atom+xml" href="http://blog.cee.moe/feed.xml" /><author><name>Cee</name><uri>http://blog.cee.moe/</uri><email>ceecirno@gmail.com</email></author><entry><title>从 Bot 谈起</title><id>http://blog.cee.moe/talking-from-bot.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/talking-from-bot.html" /><published>2016-08-17T00:00:00+08:00</published><updated>2016-08-18T00:22:43+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Perfect Freeze!</title><subtitle>Perfect Freeze! | Cee's Blog v3.0</subtitle><updated>2016-08-18T12:14:54+08:00</updated><id>http://blog.cee.moe/</id><generator uri="http://sparanoid.com/lab/amsf/" version="0.1.11">Almace Scaffolding</generator><link rel="alternate" type="text/html" hreflang="en" href="http://blog.cee.moe/" /><link rel="self" type="application/atom+xml" href="http://blog.cee.moe/feed.xml" /><author><name>Cee</name><uri>http://blog.cee.moe/</uri><email>ceecirno@gmail.com</email></author><entry><title>从 Bot 谈起</title><id>http://blog.cee.moe/talking-from-bot.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/talking-from-bot.html" /><published>2016-08-17T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;h2 id=&quot;bot&quot;&gt;Bot&lt;/h2&gt;
 
@@ -65,7 +65,7 @@
           
         
       
-        </content><summary>Bot</summary></entry><entry><title>帝都生存日记（07/13 - 08/07）</title><id>http://blog.cee.moe/live-in-beijing-month-one.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/live-in-beijing-month-one.html" /><published>2016-08-07T00:00:00+08:00</published><updated>2016-08-08T14:38:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary>Bot</summary></entry><entry><title>帝都生存日记（07/13 - 08/07）</title><id>http://blog.cee.moe/live-in-beijing-month-one.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/live-in-beijing-month-one.html" /><published>2016-08-07T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;p&gt;来北京快一个月了，真的算是忙得飞起。想给自己一点时间记录记录生活工作，结果每天都是「感觉身体被掏空」。不过也很正常，一个月的时间来调整一下自己的作息，有机会和师傅（&lt;a href=&quot;http://www.justzht.com&quot;&gt;@JustZht&lt;/a&gt;）一样每天更新一下（前提是电脑天天带回家）。&lt;/p&gt;
 
@@ -102,7 +102,7 @@
 &lt;h2 id=&quot;qi-ta-&quot;&gt;其他&lt;/h2&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;办了一次 &lt;t&gt; 沙龙。希望八月份各位也能多多支持，在征集 CI 的 Speaker。&lt;/t&gt;&lt;/li&gt;
+  &lt;li&gt;办了一次 &lt;T&gt; 沙龙。希望八月份各位也能多多支持，在征集 CI 的 Speaker。&lt;/T&gt;&lt;/li&gt;
   &lt;li&gt;去杭州在 Connext 做了一次 Speaking，谢谢天语！Slides &lt;a href=&quot;https://speakerdeck.com/cee/from-an-idea-to-a-product&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;订到了今年的「マジカルミライ２０１６」的票，小心脏受不了了！&lt;/li&gt;
   &lt;li&gt;还有月底去听 A 叔的钢琴独奏会！&lt;/li&gt;
@@ -116,7 +116,7 @@
           
         
       
-        </content><summary>来北京快一个月了，真的算是忙得飞起。想给自己一点时间记录记录生活工作，结果每天都是「感觉身体被掏空」。不过也很正常，一个月的时间来调整一下自己的作息，有机会和师傅（@JustZht）一样每天更新一下（前提是电脑天天带回家）。</summary></entry><entry><title>How to build megadl on your Synology DS215j</title><id>http://blog.cee.moe/how-to-build-megadl-on-your-synology-ds215j.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/how-to-build-megadl-on-your-synology-ds215j.html" /><published>2016-04-05T00:00:00+08:00</published><updated>2016-08-08T14:38:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary>来北京快一个月了，真的算是忙得飞起。想给自己一点时间记录记录生活工作，结果每天都是「感觉身体被掏空」。不过也很正常，一个月的时间来调整一下自己的作息，有机会和师傅（@JustZht）一样每天更新一下（前提是电脑天天带回家）。</summary></entry><entry><title>How to build megadl on your Synology DS215j</title><id>http://blog.cee.moe/how-to-build-megadl-on-your-synology-ds215j.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/how-to-build-megadl-on-your-synology-ds215j.html" /><published>2016-04-05T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;h1 id=&quot;optware-bootstrap&quot;&gt;Optware Bootstrap&lt;/h1&gt;
 
@@ -314,7 +314,7 @@ ipkg install &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;YOUR PACKAGES] &lt;sp
           
         
       
-        </content><summary>Optware Bootstrap</summary></entry><entry><title>作为一个码农，你还需要了解什么？</title><id>http://blog.cee.moe/secrets-that-a-programmer-should-know.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/secrets-that-a-programmer-should-know.html" /><published>2016-02-05T00:00:00+08:00</published><updated>2016-08-08T14:38:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary>Optware Bootstrap</summary></entry><entry><title>作为一个码农，你还需要了解什么？</title><id>http://blog.cee.moe/secrets-that-a-programmer-should-know.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/secrets-that-a-programmer-should-know.html" /><published>2016-02-05T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;p&gt;统计了一下公共号后台所回复的信息，结合自身的思考给大家一些提示。&lt;/p&gt;
 
@@ -367,7 +367,7 @@ ipkg install &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;YOUR PACKAGES] &lt;sp
           
         
       
-        </content><summary>统计了一下公共号后台所回复的信息，结合自身的思考给大家一些提示。</summary></entry><entry><title>Oh My 2015</title><id>http://blog.cee.moe/Oh-My-2015.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/Oh-My-2015.html" /><published>2015-12-31T00:00:00+08:00</published><updated>2016-01-28T22:59:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary>统计了一下公共号后台所回复的信息，结合自身的思考给大家一些提示。</summary></entry><entry><title>Oh My 2015</title><id>http://blog.cee.moe/Oh-My-2015.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/Oh-My-2015.html" /><published>2015-12-31T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
 &lt;p&gt;Be ready on the way to 30.&lt;/p&gt;
@@ -478,7 +478,7 @@ ipkg install &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;YOUR PACKAGES] &lt;sp
           
         
       
-        </content><summary>SummaryBe ready on the way to 30.</summary></entry><entry><title>猿题库实习面试经历</title><id>http://blog.cee.moe/ytk-intern-experience.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/ytk-intern-experience.html" /><published>2015-12-08T00:00:00+08:00</published><updated>2016-01-28T22:59:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary>SummaryBe ready on the way to 30.</summary></entry><entry><title>猿题库实习面试经历</title><id>http://blog.cee.moe/ytk-intern-experience.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/ytk-intern-experience.html" /><published>2015-12-08T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;p&gt;2015/12/08 17:05 Update&lt;/p&gt;
 
@@ -546,7 +546,7 @@ ipkg install &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;YOUR PACKAGES] &lt;sp
           
         
       
-        </content><summary>2015/12/08 17:05 Update</summary></entry><entry><title>About Co!orMix (3) - Co!orMix 小记：关于开发的那点儿事</title><id>http://blog.cee.moe/about-colormix-3.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/about-colormix-3.html" /><published>2015-09-10T00:00:00+08:00</published><updated>2016-01-28T22:59:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary>2015/12/08 17:05 Update</summary></entry><entry><title>About Co!orMix (3) - Co!orMix 小记：关于开发的那点儿事</title><id>http://blog.cee.moe/about-colormix-3.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/about-colormix-3.html" /><published>2015-09-10T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;h2 id=&quot;guan-yu--coormix&quot;&gt;关于 Co!orMix&lt;/h2&gt;
 
@@ -658,8 +658,7 @@ CMSettingViewController ：游戏设置界面&lt;/p&gt;
 
 &lt;p&gt;为求最简，我们的分享使用的系统原生的 &lt;code class=&quot;highlighter-rouge&quot;&gt;UIActivityViewController&lt;/code&gt; 来实现。不过这里在适配的时候遇到了个坑，直接上代码：&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;objective-c
-- (IBAction )onShareButtonClicked:(id )sender {
+&lt;pre&gt;&lt;code class=&quot;language-objective-c&quot;&gt;- (IBAction )onShareButtonClicked:(id )sender {
     [MobClick event:@&quot;Share&quot;];
     CMScoreView *scoreView = [[CMScoreView alloc] initWithScore:self.score];
     UIImage *imageToShare = [UIImage captureImageFromView:scoreView];
@@ -676,7 +675,7 @@ CMSettingViewController ：游戏设置界面&lt;/p&gt;
         [self presentViewController:activityVC animated:YES completion:nil];
     }
 }
-&lt;/code&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;对于 &lt;code class=&quot;highlighter-rouge&quot;&gt;UIActivityViewController&lt;/code&gt;，在 &lt;code class=&quot;highlighter-rouge&quot;&gt;iPhone&lt;/code&gt; 上，我们可以直接使用 &lt;code class=&quot;highlighter-rouge&quot;&gt;present&lt;/code&gt; 的方式；但是在 &lt;code class=&quot;highlighter-rouge&quot;&gt;iPad&lt;/code&gt; 上，这会引起崩溃，可以使用 &lt;code class=&quot;highlighter-rouge&quot;&gt;UIPopoverController&lt;/code&gt; 来包装 &lt;code class=&quot;highlighter-rouge&quot;&gt;UIActivityViewController&lt;/code&gt;。&lt;/p&gt;
 
@@ -688,9 +687,8 @@ CMSettingViewController ：游戏设置界面&lt;/p&gt;
 
 &lt;p&gt;个人还是很喜欢这个效果的，使用的是 iOS8 自带的毛玻璃效果。上代码：&lt;/p&gt;
 
-&lt;p&gt;```objective-c
-- (IBAction )onSettingButtonClicked:(id )sender {
-    [MobClick event:@”Setting”];
+&lt;pre&gt;&lt;code class=&quot;language-objective-c&quot;&gt;- (IBAction )onSettingButtonClicked:(id )sender {
+    [MobClick event:@&quot;Setting&quot;];
     self.settingViewController = [[CMSettingViewController alloc] initWithNibName:NSStringFromClass ([CMSettingViewController class]) bundle:nil];
     self.settingViewController.view.frame = self.view.bounds;
     self.settingViewController.view.alpha = 0;
@@ -701,23 +699,20 @@ CMSettingViewController ：游戏设置界面&lt;/p&gt;
         _blurView.alpha = 1;
         self.settingViewController.view.alpha = 1;
     } completion:nil];
-}&lt;/p&gt;
+}
+
+- (UIView *)blurView {
+    if (!_blurView ) {
+        _blurView = [[UIVisualEffectView alloc] initWithEffect:[UIBlurEffect effectWithStyle:UIBlurEffectStyleDark]];
+        _blurView.frame = [[UIScreen mainScreen] bounds];
+        _blurView.alpha = 0;
+    }
+    return _blurView;
+}
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;(UIView *)blurView {
-  if (!_blurView ) {
-      _blurView = [[UIVisualEffectView alloc] initWithEffect:[UIBlurEffect effectWithStyle:UIBlurEffectStyleDark]];
-      _blurView.frame = [[UIScreen mainScreen] bounds];
-      _blurView.alpha = 0;
-  }
-  return _blurView;
-}
-```&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;GameCenter 和友盟&lt;/p&gt;
-  &lt;/li&gt;
+  &lt;li&gt;GameCenter 和友盟&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;这两块都是 @Cee 负责弄的。友盟的接入相对简单，不过 GameCenter @Cee 弄了一晚上，还吐槽网上没有成熟的 GameCenter 接入指南，我觉得有必要让他专门写一份了。&lt;/p&gt;
@@ -757,7 +752,7 @@ CMSettingViewController ：游戏设置界面&lt;/p&gt;
           
         
       
-        </content><summary>关于 Co!orMix</summary></entry><entry><title>Apps on Tsukiko</title><id>http://blog.cee.moe/Apps-on-Tsukiko.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/Apps-on-Tsukiko.html" /><published>2015-08-19T00:00:00+08:00</published><updated>2016-01-28T22:59:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary>关于 Co!orMix</summary></entry><entry><title>Apps on Tsukiko</title><id>http://blog.cee.moe/Apps-on-Tsukiko.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/Apps-on-Tsukiko.html" /><published>2015-08-19T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;p&gt;Q：「Tsukiko / 月子」是什麼？&lt;/p&gt;
 
@@ -1072,7 +1067,7 @@ CMSettingViewController ：游戏设置界面&lt;/p&gt;
           
         
       
-        </content><summary>Q：「Tsukiko / 月子」是什麼？</summary></entry><entry><title>PFAvatar</title><id>http://blog.cee.moe/PFAvatar.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/PFAvatar.html" /><published>2015-08-08T00:00:00+08:00</published><updated>2016-01-28T22:59:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary>Q：「Tsukiko / 月子」是什麼？</summary></entry><entry><title>PFAvatar</title><id>http://blog.cee.moe/PFAvatar.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/PFAvatar.html" /><published>2015-08-08T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;p&gt;Generate material design avatar!&lt;/p&gt;
 
@@ -1094,7 +1089,7 @@ CMSettingViewController ：游戏设置界面&lt;/p&gt;
           &lt;p&gt;&lt;a href=&quot;https://github.com/PerfectFreeze/PFAvatar&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
         
       
-        </content><summary>Generate material design avatar!</summary></entry><entry><title>PFNavigationDropdownMenu</title><id>http://blog.cee.moe/PFNavigationDropdownMenu.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/PFNavigationDropdownMenu.html" /><published>2015-08-02T00:00:00+08:00</published><updated>2016-01-28T22:59:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary>Generate material design avatar!</summary></entry><entry><title>PFNavigationDropdownMenu</title><id>http://blog.cee.moe/PFNavigationDropdownMenu.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/PFNavigationDropdownMenu.html" /><published>2015-08-02T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;p&gt;The Objective-C version of &lt;a href=&quot;https://github.com/PhamBaTho/BTNavigationDropdownMenu&quot;&gt;BTNavigationDropdownMenu&lt;/a&gt;. Supports iOS 7.0+.&lt;/p&gt;
 
@@ -1120,7 +1115,7 @@ CMSettingViewController ：游戏设置界面&lt;/p&gt;
           &lt;p&gt;&lt;a href=&quot;https://github.com/PerfectFreeze/PFNavigationDropdownMenu&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
         
       
-        </content><summary>The Objective-C version of BTNavigationDropdownMenu. Supports iOS 7.0+.</summary></entry><entry><title>Pangu.objective-c</title><id>http://blog.cee.moe/Pangu.objective-c.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/Pangu.objective-c.html" /><published>2015-07-27T00:00:00+08:00</published><updated>2016-01-28T22:59:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary>The Objective-C version of BTNavigationDropdownMenu. Supports iOS 7.0+.</summary></entry><entry><title>Pangu.objective-c</title><id>http://blog.cee.moe/Pangu.objective-c.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/Pangu.objective-c.html" /><published>2015-07-27T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;p&gt;Paranoid text spacing for good readability, to automatically insert whitespace between CJK (Chinese, Japanese, Korean), half-width English, digit and symbol characters.&lt;/p&gt;
 
@@ -1141,12 +1136,11 @@ CMSettingViewController ：游戏设置界面&lt;/p&gt;
 
 &lt;h2 id=&quot;usage&quot;&gt;Usage&lt;/h2&gt;
 
-&lt;p&gt;```objective-c
-#import “NSString+Pangu.h”&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-objective-c&quot;&gt;#import &quot;NSString+Pangu.h&quot;
 
-&lt;p&gt;[NSString spacing:@”請問Jackie的鼻子有幾個？123個！”];
+[NSString spacing:@&quot;請問Jackie的鼻子有幾個？123個！&quot;];
 // 請問 Jackie 的鼻子有幾個？123 個！
-```&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2 id=&quot;license&quot;&gt;License&lt;/h2&gt;
 
@@ -1158,7 +1152,7 @@ CMSettingViewController ：游戏设置界面&lt;/p&gt;
           &lt;p&gt;&lt;a href=&quot;https://github.com/Cee/pangu.objective-c&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
         
       
-        </content><summary>Paranoid text spacing for good readability, to automatically insert whitespace between CJK (Chinese, Japanese, Korean), half-width English, digit and symbol characters.</summary></entry><entry><title>趣题</title><id>http://blog.cee.moe/funny-logic-questions.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/funny-logic-questions.html" /><published>2015-07-17T00:00:00+08:00</published><updated>2016-01-28T22:59:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary>Paranoid text spacing for good readability, to automatically insert whitespace between CJK (Chinese, Japanese, Korean), half-width English, digit and symbol characters.</summary></entry><entry><title>趣题</title><id>http://blog.cee.moe/funny-logic-questions.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/funny-logic-questions.html" /><published>2015-07-17T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;ol&gt;
   &lt;li&gt;
@@ -1239,7 +1233,7 @@ CMSettingViewController ：游戏设置界面&lt;/p&gt;
           
         
       
-        </content><summary>  C 随机产生了两个不同的正整数，分别交给了 A、B，并让两人猜测谁手中的数更大。</summary></entry><entry><title>About Co!orMix (2) - StroopMix!</title><id>http://blog.cee.moe/about-colormix-2.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/about-colormix-2.html" /><published>2015-07-07T00:00:00+08:00</published><updated>2016-01-28T22:59:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary>  C 随机产生了两个不同的正整数，分别交给了 A、B，并让两人猜测谁手中的数更大。</summary></entry><entry><title>About Co!orMix (2) - StroopMix!</title><id>http://blog.cee.moe/about-colormix-2.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/about-colormix-2.html" /><published>2015-07-07T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;blockquote&gt;
   &lt;p&gt;本文作者為 UI/UX 設計師 &lt;a href=&quot;http://blog.zky.science&quot;&gt;@albuszheng&lt;/a&gt; 所寫。&lt;/p&gt;
@@ -1289,7 +1283,7 @@ CMSettingViewController ：游戏设置界面&lt;/p&gt;
           
         
       
-        </content><summary>  本文作者為 UI/UX 設計師 @albuszheng 所寫。</summary></entry><entry><title>About Co!orMix (1) - Introduction</title><id>http://blog.cee.moe/about-colormix-1.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/about-colormix-1.html" /><published>2015-07-04T00:00:00+08:00</published><updated>2016-01-28T22:59:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary>  本文作者為 UI/UX 設計師 @albuszheng 所寫。</summary></entry><entry><title>About Co!orMix (1) - Introduction</title><id>http://blog.cee.moe/about-colormix-1.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/about-colormix-1.html" /><published>2015-07-04T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/bmiddle/aa266f4dgw1etqi32r084j20k006o3z7.jpg&quot; alt=&quot;logo&quot; /&gt;&lt;/p&gt;
 
@@ -1349,7 +1343,7 @@ CMSettingViewController ：游戏设置界面&lt;/p&gt;
           
         
       
-        </content><summary></summary></entry><entry><title>Why CSS transform doesn&#39;t work on inline elements</title><id>http://blog.cee.moe/why-css-transform-doesnt-work-on-inline-elements.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/why-css-transform-doesnt-work-on-inline-elements.html" /><published>2015-06-30T00:00:00+08:00</published><updated>2016-01-28T22:59:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary></summary></entry><entry><title>Why CSS transform doesn&#39;t work on inline elements</title><id>http://blog.cee.moe/why-css-transform-doesnt-work-on-inline-elements.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/why-css-transform-doesnt-work-on-inline-elements.html" /><published>2015-06-30T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;p&gt;&lt;strong&gt;CSS TRANSFORM DOESN’T WORK! WHY?&lt;/strong&gt;&lt;/p&gt;
 
@@ -1410,7 +1404,7 @@ p.animation:hover {
           
         
       
-        </content><summary>CSS TRANSFORM DOESN’T WORK! WHY?</summary></entry><entry><title>WWDC 15 Session 106 学习笔记</title><id>http://blog.cee.moe/wwdc-15-session-106-learning-notes.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/wwdc-15-session-106-learning-notes.html" /><published>2015-06-13T00:00:00+08:00</published><updated>2016-01-28T22:59:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary>CSS TRANSFORM DOESN’T WORK! WHY?</summary></entry><entry><title>WWDC 15 Session 106 学习笔记</title><id>http://blog.cee.moe/wwdc-15-session-106-learning-notes.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/wwdc-15-session-106-learning-notes.html" /><published>2015-06-13T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;blockquote&gt;
   &lt;p&gt;Chris Lattner 實在是太帥了！&lt;/p&gt;
@@ -1681,7 +1675,7 @@ p.animation:hover {
           
         
       
-        </content><summary>  Chris Lattner 實在是太帥了！</summary></entry><entry><title>WWDC 15 Session 107 学习笔记</title><id>http://blog.cee.moe/wwdc-15-session-107-learning-notes.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/wwdc-15-session-107-learning-notes.html" /><published>2015-06-12T00:00:00+08:00</published><updated>2016-01-28T22:59:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary>  Chris Lattner 實在是太帥了！</summary></entry><entry><title>WWDC 15 Session 107 学习笔记</title><id>http://blog.cee.moe/wwdc-15-session-107-learning-notes.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/wwdc-15-session-107-learning-notes.html" /><published>2015-06-12T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;h3 id=&quot;session-107---whats-new-in-cocoa-touch&quot;&gt;Session 107 - What’s New in Cocoa Touch&lt;/h3&gt;
 
@@ -1855,7 +1849,7 @@ p.animation:hover {
           
         
       
-        </content><summary>Session 107 - What’s New in Cocoa Touch</summary></entry><entry><title>WWDC 15 Session 104 学习笔记</title><id>http://blog.cee.moe/wwdc-15-session-104-learning-notes.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/wwdc-15-session-104-learning-notes.html" /><published>2015-06-11T00:00:00+08:00</published><updated>2016-01-28T22:59:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary>Session 107 - What’s New in Cocoa Touch</summary></entry><entry><title>WWDC 15 Session 104 学习笔记</title><id>http://blog.cee.moe/wwdc-15-session-104-learning-notes.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/wwdc-15-session-104-learning-notes.html" /><published>2015-06-11T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;h3 id=&quot;session-104---whats-new-in-xcode&quot;&gt;Session 104 - What’s new in Xcode&lt;/h3&gt;
 
@@ -1899,7 +1893,7 @@ p.animation:hover {
           
         
       
-        </content><summary>Session 104 - What’s new in Xcode</summary></entry><entry><title>PNJU-Workflow</title><id>http://blog.cee.moe/PNJU-Workflow.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/PNJU-Workflow.html" /><published>2015-06-04T00:00:00+08:00</published><updated>2016-01-28T22:59:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary>Session 104 - What’s new in Xcode</summary></entry><entry><title>PNJU-Workflow</title><id>http://blog.cee.moe/PNJU-Workflow.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/PNJU-Workflow.html" /><published>2015-06-04T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;p&gt;An Alfred Workflow to Login PNJU.&lt;/p&gt;
 
@@ -1941,7 +1935,7 @@ p.animation:hover {
           &lt;p&gt;&lt;a href=&quot;https://github.com/Cee/PNJU-Workflow&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
         
       
-        </content><summary>An Alfred Workflow to Login PNJU.</summary></entry><entry><title>39 - Thank you</title><id>http://blog.cee.moe/39-thank-you.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/39-thank-you.html" /><published>2015-05-31T00:00:00+08:00</published><updated>2016-08-08T14:38:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary>An Alfred Workflow to Login PNJU.</summary></entry><entry><title>39 - Thank you</title><id>http://blog.cee.moe/39-thank-you.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/39-thank-you.html" /><published>2015-05-31T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;iframe width=&quot;800&quot; height=&quot;450&quot; src=&quot;https://www.youtube.com/embed/Gb5npQ5_YHk&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
@@ -1951,7 +1945,7 @@ p.animation:hover {
           &lt;p&gt;&lt;a href=&quot;http://www.bilibili.com/video/av2386400/&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
         
       
-        </content><summary></summary></entry><entry><title>I ❤</title><id>http://blog.cee.moe/i-love.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/i-love.html" /><published>2015-04-27T00:00:00+08:00</published><updated>2016-08-08T14:38:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary></summary></entry><entry><title>I ❤</title><id>http://blog.cee.moe/i-love.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/i-love.html" /><published>2015-04-27T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;iframe width=&quot;800&quot; height=&quot;450&quot; src=&quot;https://www.youtube.com/embed/CFUZ7jyp8FI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
@@ -1961,7 +1955,7 @@ p.animation:hover {
           &lt;p&gt;&lt;a href=&quot;http://www.bilibili.com/video/av2261681/&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
         
       
-        </content><summary></summary></entry><entry><title>Gravity=Reality</title><id>http://blog.cee.moe/gravity-reality.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/gravity-reality.html" /><published>2015-04-19T00:00:00+08:00</published><updated>2016-08-08T14:38:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary></summary></entry><entry><title>Gravity=Reality</title><id>http://blog.cee.moe/gravity-reality.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/gravity-reality.html" /><published>2015-04-19T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;iframe width=&quot;800&quot; height=&quot;450&quot; src=&quot;https://www.youtube.com/embed/EnZV-raeiSU&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
@@ -1971,7 +1965,7 @@ p.animation:hover {
           &lt;p&gt;&lt;a href=&quot;http://www.bilibili.com/video/av2235429/&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
         
       
-        </content><summary></summary></entry><entry><title>别，火花</title><id>http://blog.cee.moe/bye-huohua.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/bye-huohua.html" /><published>2015-04-15T00:00:00+08:00</published><updated>2016-01-28T22:59:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary></summary></entry><entry><title>别，火花</title><id>http://blog.cee.moe/bye-huohua.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/bye-huohua.html" /><published>2015-04-15T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;p&gt;眨眼之间，近四个月就过去了。&lt;/p&gt;
 
@@ -2003,7 +1997,7 @@ p.animation:hover {
           
         
       
-        </content><summary>眨眼之间，近四个月就过去了。</summary></entry><entry><title>iOS 自动化 UI 测试方案</title><id>http://blog.cee.moe/ios-ui-automating-test.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/ios-ui-automating-test.html" /><published>2015-03-25T00:00:00+08:00</published><updated>2016-01-28T22:59:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary>眨眼之间，近四个月就过去了。</summary></entry><entry><title>iOS 自动化 UI 测试方案</title><id>http://blog.cee.moe/ios-ui-automating-test.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/ios-ui-automating-test.html" /><published>2015-03-25T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;ul&gt;
   &lt;li&gt;使用 &lt;code class=&quot;highlighter-rouge&quot;&gt;Instruments&lt;/code&gt; 下的 &lt;code class=&quot;highlighter-rouge&quot;&gt;Automation&lt;/code&gt;
@@ -2068,7 +2062,7 @@ p.animation:hover {
           
         
       
-        </content><summary>  使用 Instruments 下的 Automation          Using UIAScript，类似于 JavaScript      打开后选择 Add Script，编写需要测试的测试用例      右侧 Scripts 有需要运行的列表      编写完成后点击下面的 Run 即可      在每个 Trace Log 中都能明确展示出出现的问题      </summary></entry><entry><title>iOS 持续集成解决方案</title><id>http://blog.cee.moe/ios-integration.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/ios-integration.html" /><published>2015-03-04T00:00:00+08:00</published><updated>2016-01-28T22:59:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary>  使用 Instruments 下的 Automation          Using UIAScript，类似于 JavaScript      打开后选择 Add Script，编写需要测试的测试用例      右侧 Scripts 有需要运行的列表      编写完成后点击下面的 Run 即可      在每个 Trace Log 中都能明确展示出出现的问题      </summary></entry><entry><title>iOS 持续集成解决方案</title><id>http://blog.cee.moe/ios-integration.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/ios-integration.html" /><published>2015-03-04T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;ul&gt;
   &lt;li&gt;Using OS X Server &amp;amp; Xcode Server &amp;amp; xcsbuildd&lt;/li&gt;
@@ -2126,7 +2120,7 @@ p.animation:hover {
           
         
       
-        </content><summary>  Using OS X Server &amp;amp; Xcode Server &amp;amp; xcsbuildd  Basic Steps:          安裝 OS X Server，打開 Xcode      Settings 選項卡配置 Permission      添加 SSH Key 到 Xcode Server 上：                  Login：sudo -u _xcsbuildd /bin/bash          Generate SSH Key：ssh-keygen -t rsa -C &quot;$your_email&quot;          Show your public key：cat /var/_xcsbuildd/.ssh/id_rsa.pub          Put the key to github          SSH your server to accept the fingerprint：ssh -T git@gitlab.domain.com                    配置 Workspace                  Build scheme：勾選 shared          添加 Server 到 Xcode 中（Preferences 裡面的 Accounts，匿名登錄）          添加 Bot，設置 SSH Key          集成日程安排：選擇一次提交更新一次                      Add Trigger：              export LC_ALL=&quot;en_US.UTF-8&quot;   # Put the git repo name instead of “reponame” variable  cd reponame  # Remove the following line if there is no submodules in the project  git submodule update --init --recursive  # If podfile is not in the root folder uncomment the following line  # and replace with the real folder name  # cd FolderName  pod install                                報錯嘗試執行 pod setup                      References：          http://papaanton.com/setting-up-xcode-6-and-apple-server-4-0-for-continues-integration-with-cocoapods/      https://gist.github.com/mtitolo/f5283c54e300d88d9418      http://stackoverflow.com/questions/26990057/cocoapods-commands-fail-due-to-no-such-file-or-directory-dir-initialize-us      http://blog.cocoapods.org/Repairing-Our-Broken-Specs-Repository/      </summary></entry><entry><title>H5 開發小感</title><id>http://blog.cee.moe/html-5-develop.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/html-5-develop.html" /><published>2015-01-31T00:00:00+08:00</published><updated>2016-01-28T22:59:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary>  Using OS X Server &amp;amp; Xcode Server &amp;amp; xcsbuildd  Basic Steps:          安裝 OS X Server，打開 Xcode      Settings 選項卡配置 Permission      添加 SSH Key 到 Xcode Server 上：                  Login：sudo -u _xcsbuildd /bin/bash          Generate SSH Key：ssh-keygen -t rsa -C &quot;$your_email&quot;          Show your public key：cat /var/_xcsbuildd/.ssh/id_rsa.pub          Put the key to github          SSH your server to accept the fingerprint：ssh -T git@gitlab.domain.com                    配置 Workspace                  Build scheme：勾選 shared          添加 Server 到 Xcode 中（Preferences 裡面的 Accounts，匿名登錄）          添加 Bot，設置 SSH Key          集成日程安排：選擇一次提交更新一次                      Add Trigger：              export LC_ALL=&quot;en_US.UTF-8&quot;   # Put the git repo name instead of “reponame” variable  cd reponame  # Remove the following line if there is no submodules in the project  git submodule update --init --recursive  # If podfile is not in the root folder uncomment the following line  # and replace with the real folder name  # cd FolderName  pod install                                報錯嘗試執行 pod setup                      References：          http://papaanton.com/setting-up-xcode-6-and-apple-server-4-0-for-continues-integration-with-cocoapods/      https://gist.github.com/mtitolo/f5283c54e300d88d9418      http://stackoverflow.com/questions/26990057/cocoapods-commands-fail-due-to-no-such-file-or-directory-dir-initialize-us      http://blog.cocoapods.org/Repairing-Our-Broken-Specs-Repository/      </summary></entry><entry><title>H5 開發小感</title><id>http://blog.cee.moe/html-5-develop.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/html-5-develop.html" /><published>2015-01-31T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;p&gt;最近這一個星期從 iOS 開發轉向了網頁前端（就是我很久沒有碰過的那一塊東西＋不想碰的那一塊東西）。即使有些不爽，但是這一週開發做下來給自己感覺的進步和提升還是很明顯的。下面來談談 H5 前端開發的感受。&lt;/p&gt;
 
@@ -2181,7 +2175,7 @@ p.animation:hover {
           
         
       
-        </content><summary>最近這一個星期從 iOS 開發轉向了網頁前端（就是我很久沒有碰過的那一塊東西＋不想碰的那一塊東西）。即使有些不爽，但是這一週開發做下來給自己感覺的進步和提升還是很明顯的。下面來談談 H5 前端開發的感受。</summary></entry><entry><title>Coolshell Puzzle Game 通关记</title><id>http://blog.cee.moe/coolshell-puzzle-game-tong-guan-ji.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/coolshell-puzzle-game-tong-guan-ji.html" /><published>2014-12-21T00:00:00+08:00</published><updated>2016-01-28T22:59:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary>最近這一個星期從 iOS 開發轉向了網頁前端（就是我很久沒有碰過的那一塊東西＋不想碰的那一塊東西）。即使有些不爽，但是這一週開發做下來給自己感覺的進步和提升還是很明顯的。下面來談談 H5 前端開發的感受。</summary></entry><entry><title>Coolshell Puzzle Game 通关记</title><id>http://blog.cee.moe/coolshell-puzzle-game-tong-guan-ji.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/coolshell-puzzle-game-tong-guan-ji.html" /><published>2014-12-21T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;p&gt;某日，看到&lt;a href=&quot;http://quantize.me/&quot;&gt;zyq女神&lt;/a&gt;在群里发了个链接说：有没有人玩这个游戏啊…&lt;/p&gt;
 
@@ -2308,7 +2302,7 @@ Y0s0Y&lt;/p&gt;
 
 &lt;h3 id=&quot;x06-tree&quot;&gt;0x06 Tree&lt;/h3&gt;
 
-&lt;p&gt;给了张图，写了一棵树的中序和后序遍历。~~还好电脑里有大二上学期数据结构的求先序的C++程序就跑了一下。~~得到树之后先序遍历得到数的深度最长的路径&lt;code class=&quot;highlighter-rouge&quot;&gt;zWp8LGn01wxJ7&lt;/code&gt;。下面有一串小字&lt;code class=&quot;highlighter-rouge&quot;&gt;openssl enc -aes-128-cbc -a -d -pass pass:???&lt;/code&gt;。经过&lt;a href=&quot;http://ricter.me&quot;&gt;Ricter菊苣&lt;/a&gt;指点，把&lt;code class=&quot;highlighter-rouge&quot;&gt;U2FsdGVkX1+gxunKbemS2193vhGGQ1Y8pc5gPegMAcg=&lt;/code&gt;放入&lt;code class=&quot;highlighter-rouge&quot;&gt;test.in&lt;/code&gt;中再用terminal执行：&lt;code class=&quot;highlighter-rouge&quot;&gt;openssl enc -aes-128-cbc -a -d -pass pass:zWp8LGn01wxJ7 -in test.in -out test.out&lt;/code&gt;得到答案。&lt;/p&gt;
+&lt;p&gt;给了张图，写了一棵树的中序和后序遍历。&lt;del&gt;还好电脑里有大二上学期数据结构的求先序的C++程序就跑了一下。&lt;/del&gt;得到树之后先序遍历得到数的深度最长的路径&lt;code class=&quot;highlighter-rouge&quot;&gt;zWp8LGn01wxJ7&lt;/code&gt;。下面有一串小字&lt;code class=&quot;highlighter-rouge&quot;&gt;openssl enc -aes-128-cbc -a -d -pass pass:???&lt;/code&gt;。经过&lt;a href=&quot;http://ricter.me&quot;&gt;Ricter菊苣&lt;/a&gt;指点，把&lt;code class=&quot;highlighter-rouge&quot;&gt;U2FsdGVkX1+gxunKbemS2193vhGGQ1Y8pc5gPegMAcg=&lt;/code&gt;放入&lt;code class=&quot;highlighter-rouge&quot;&gt;test.in&lt;/code&gt;中再用terminal执行：&lt;code class=&quot;highlighter-rouge&quot;&gt;openssl enc -aes-128-cbc -a -d -pass pass:zWp8LGn01wxJ7 -in test.in -out test.out&lt;/code&gt;得到答案。&lt;/p&gt;
 
 &lt;h4 id=&quot;answer-nqueenshtml&quot;&gt;answer: nqueens.html&lt;/h4&gt;
 
@@ -2353,7 +2347,7 @@ Y0s0Y&lt;/p&gt;
 
 &lt;h3 id=&quot;x09-fraternal-organisation&quot;&gt;0x09 Fraternal Organisation&lt;/h3&gt;
 
-&lt;p&gt;Google搜索了两张图，原来是&lt;code class=&quot;highlighter-rouge&quot;&gt;Pigpen Cipher&lt;/code&gt;。Wiki上说明这是一种加密方式（~~zxw大神说他给妹子写过情书~~）。根据下面的一张图得到最后的破解密文。&lt;/p&gt;
+&lt;p&gt;Google搜索了两张图，原来是&lt;code class=&quot;highlighter-rouge&quot;&gt;Pigpen Cipher&lt;/code&gt;。Wiki上说明这是一种加密方式（&lt;del&gt;zxw大神说他给妹子写过情书&lt;/del&gt;）。根据下面的一张图得到最后的破解密文。&lt;/p&gt;
 
 &lt;h4 id=&quot;answer-helloworldhtml&quot;&gt;answer: helloworld.html&lt;/h4&gt;
 
@@ -2367,7 +2361,7 @@ Y0s0Y&lt;/p&gt;
 
 &lt;h3 id=&quot;x0a-congratulations&quot;&gt;0x0a Congratulations!&lt;/h3&gt;
 
-&lt;p&gt;Update：耗子说还有个迷。于是继续打开这个网页把图片down下来之后vim打开后发现了可以是一个rar~~（感觉就是个种子）~~。解包之后有个txt得到了最终的答案。&lt;/p&gt;
+&lt;p&gt;Update：耗子说还有个迷。于是继续打开这个网页把图片down下来之后vim打开后发现了可以是一个rar&lt;del&gt;（感觉就是个种子）&lt;/del&gt;。解包之后有个txt得到了最终的答案。&lt;/p&gt;
 
 &lt;h4 id=&quot;answer-dennisritchiehtml&quot;&gt;answer: DennisRitchie.html&lt;/h4&gt;
 
@@ -2383,7 +2377,7 @@ Y0s0Y&lt;/p&gt;
           
         
       
-        </content><summary>某日，看到zyq女神在群里发了个链接说：有没有人玩这个游戏啊…</summary></entry><entry><title>金曜日のおはよう</title><id>http://blog.cee.moe/kin-you-bi-no-o-ha-you.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/kin-you-bi-no-o-ha-you.html" /><published>2014-12-12T00:00:00+08:00</published><updated>2016-08-08T14:38:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary>某日，看到zyq女神在群里发了个链接说：有没有人玩这个游戏啊…</summary></entry><entry><title>金曜日のおはよう</title><id>http://blog.cee.moe/kin-you-bi-no-o-ha-you.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/kin-you-bi-no-o-ha-you.html" /><published>2014-12-12T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;iframe width=&quot;800&quot; height=&quot;450&quot; src=&quot;https://www.youtube.com/embed/Yszj6jbs-xg&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
@@ -2393,7 +2387,7 @@ Y0s0Y&lt;/p&gt;
           &lt;p&gt;&lt;a href=&quot;http://www.bilibili.com/video/av1792779/&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
         
       
-        </content><summary></summary></entry><entry><title>Girls</title><id>http://blog.cee.moe/girls.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/girls.html" /><published>2014-11-17T00:00:00+08:00</published><updated>2016-08-08T14:38:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary></summary></entry><entry><title>Girls</title><id>http://blog.cee.moe/girls.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/girls.html" /><published>2014-11-17T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;iframe width=&quot;800&quot; height=&quot;450&quot; src=&quot;https://www.youtube.com/embed/6ffy0120yjw&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
@@ -2403,7 +2397,7 @@ Y0s0Y&lt;/p&gt;
           &lt;p&gt;&lt;a href=&quot;http://www.bilibili.com/video/av1720206/&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
         
       
-        </content><summary></summary></entry><entry><title>从零开始</title><id>http://blog.cee.moe/rebirth.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/rebirth.html" /><published>2014-10-29T00:00:00+08:00</published><updated>2016-01-28T22:59:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary></summary></entry><entry><title>从零开始</title><id>http://blog.cee.moe/rebirth.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/rebirth.html" /><published>2014-10-29T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;p&gt;今天上午的早些时候升级 Ghost 到 0.5.3 的时候，挂了。&lt;/p&gt;
 
@@ -2423,7 +2417,7 @@ Y0s0Y&lt;/p&gt;
           
         
       
-        </content><summary>今天上午的早些时候升级 Ghost 到 0.5.3 的时候，挂了。</summary></entry><entry><title>从二分查找谈起</title><id>http://blog.cee.moe/talking-from-binary-search.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/talking-from-binary-search.html" /><published>2014-10-03T00:00:00+08:00</published><updated>2016-01-28T22:59:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary>今天上午的早些时候升级 Ghost 到 0.5.3 的时候，挂了。</summary></entry><entry><title>从二分查找谈起</title><id>http://blog.cee.moe/talking-from-binary-search.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/talking-from-binary-search.html" /><published>2014-10-03T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;p&gt;前两天在 V2EX 上看到了这篇文章：&lt;a href=&quot;http://www.v2ex.com/t/142371&quot;&gt;挖个坑，作为 python 程序员，面试时要求手写二分查找，可以说不么&lt;/a&gt;。自己觉得作为一个正常的程序员，多多少少必须会点算法和数据结构，不仅仅要学会&lt;strong&gt;怎么用&lt;/strong&gt;，也要知道是&lt;strong&gt;怎么实现&lt;/strong&gt;的。与此同时《编程珠玑》的作者 Jon Bentley 也提到：&lt;/p&gt;
 
@@ -2498,7 +2492,7 @@ Y0s0Y&lt;/p&gt;
           
         
       
-        </content><summary>前两天在 V2EX 上看到了这篇文章：挖个坑，作为 python 程序员，面试时要求手写二分查找，可以说不么。自己觉得作为一个正常的程序员，多多少少必须会点算法和数据结构，不仅仅要学会怎么用，也要知道是怎么实现的。与此同时《编程珠玑》的作者 Jon Bentley 也提到：</summary></entry><entry><title>Colorful World</title><id>http://blog.cee.moe/colorful-world.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/colorful-world.html" /><published>2014-08-29T00:00:00+08:00</published><updated>2016-08-08T14:38:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary>前两天在 V2EX 上看到了这篇文章：挖个坑，作为 python 程序员，面试时要求手写二分查找，可以说不么。自己觉得作为一个正常的程序员，多多少少必须会点算法和数据结构，不仅仅要学会怎么用，也要知道是怎么实现的。与此同时《编程珠玑》的作者 Jon Bentley 也提到：</summary></entry><entry><title>Colorful World</title><id>http://blog.cee.moe/colorful-world.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/colorful-world.html" /><published>2014-08-29T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;iframe width=&quot;800&quot; height=&quot;450&quot; src=&quot;https://www.youtube.com/embed/h_Je8dYPouw&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
@@ -2508,9 +2502,9 @@ Y0s0Y&lt;/p&gt;
           &lt;p&gt;&lt;a href=&quot;http://www.bilibili.com/video/av1481270/&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
         
       
-        </content><summary></summary></entry><entry><title>Dear Assembly（3）</title><id>http://blog.cee.moe/dear-assembly-3.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/dear-assembly-3.html" /><published>2014-08-01T00:00:00+08:00</published><updated>2016-01-28T22:59:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary></summary></entry><entry><title>Dear Assembly（3）</title><id>http://blog.cee.moe/dear-assembly-3.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/dear-assembly-3.html" /><published>2014-08-01T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
-            &lt;p&gt;~~（大概是 Lab 三部曲）~~&lt;/p&gt;
+            &lt;p&gt;&lt;del&gt;（大概是 Lab 三部曲）&lt;/del&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -2667,7 +2661,7 @@ objdump -d bang.o &amp;gt; bang.d&lt;/p&gt;
 
 &lt;h3 id=&quot;level-3&quot;&gt;Level 3&lt;/h3&gt;
 
-&lt;p&gt;最后一关，啊哈，Instruction 上又~~很邪恶地~~（This style of attack is tricky）写出了要求：要更改 &lt;code class=&quot;highlighter-rouge&quot;&gt;%rbp&lt;/code&gt; 和返回地址来实现攻击。最终是需要我们在 &lt;code class=&quot;highlighter-rouge&quot;&gt;getbuf()&lt;/code&gt; 函数中返回我们的 &lt;code class=&quot;highlighter-rouge&quot;&gt;cookie&lt;/code&gt; 来调用 &lt;code class=&quot;highlighter-rouge&quot;&gt;test()&lt;/code&gt;：&lt;/p&gt;
+&lt;p&gt;最后一关，啊哈，Instruction 上又&lt;del&gt;很邪恶地&lt;/del&gt;（This style of attack is tricky）写出了要求：要更改 &lt;code class=&quot;highlighter-rouge&quot;&gt;%rbp&lt;/code&gt; 和返回地址来实现攻击。最终是需要我们在 &lt;code class=&quot;highlighter-rouge&quot;&gt;getbuf()&lt;/code&gt; 函数中返回我们的 &lt;code class=&quot;highlighter-rouge&quot;&gt;cookie&lt;/code&gt; 来调用 &lt;code class=&quot;highlighter-rouge&quot;&gt;test()&lt;/code&gt;：&lt;/p&gt;
 
 &lt;script src=&quot;https://gist.github.com/cee/f4cc0270a4c57aa036b3.js&quot;&gt;&lt;/script&gt;
 
@@ -2768,7 +2762,7 @@ retq&lt;/p&gt;
           
         
       
-        </content><summary>~~（大概是 Lab 三部曲）~~</summary></entry><entry><title>Dear Assembly（2）</title><id>http://blog.cee.moe/dear-assembly-2.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/dear-assembly-2.html" /><published>2014-07-30T00:00:00+08:00</published><updated>2016-01-28T22:59:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary>（大概是 Lab 三部曲）</summary></entry><entry><title>Dear Assembly（2）</title><id>http://blog.cee.moe/dear-assembly-2.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/dear-assembly-2.html" /><published>2014-07-30T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;blockquote&gt;
   &lt;p&gt;继续我们的拆炸弹之旅~&lt;/p&gt;
@@ -2886,7 +2880,7 @@ retq&lt;/p&gt;
           
         
       
-        </content><summary>  继续我们的拆炸弹之旅~</summary></entry><entry><title>Dear Assembly（1）</title><id>http://blog.cee.moe/dear-assembly-1.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/dear-assembly-1.html" /><published>2014-07-26T00:00:00+08:00</published><updated>2016-01-28T22:59:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary>  继续我们的拆炸弹之旅~</summary></entry><entry><title>Dear Assembly（1）</title><id>http://blog.cee.moe/dear-assembly-1.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/dear-assembly-1.html" /><published>2014-07-26T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;p&gt;苦逼的暑假开始了。&lt;/p&gt;
 
@@ -2996,7 +2990,7 @@ retq&lt;/p&gt;
 &lt;p&gt;回到原函数，14 行的 &lt;code class=&quot;highlighter-rouge&quot;&gt;cmp&lt;/code&gt; 使用了返回值 &lt;code class=&quot;highlighter-rouge&quot;&gt;eax&lt;/code&gt; 和 &lt;code class=&quot;highlighter-rouge&quot;&gt;0x37 = 55&lt;/code&gt; 比较，题目意图也很明显了：&lt;code class=&quot;highlighter-rouge&quot;&gt;n&lt;/code&gt; 等于几时，有 &lt;code class=&quot;highlighter-rouge&quot;&gt;f(n) = 55&lt;/code&gt;。答案就是：&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;~~⑨（这么写当然是错的）~~&lt;br /&gt;
+  &lt;p&gt;&lt;del&gt;⑨（这么写当然是错的）&lt;/del&gt;&lt;br /&gt;
 9&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -3054,7 +3048,7 @@ retq&lt;/p&gt;
           
         
       
-        </content><summary>苦逼的暑假开始了。</summary></entry><entry><title>Cisco IPSec VPN 配置小记</title><id>http://blog.cee.moe/cisco-ipsec-vpn.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/cisco-ipsec-vpn.html" /><published>2014-04-09T00:00:00+08:00</published><updated>2016-08-08T14:38:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary>苦逼的暑假开始了。</summary></entry><entry><title>Cisco IPSec VPN 配置小记</title><id>http://blog.cee.moe/cisco-ipsec-vpn.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/cisco-ipsec-vpn.html" /><published>2014-04-09T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;p&gt;咳咳。部署团委的&lt;a href=&quot;http://www.njucqc.com&quot;&gt;创青春网站&lt;/a&gt;(Under Construction 2333)，顺便弄了一下 Cisco 的 VPN。&lt;/p&gt;
 
@@ -3225,7 +3219,7 @@ retq&lt;/p&gt;
           
         
       
-        </content><summary>咳咳。部署团委的创青春网站(Under Construction 2333)，顺便弄了一下 Cisco 的 VPN。</summary></entry><entry><title>Over The Time Dance</title><id>http://blog.cee.moe/over-the-time-dance.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/over-the-time-dance.html" /><published>2013-12-12T00:00:00+08:00</published><updated>2016-08-08T14:38:23+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary>咳咳。部署团委的创青春网站(Under Construction 2333)，顺便弄了一下 Cisco 的 VPN。</summary></entry><entry><title>Over The Time Dance</title><id>http://blog.cee.moe/over-the-time-dance.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/over-the-time-dance.html" /><published>2013-12-12T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;iframe width=&quot;800&quot; height=&quot;450&quot; src=&quot;https://www.youtube.com/embed/SpT4aMjs0Y0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
