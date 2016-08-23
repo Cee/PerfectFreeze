@@ -1,4 +1,280 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Perfect Freeze!</title><subtitle>Perfect Freeze! | Cee's Blog v3.0</subtitle><updated>2016-08-18T14:05:06+08:00</updated><id>http://blog.cee.moe/</id><generator uri="http://sparanoid.com/lab/amsf/" version="0.1.11">Almace Scaffolding</generator><link rel="alternate" type="text/html" hreflang="en" href="http://blog.cee.moe/" /><link rel="self" type="application/atom+xml" href="http://blog.cee.moe/feed.xml" /><author><name>Cee</name><uri>http://blog.cee.moe/</uri><email>ceecirno@gmail.com</email></author><entry><title>从 Bot 谈起</title><id>http://blog.cee.moe/talking-from-bot.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/talking-from-bot.html" /><published>2016-08-17T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Perfect Freeze!</title><subtitle>Perfect Freeze! | Cee's Blog v3.0</subtitle><updated>2016-08-23T22:16:55+08:00</updated><id>http://blog.cee.moe/</id><generator uri="http://sparanoid.com/lab/amsf/" version="0.1.11">Almace Scaffolding</generator><link rel="alternate" type="text/html" hreflang="en" href="http://blog.cee.moe/" /><link rel="self" type="application/atom+xml" href="http://blog.cee.moe/feed.xml" /><author><name>Cee</name><uri>http://blog.cee.moe/</uri><email>ceecirno@gmail.com</email></author><entry><title>A brief introduction to grep, awk &amp; sed</title><id>http://blog.cee.moe/a-brief-introduction-to-grep-awk-and-sed.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/a-brief-introduction-to-grep-awk-and-sed.html" /><published>2016-08-23T00:00:00+08:00</published><updated>2016-08-23T22:16:19+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+          
+            &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;grep&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;awk&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;sed&lt;/code&gt; are three of the most useful command-line tools&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; in *nix world. And this article will give you a brief introduction and basic usages of these three different commands.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;grep&quot;&gt;grep&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;grep&lt;/code&gt; (&lt;strong&gt;G&lt;/strong&gt;lobal &lt;strong&gt;R&lt;/strong&gt;egular &lt;strong&gt;E&lt;/strong&gt;xpression &lt;strong&gt;P&lt;/strong&gt;rint) is used to search for specific terms in a file.&lt;/p&gt;
+
+&lt;p&gt;Different from &lt;code class=&quot;highlighter-rouge&quot;&gt;awk&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;sed&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;grep&lt;/code&gt; can’t add/modify/remove the text in a specific file. But it’s useful when we just want to search and filter out matches.&lt;/p&gt;
+
+&lt;h3 id=&quot;usage&quot;&gt;Usage&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Typical use&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# print every line that contains the word &#39;test&#39;&lt;/span&gt;
+grep &lt;span class=&quot;s1&quot;&gt;&#39;test&#39;&lt;/span&gt; file.txt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-E&lt;/code&gt; / &lt;code class=&quot;highlighter-rouge&quot;&gt;-P&lt;/code&gt;: Use extended / Perl compatible regular expression syntax.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-n&lt;/code&gt;: Show line number before each line.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-o&lt;/code&gt;: Only show the matching segment of the line.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-v&lt;/code&gt;: Print all of the lines that &lt;em&gt;DO NOT&lt;/em&gt; match the search pattern.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-c&lt;/code&gt;: Show the number of the lines that contains the search pattern.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-i&lt;/code&gt;: Ignore case.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;awk&quot;&gt;awk&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;awk&lt;/code&gt; is a text pattern scanning and processing language, which is created by &lt;strong&gt;A&lt;/strong&gt;ho, &lt;strong&gt;W&lt;/strong&gt;einberger &amp;amp; &lt;strong&gt;K&lt;/strong&gt;ernighan. &lt;code class=&quot;highlighter-rouge&quot;&gt;awk&lt;/code&gt; is mostly used for data extraction and reporting (dealing with .csv files).&lt;/p&gt;
+
+&lt;p&gt;Each &lt;code class=&quot;highlighter-rouge&quot;&gt;awk&lt;/code&gt; procedure can be divided into three sections:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;BEGIN { ... initialization awk commands ...}
+{ ... awk commands for each line of the file ...}
+END { ... finalization awk commands ...}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Control flow&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;if (condition) statement [ else statement ]
+while (condition) statement
+do statement while (condition)
+for (expr1; expr2; expr3) statement
+for (var in array) statement
+break
+continue
+exit [ expression ]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Built-in variables&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Variable&lt;/td&gt;
+      &lt;td&gt;Meaning&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$0&lt;/td&gt;
+      &lt;td&gt;Current line&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;$1 - $n&lt;/td&gt;
+      &lt;td&gt;The nth field&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;FS&lt;/td&gt;
+      &lt;td&gt;Input field separator, default value is “ “&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;NF&lt;/td&gt;
+      &lt;td&gt;The number of fields/columns&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;NR&lt;/td&gt;
+      &lt;td&gt;The number of records/rows&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;FNR&lt;/td&gt;
+      &lt;td&gt;The number of records relative to the current input file&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;OFS&lt;/td&gt;
+      &lt;td&gt;The output field separator, default value is “ “&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ORS&lt;/td&gt;
+      &lt;td&gt;The output record separator, default value is “\n”&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;usage-1&quot;&gt;Usage&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Typical use&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# print 1st and 4th column&lt;/span&gt;
+awk &lt;span class=&quot;s1&quot;&gt;&#39;{print $1, $4}&#39;&lt;/span&gt; file.txt
+
+&lt;span class=&quot;c&quot;&gt;# same with &#39;cat file.txt&#39;&lt;/span&gt;
+awk &lt;span class=&quot;s1&quot;&gt;&#39;{print $0}&#39;&lt;/span&gt; file.txt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-F&lt;/code&gt;: Set input field sparator&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# print 1st and 4th column separated by &#39;:&#39;&lt;/span&gt;
+awk -F: &lt;span class=&quot;s1&quot;&gt;&#39;{print $1, $4}&#39;&lt;/span&gt; file.txt
+&lt;span class=&quot;c&quot;&gt;# or&lt;/span&gt;
+awk &lt;span class=&quot;s1&quot;&gt;&#39;BEGIN {FS = &quot;:&quot;} {print $1, $4}&#39;&lt;/span&gt; file.txt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Pattern matching&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# print 2nd column when 1st field is precisely &#39;test&#39;&lt;/span&gt;
+awk &lt;span class=&quot;s1&quot;&gt;&#39;$1 == &quot;test&quot; { print $2 }&#39;&lt;/span&gt; file.txt
+
+&lt;span class=&quot;c&quot;&gt;# print 2nd column when 1st field contains &#39;test&#39;&lt;/span&gt;
+awk &lt;span class=&quot;s1&quot;&gt;&#39;$1 ~ /test/ { print $2 }&#39;&lt;/span&gt; file.txt
+
+&lt;span class=&quot;c&quot;&gt;# print 2nd column when 1st field DOES NOT contain &#39;test&#39;&lt;/span&gt;
+awk &lt;span class=&quot;s1&quot;&gt;&#39;$1 !~ /test/ { print $2 }&#39;&lt;/span&gt; file.txt
+
+&lt;span class=&quot;c&quot;&gt;# print 2nd column when this record contains &#39;test&#39;&lt;/span&gt;
+awk &lt;span class=&quot;s1&quot;&gt;&#39;/test/ { print $2 }&#39;&lt;/span&gt; file.txt
+
+&lt;span class=&quot;c&quot;&gt;# print 2nd column when this record DOES NOT contain &#39;test&#39;&lt;/span&gt;
+awk &lt;span class=&quot;s1&quot;&gt;&#39;! /test/ { print $2 }&#39;&lt;/span&gt; file.txt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;In-place editing: &lt;code class=&quot;highlighter-rouge&quot;&gt;-i&lt;/code&gt; (GNU awk 4.1.0 or later…)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;sed&quot;&gt;sed&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sed&lt;/code&gt; refers to &lt;strong&gt;S&lt;/strong&gt;tream &lt;strong&gt;Ed&lt;/strong&gt;itor. It can perform text transformations on a given file or an input stream.&lt;/p&gt;
+
+&lt;h3 id=&quot;usage-2&quot;&gt;Usage&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Print a line: &lt;code class=&quot;highlighter-rouge&quot;&gt;p&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# treat this as using &#39;grep&#39;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# same with &#39;cat file.txt&#39;&lt;/span&gt;
+sed &lt;span class=&quot;s1&quot;&gt;&#39;&#39;&lt;/span&gt; file.txt
+
+&lt;span class=&quot;c&quot;&gt;# print every line that matches the regex pattern&lt;/span&gt;
+sed -n &lt;span class=&quot;s1&quot;&gt;&#39;/test/p&#39;&lt;/span&gt; file.txt
+
+&lt;span class=&quot;c&quot;&gt;# match different patterns&lt;/span&gt;
+sed -n &lt;span class=&quot;s1&quot;&gt;&#39;/test1/, /test2/p&#39;&lt;/span&gt; file.txt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Remove a line: &lt;code class=&quot;highlighter-rouge&quot;&gt;d&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# remove every line that matches the regex pattern&lt;/span&gt;
+sed &lt;span class=&quot;s1&quot;&gt;&#39;/test/d&#39;&lt;/span&gt; file.txt
+
+&lt;span class=&quot;c&quot;&gt;# remove 2nd line&lt;/span&gt;
+sed &lt;span class=&quot;s1&quot;&gt;&#39;2d&#39;&lt;/span&gt; file.txt
+
+&lt;span class=&quot;c&quot;&gt;# remove from 2nd line to the end of the file&lt;/span&gt;
+sed &lt;span class=&quot;s1&quot;&gt;&#39;2,$d&#39;&lt;/span&gt; file.txt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Substitution: &lt;code class=&quot;highlighter-rouge&quot;&gt;s&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# replace the 1st &#39;test&#39; with &#39;text&#39; in each line&lt;/span&gt;
+sed &lt;span class=&quot;s1&quot;&gt;&#39;s/test/text/&#39;&lt;/span&gt; file.txt
+
+&lt;span class=&quot;c&quot;&gt;# replace all &#39;test&#39; with &#39;text&#39; in each line&lt;/span&gt;
+sed &lt;span class=&quot;s1&quot;&gt;&#39;s/test/text/g&#39;&lt;/span&gt; file.txt
+
+&lt;span class=&quot;c&quot;&gt;# replace the 2nd &#39;test&#39; with &#39;text&#39; in each line&lt;/span&gt;
+sed &lt;span class=&quot;s1&quot;&gt;&#39;s/test/text/2&#39;&lt;/span&gt; file.txt
+
+&lt;span class=&quot;c&quot;&gt;# replace all &#39;test&#39; from the 2nd to the end of each line with &#39;text&#39;&lt;/span&gt;
+sed &lt;span class=&quot;s1&quot;&gt;&#39;s/test/text/2g&#39;&lt;/span&gt; file.txt
+
+&lt;span class=&quot;c&quot;&gt;# replace the &#39;test&#39; in the 2nd line with &#39;text&#39;&lt;/span&gt;
+sed &lt;span class=&quot;s1&quot;&gt;&#39;2s/test/text/g&#39;&lt;/span&gt; file.txt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Insert &amp;amp; Append a whole line: &lt;code class=&quot;highlighter-rouge&quot;&gt;i&lt;/code&gt; &amp;amp; &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# insert a new line before the 2nd line&lt;/span&gt;
+sed &lt;span class=&quot;s1&quot;&gt;&#39;2 i test&#39;&lt;/span&gt; file.txt
+
+&lt;span class=&quot;c&quot;&gt;# append a new line after the 2nd line&lt;/span&gt;
+sed &lt;span class=&quot;s1&quot;&gt;&#39;2 a test&#39;&lt;/span&gt; file.txt
+
+&lt;span class=&quot;c&quot;&gt;# append a new line after each line that matches the regex pattern&lt;/span&gt;
+sed &lt;span class=&quot;s1&quot;&gt;&#39;/test/a test&#39;&lt;/span&gt; file.txt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Replace a whole line: &lt;code class=&quot;highlighter-rouge&quot;&gt;c&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# replace the 2nd line with &#39;test&#39;&lt;/span&gt;
+sed &lt;span class=&quot;s1&quot;&gt;&#39;2 c test&#39;&lt;/span&gt; file.txt
+
+&lt;span class=&quot;c&quot;&gt;# replace each line that matches the regex pattern with &#39;text&#39;&lt;/span&gt;
+sed &lt;span class=&quot;s1&quot;&gt;&#39;/test/c text&#39;&lt;/span&gt; file.txt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;In-place editing: &lt;code class=&quot;highlighter-rouge&quot;&gt;-i&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# make immediate change!&lt;/span&gt;
+sed -i &lt;span class=&quot;s1&quot;&gt;&#39;s/test/text/g&#39;&lt;/span&gt; file.txt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;advanced-usage---pattern-space--hold-space&quot;&gt;Advanced usage - Pattern Space &amp;amp; Hold Space&lt;/h3&gt;
+
+&lt;p&gt;(Next article)&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://www-users.york.ac.uk/~mijp1/teaching/2nd_year_Comp_Lab/guides/grep_awk_sed.pdf&quot;&gt;grep, awk and sed – three VERY useful command-line utilities&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+
+          
+          
+        
+      
+        </content><summary>grep, awk and sed are three of the most useful command-line tools1 in *nix world. And this article will give you a brief introduction and basic usages of these three different commands.            grep, awk and sed – three VERY useful command-line utilities &amp;#8617;&amp;#xfe0e;      </summary></entry><entry><title>从 Bot 谈起</title><id>http://blog.cee.moe/talking-from-bot.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/talking-from-bot.html" /><published>2016-08-17T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;h2 id=&quot;bot&quot;&gt;Bot&lt;/h2&gt;
 
