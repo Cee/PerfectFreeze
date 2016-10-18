@@ -1,1 +1,814 @@
- <!doctype html> <meta charset=utf-8> <title>PFAvatar · Perfect Freeze!</title> <meta name=viewport content="width=device-width,initial-scale=1"> <meta name=description content="Generate material design avatar!"> <link rel=alternate href=/feed.xml type=application/atom+xml> <link rel=icon href=/favicon.ico> <link rel=apple-touch-icon href=/apple-touch-icon.png> <link rel=mask-icon href=/favicon.svg color=#54C7FC> <style>body,html{background:#fff}.content a,.navigation{font-weight:700}.content:after{clear:both}*,:after,:before{box-sizing:border-box;margin:0;padding:0}html{font-size:100%;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;text-size-adjust:none;text-rendering:optimizelegibility;image-rendering:optimizequality}body{font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue','Hiragino Sans GB',Arial,sans-serif;font-size:1.6vw;line-height:1.42857143;margin:0 auto;padding:0 22vw;transition:all .2s ease;color:#000;font-feature-settings:'case','ss01','ss02'}@media (max-width:1080px){body{font-size:2.24vw;padding-right:8vw;padding-left:8vw}}@media (max-width:640px){body{font-size:3.84vw;padding-right:4vw;padding-left:4vw}}@media (max-width:400px){body{font-size:5.12vw}}a{transition:color .5s ease,border-color .5s ease,background .5s ease,opacity 1.5s ease;text-decoration:none;color:#000}a:focus,a:hover{transition:color .1s ease,border-color .1s ease,background .1s ease,opacity .1s ease;text-decoration:underline;-webkit-text-decoration-skip:ink;text-decoration-skip:ink}img{border:0}::-moz-selection{background:rgba(108,181,252,.1)}::selection{background:rgba(108,181,252,.1)}::-moz-placeholder{opacity:.2;color:#000}:-ms-input-placeholder{opacity:.2;color:#000}::placeholder{opacity:.2;color:#000}:focus::-moz-placeholder{color:#6cb5fc}:focus:-ms-input-placeholder{color:#6cb5fc}:focus::placeholder{color:#6cb5fc}.navigation{font-size:60%;margin-right:-1.1em;margin-left:-1.1em;padding-top:1.4vmax;padding-bottom:1.4vmax;letter-spacing:.45em;text-transform:uppercase}.navigation li{line-height:2;display:inline-block;list-style:none}.navigation li a{padding:.5em 1.2em}.navigation li a:focus,.navigation li a:hover{text-decoration:none;color:#6cb5fc}.content{margin-bottom:16vmin}.content:after,.content:before{display:table;content:''}.content article>:last-child,.content article>:last-child>:last-child,.content article>:last-child>:last-child>:last-child,.content article>:last-child>:last-child>:last-child>:last-child{margin-bottom:0!important}.content .post-content>:first-child{margin-top:0}.content p{line-height:1.71428571;margin-bottom:1.6rem}.content header{display:-ms-flexbox;display:flex;flex-direction:column;min-height:calc(100vh - 5.6vmax - 5ex);margin-right:-22vw;margin-bottom:16vmin;margin-left:-22vw;background:rgba(0,0,0,.02);-ms-flex-direction:column;-ms-flex-pack:center;justify-content:center;padding:10vmin 22vw}@media (max-width:1080px){.content header{min-height:calc(64vh - 1.4vmax * 2 - 3ex);margin-right:-8vw;margin-left:-8vw;padding:16vmin 8vw}}@media (max-width:640px){.content header{margin-right:-4vw;margin-left:-4vw;padding-right:4vw;padding-left:4vw}}.content header h1{font-size:360%;font-weight:700;line-height:1.1;margin-left:-2px;letter-spacing:-.04em;-webkit-hyphens:none;hyphens:none;-webkit-font-smoothing:antialiased;-ms-hyphens:none}.content header small{display:block;margin-top:2vmin}.content h2{font-weight:400;margin:10vmin 0 1rem}.content ul{margin-bottom:1.8rem;list-style:none;counter-reset:list}@media (max-width:640px){.content header h1{font-size:280%}.content ul{margin-left:1em}}.content ul li{line-height:1.71428571}.content ul li:before{font-size:80%;line-height:2.14285714;position:absolute;display:inline-block;width:4em;margin-left:-4em;text-align:right;opacity:.6}.content ul li:before{padding-right:.6em;content:'•'}.content img{display:block;width:calc(100% + (1.2vw * 2) + (2px * 2));margin:0 calc(-1.2vw - 2px) 1.8rem}@media (max-width:1080px){.content img{width:calc(100% + (8vw * 2));margin-right:-8vw;margin-left:-8vw}}@media (max-width:640px){.content img{width:calc(100% + (4vw * 2));margin-right:-4vw;margin-left:-4vw}}.post-modified-date{font-size:75%;opacity:.5}.external .dot{border-radius:50%;background:#000}.external .dot{display:inline-block;width:.7rem;height:.7rem;margin:0 .1em;transition:transform .4s ease;vertical-align:middle}.external .dot--post{margin-left:1rem}.external:focus .dot,.external:hover .dot{transform:scale(1.4)}.footer{font-size:75%;padding:0 0 16vmin;text-transform:lowercase}.footer ul li{display:inline}.footer ul li:after{padding:0 .6vw;content:' / ';opacity:.3}.footer ul li:last-child:after{content:none}@media print{.content .post-content,img{max-width:100%!important}*,:after,:before{color:#000!important;background:0 0!important;box-shadow:none!important;text-shadow:none!important}body{margin:0!important;padding:10mm!important}a,a:visited{text-decoration:none}.content header{min-height:0;padding-bottom:0}img{page-break-inside:avoid}h2,p{orphans:3;widows:3}h2{page-break-after:avoid}.footer,.navigation{display:none}}.content h2{font-size:108%;opacity:.8}.navigation{text-align:center}</style> <link rel=canonical href=http://blog.cee.moe/PFAvatar.html> <meta property=og:type content=article> <meta property=og:site_name content="Perfect Freeze!"> <meta property=og:title content=PFAvatar> <meta property=og:url content=http://blog.cee.moe/PFAvatar.html> <meta property=og:description content="Generate material design avatar!"> <meta name=twitter:card content=summary> <meta name=twitter:title content=PFAvatar> <meta name=twitter:url content=http://blog.cee.moe/PFAvatar.html> <meta name=twitter:description content="Generate material design avatar!"> <meta property=article:published_time content=2015-08-08T00:00:00+08:00> <meta property=article:modified_time content=2016-08-18T11:53:25+08:00> <meta name=twitter:label1 value=Words> <meta name=twitter:data1 value="23 words"> <meta name=twitter:label2 value="Reading time"> <meta name=twitter:data2 value="Less than 1 min"> <meta name=twitter:site content=@Ceecirno> <meta name=twitter:creator content=@Ceecirno> <nav class=navigation> <ul> <li> <a href=/ > Home </a> </li> <li> <a href=/articles/ > Articles </a> </li> <li> <a href=/works/ > Works </a> </li> <li> <a href=/friends/ > Friends </a> </li> <li> <a href=/about/ > About </a> </li> </ul> </nav> <main class=content role=main> <article> <header> <h1 title=PFAvatar data-title=PFAvatar> <a href=https://github.com/PerfectFreeze/PFAvatar class=external> PFAvatar<span class="dot dot--post"> </span> </a> </h1> <small> By <span rel=author>Cee</span> on <time datetime=2015-08-08T00:00:00+08:00>Aug 8, 2015</time> </small> <small class=reading-time title="Estimated read time" style=color:gray> 1 min read </small> </header> <div class=post-content> <p>Generate material design avatar!</p> <p><img src=https://github.com/PerfectFreeze/PFAvatar/raw/master/ScreenShot.png alt=ScreenShot></p> <h2 id=todo>Todo</h2> <ul> <li>[ ] Custom Fonts</li> </ul> <h2 id=license>License</h2> <p>Released under the MIT License.</p> <footer class=post-modified-date> <p> Updated <time datetime=" 2016-08-18T11:53:25+08:00 "> Thursday, Aug 18, 2016 </time> </p> </footer> </div> </article> </main> <footer class=footer> <ul> <li><a href=/ >Perfect Freeze!</a></li> <li><a href=https://github.com/Cee title=GitHub>GitHub</a></li> <li><a href=https://github.com/PerfectFreeze title="Perfect Freeze - Lab">Lab</a></li> <li><a href=/feed.xml title="Feed - Atom (The Atom Syndication Format)">Atom</a></li> </ul> <div id=disqus_thread> </div> <script type=text/javascript>var disqus_shortname="perfectfreeze",disqus_identifier="/PFAvatar.html";!function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="//"+disqus_shortname+".disqus.com/embed.js",(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(e)}()</script> <noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript rel=nofollow>comments powered by Disqus.</a></noscript> </footer>   <script>!function(e,a,t,n,c,o,s){e.GoogleAnalyticsObject=c,e[c]=e[c]||function(){(e[c].q=e[c].q||[]).push(arguments)},e[c].l=1*new Date,o=a.createElement(t),s=a.getElementsByTagName(t)[0],o.async=1,o.src=n,s.parentNode.insertBefore(o,s)}(window,document,"script","//www.google-analytics.com/analytics.js","ga"),ga("create","UA-48656879-8","auto"),ga("send","pageview")</script> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!doctype html>
+
+
+  <meta charset="utf-8">
+
+
+<title>PFAvatar · Perfect Freeze!</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Define a description for better SEO result -->
+<meta name="description" content="Generate material design avatar!">
+
+<!-- Feed URL -->
+<link rel="alternate" href="/feed.xml" type="application/atom+xml">
+
+<!-- Site icons -->
+
+  <link rel="icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<!-- Pinned icon for Safari -->
+<link rel="mask-icon" href="/favicon.svg" color="#54C7FC">
+
+<!-- Main CSS -->
+<style>body,
+html {
+  background: #fff;
+}
+
+.content a,
+.navigation {
+  font-weight: 700;
+}
+
+.content:after {
+  clear: both;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  text-size-adjust: none;
+  text-rendering: optimizelegibility;
+  image-rendering: optimizequality;
+}
+
+body {
+  font-family: -apple-system,BlinkMacSystemFont,'Helvetica Neue','Hiragino Sans GB',Arial,sans-serif;
+  font-size: 1.6vw;
+  line-height: 1.42857143;
+  margin: 0 auto;
+  padding: 0 22vw;
+  transition: all .2s ease;
+  color: #000;
+  font-feature-settings: 'case','ss01','ss02';
+}
+
+@media (max-width:1080px) {
+  body {
+    font-size: 2.24vw;
+    padding-right: 8vw;
+    padding-left: 8vw;
+  }
+}
+
+@media (max-width:640px) {
+  body {
+    font-size: 3.84vw;
+    padding-right: 4vw;
+    padding-left: 4vw;
+  }
+}
+
+@media (max-width:400px) {
+  body {
+    font-size: 5.12vw;
+  }
+}
+
+a {
+  transition: color .5s ease,border-color .5s ease,background .5s ease,opacity 1.5s ease;
+  text-decoration: none;
+  color: #000;
+}
+
+a:focus,
+a:hover {
+  transition: color .1s ease,border-color .1s ease,background .1s ease,opacity .1s ease;
+  text-decoration: underline;
+  -webkit-text-decoration-skip: ink;
+  text-decoration-skip: ink;
+}
+
+img {
+  border: 0;
+}
+
+::-moz-selection {
+  background: rgba(108,181,252,.1);
+}
+
+::selection {
+  background: rgba(108,181,252,.1);
+}
+
+::-moz-placeholder {
+  opacity: .2;
+  color: #000;
+}
+
+:-ms-input-placeholder {
+  opacity: .2;
+  color: #000;
+}
+
+::placeholder {
+  opacity: .2;
+  color: #000;
+}
+
+:focus::-moz-placeholder {
+  color: #6cb5fc;
+}
+
+:focus:-ms-input-placeholder {
+  color: #6cb5fc;
+}
+
+:focus::placeholder {
+  color: #6cb5fc;
+}
+
+.navigation {
+  font-size: 60%;
+  margin-right: -1.1em;
+  margin-left: -1.1em;
+  padding-top: 1.4vmax;
+  padding-bottom: 1.4vmax;
+  letter-spacing: .45em;
+  text-transform: uppercase;
+}
+
+.navigation li {
+  line-height: 2;
+  display: inline-block;
+  list-style: none;
+}
+
+.navigation li a {
+  padding: .5em 1.2em;
+}
+
+.navigation li a:focus,
+.navigation li a:hover {
+  text-decoration: none;
+  color: #6cb5fc;
+}
+
+.content {
+  margin-bottom: 16vmin;
+}
+
+.content:after,
+.content:before {
+  display: table;
+  content: '';
+}
+
+.content article>:last-child,
+.content article>:last-child>:last-child,
+.content article>:last-child>:last-child>:last-child,
+.content article>:last-child>:last-child>:last-child>:last-child {
+  margin-bottom: 0!important;
+}
+
+.content .post-content>:first-child {
+  margin-top: 0;
+}
+
+.content p {
+  line-height: 1.71428571;
+  margin-bottom: 1.6rem;
+}
+
+.content header {
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 5.6vmax - 5ex);
+  margin-right: -22vw;
+  margin-bottom: 16vmin;
+  margin-left: -22vw;
+  background: rgba(0,0,0,.02);
+  -ms-flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 10vmin 22vw;
+}
+
+@media (max-width:1080px) {
+  .content header {
+    min-height: calc(64vh - 1.4vmax * 2 - 3ex);
+    margin-right: -8vw;
+    margin-left: -8vw;
+    padding: 16vmin 8vw;
+  }
+}
+
+@media (max-width:640px) {
+  .content header {
+    margin-right: -4vw;
+    margin-left: -4vw;
+    padding-right: 4vw;
+    padding-left: 4vw;
+  }
+}
+
+.content header h1 {
+  font-size: 360%;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-left: -2px;
+  letter-spacing: -.04em;
+  -webkit-hyphens: none;
+  hyphens: none;
+  -webkit-font-smoothing: antialiased;
+  -ms-hyphens: none;
+}
+
+.content header small {
+  display: block;
+  margin-top: 2vmin;
+}
+
+.content h2 {
+  font-weight: 400;
+  margin: 10vmin 0 1rem;
+}
+
+.content ul {
+  margin-bottom: 1.8rem;
+  list-style: none;
+  counter-reset: list;
+}
+
+@media (max-width:640px) {
+  .content header h1 {
+    font-size: 280%;
+  }
+
+  .content ul {
+    margin-left: 1em;
+  }
+}
+
+.content ul li {
+  line-height: 1.71428571;
+}
+
+.content ul li:before {
+  font-size: 80%;
+  line-height: 2.14285714;
+  position: absolute;
+  display: inline-block;
+  width: 4em;
+  margin-left: -4em;
+  text-align: right;
+  opacity: .6;
+}
+
+.content ul li:before {
+  padding-right: .6em;
+  content: '•';
+}
+
+.content img {
+  display: block;
+  width: calc(100% + (1.2vw * 2) + (2px * 2));
+  margin: 0 calc(-1.2vw - 2px) 1.8rem;
+}
+
+@media (max-width:1080px) {
+  .content img {
+    width: calc(100% + (8vw * 2));
+    margin-right: -8vw;
+    margin-left: -8vw;
+  }
+}
+
+@media (max-width:640px) {
+  .content img {
+    width: calc(100% + (4vw * 2));
+    margin-right: -4vw;
+    margin-left: -4vw;
+  }
+}
+
+.post-modified-date {
+  font-size: 75%;
+  opacity: .5;
+}
+
+.external .dot {
+  border-radius: 50%;
+  background: #000;
+}
+
+.external .dot {
+  display: inline-block;
+  width: .7rem;
+  height: .7rem;
+  margin: 0 .1em;
+  transition: transform .4s ease;
+  vertical-align: middle;
+}
+
+.external .dot--post {
+  margin-left: 1rem;
+}
+
+.external:focus .dot,
+.external:hover .dot {
+  transform: scale(1.4);
+}
+
+.footer {
+  font-size: 75%;
+  padding: 0 0 16vmin;
+  text-transform: lowercase;
+}
+
+.footer ul li {
+  display: inline;
+}
+
+.footer ul li:after {
+  padding: 0 .6vw;
+  content: ' / ';
+  opacity: .3;
+}
+
+.footer ul li:last-child:after {
+  content: none;
+}
+
+@media print {
+  .content .post-content,
+  img {
+    max-width: 100%!important;
+  }
+
+  *,
+  :after,
+  :before {
+    color: #000!important;
+    background: 0 0!important;
+    box-shadow: none!important;
+    text-shadow: none!important;
+  }
+
+  body {
+    margin: 0!important;
+    padding: 10mm!important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: none;
+  }
+
+  .content header {
+    min-height: 0;
+    padding-bottom: 0;
+  }
+
+  img {
+    page-break-inside: avoid;
+  }
+
+  h2,
+  p {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2 {
+    page-break-after: avoid;
+  }
+
+  .footer,
+  .navigation {
+    display: none;
+  }
+}
+
+.content h2 {
+  font-size: 108%;
+  opacity: .8;
+}
+
+.navigation {
+  text-align: center;
+}
+
+/*
+    TODO: You have to speicify background color for `html` in order to make `-webkit-filter` work
+    Link: https://bugs.chromium.org/p/chromium/issues/detail?id=591015
+    Date: Mar 1, 2016, 5:41 PM
+  */
+
+
+
+
+
+/*
+    TODO: Need a better solution. I have to redefine the whole box-shadow here because no invidual box-shadow-color exists
+    Date: Mar 12, 2016, 12:09 AM
+  */
+</style>
+
+<!-- Canonical links, avoid duplicate content problems -->
+<link rel="canonical" href="http://blog.cee.moe/PFAvatar.html">
+
+<!-- DNS prefetching for static files -->
+
+
+<!-- browser-sync, don't remove this -->
+<!-- BS_INSERT -->
+
+<!-- Head hooks -->
+
+
+<!-- Open Graph and Twitter Cards support, more info: https://dev.twitter.com/docs/cards -->
+
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Perfect Freeze!">
+<meta property="og:title" content="PFAvatar">
+<meta property="og:url" content="http://blog.cee.moe/PFAvatar.html">
+<meta property="og:description" content="Generate material design avatar!">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="PFAvatar">
+<meta name="twitter:url" content="http://blog.cee.moe/PFAvatar.html">
+<meta name="twitter:description" content="Generate material design avatar!">
+
+
+  <meta property="article:published_time" content="2015-08-08T00:00:00+08:00">
+  <meta property="article:modified_time" content="2016-08-18T11:53:25+08:00">
+
+  <meta name="twitter:label1" value="Words">
+  <meta name="twitter:data1" value="23 words">
+  <meta name="twitter:label2" value="Reading time">
+  <meta name="twitter:data2" value="Less than 1 min">
+
+
+
+  <meta name="twitter:site" content="@Ceecirno">
+
+
+
+  <meta name="twitter:creator" content="@Ceecirno">
+
+
+
+
+<!-- Post / page specified styles -->
+
+
+<!-- Post specified styles -->
+
+
+<!-- Main navigation with current page / categoriy highlighted -->
+<nav class="navigation">
+  <ul>
+    
+      
+      <li>
+        <a href="/">
+          
+            Home
+          
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/articles/">
+          
+            Articles
+          
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/works/">
+          
+            Works
+          
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/friends/">
+          
+            Friends
+          
+        </a>
+      </li>
+    
+      
+      <li>
+        <a href="/about/">
+          
+            About
+          
+        </a>
+      </li>
+    
+  </ul>
+</nav>
+
+<!-- Main content wrap -->
+<main class="content " role="main">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Post-wide custom CSS -->
+
+  
+
+
+<!-- Prepare for image headers -->
+
+
+<!-- Prepare for SVG header -->
+
+
+
+
+
+
+
+
+
+
+<!-- Article wrapper, limit width -->
+<article>
+
+  <!-- Post title -->
+  <header>
+
+    <h1 class="
+  
+" title="PFAvatar" data-title="PFAvatar">
+      
+  
+    <a href="https://github.com/PerfectFreeze/PFAvatar" class="external">
+      
+  
+    PFAvatar<span class="dot dot--post"> </span>
+  
+
+    </a>
+  
+
+    </h1>
+
+    
+      <small>
+        By <span rel="author">Cee</span>
+        on <time datetime="2015-08-08T00:00:00+08:00">Aug 8, 2015</time>
+      </small>
+    
+
+    
+
+    <small class="reading-time" title="Estimated read time" style="color: gray;">
+      
+      
+        1 min read
+      
+    </small>
+
+  </header>
+
+  <!-- Post content -->
+  <div class="post-content">
+    <p>Generate material design avatar!</p>
+
+<p><img src="https://github.com/PerfectFreeze/PFAvatar/raw/master/ScreenShot.png" alt="ScreenShot"></p>
+
+<h2 id="todo">Todo</h2>
+
+<ul>
+  <li>[ ] Custom Fonts</li>
+</ul>
+
+<h2 id="license">License</h2>
+
+<p>Released under the MIT License.</p>
+
+
+    
+    
+
+    
+      <footer class="post-modified-date">
+        <p>
+          Updated
+          <time datetime=" 2016-08-18T11:53:25+08:00 ">
+            Thursday, Aug 18, 2016
+          </time>
+        </p>
+      </footer>
+    
+  </div>
+
+</article>
+
+
+</main>
+
+<!-- Footer section -->
+
+  <footer class="footer">
+    <ul>
+      <li><a href="/">Perfect Freeze!</a></li>
+      <li><a href="https://github.com/Cee" title="GitHub">GitHub</a></li>
+      <li><a href="https://github.com/PerfectFreeze" title="Perfect Freeze - Lab">Lab</a></li>
+      <li><a href="/feed.xml" title="Feed - Atom (The Atom Syndication Format)">Atom</a></li>
+    </ul>
+    
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+          /* * * CONFIGURATION VARIABLES * * */
+          var disqus_shortname = 'perfectfreeze';
+          
+          /* * * DON'T EDIT BELOW THIS LINE * * */
+          (function() {
+              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+              dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    
+  </footer>
+
+
+<!-- The following code is an example use of including external JavaScript libraries -->
+
+
+<!-- Theme scripts -->
+<script></script>
+
+<!-- User custom scripts -->
+<script></script>
+
+<!-- Google Analytics tracking code -->
+
+  
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-48656879-8', 'auto');
+      ga('send', 'pageview');
+    </script>
+  
+
+
+<!-- Foot hooks -->
+
+
+

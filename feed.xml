@@ -1,4 +1,99 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Perfect Freeze!</title><subtitle>Perfect Freeze! | Cee's Blog v3.0</subtitle><updated>2016-08-23T22:16:55+08:00</updated><id>http://blog.cee.moe/</id><generator uri="http://sparanoid.com/lab/amsf/" version="0.1.11">Almace Scaffolding</generator><link rel="alternate" type="text/html" hreflang="en" href="http://blog.cee.moe/" /><link rel="self" type="application/atom+xml" href="http://blog.cee.moe/feed.xml" /><author><name>Cee</name><uri>http://blog.cee.moe/</uri><email>ceecirno@gmail.com</email></author><entry><title>A brief introduction to grep, awk &amp; sed</title><id>http://blog.cee.moe/a-brief-introduction-to-grep-awk-and-sed.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/a-brief-introduction-to-grep-awk-and-sed.html" /><published>2016-08-23T00:00:00+08:00</published><updated>2016-08-23T22:16:19+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Perfect Freeze!</title><subtitle>Perfect Freeze! | Cee's Blog v3.0</subtitle><updated>2016-10-18T10:43:29+08:00</updated><id>http://blog.cee.moe/</id><generator uri="http://sparanoid.com/lab/amsf/" version="0.1.11">Almace Scaffolding</generator><link rel="alternate" type="text/html" hreflang="en" href="http://blog.cee.moe/" /><link rel="self" type="application/atom+xml" href="http://blog.cee.moe/feed.xml" /><author><name>Cee</name><uri>http://blog.cee.moe/</uri><email>ceecirno@gmail.com</email></author><entry><title>写在第一次 Hackathon 之后</title><id>http://blog.cee.moe/after-my-first-hackathon.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/after-my-first-hackathon.html" /><published>2016-10-17T00:00:00+08:00</published><updated>2016-10-18T10:31:01+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+          
+            &lt;h2 id=&quot;xu-&quot;&gt;序&lt;/h2&gt;
+
+&lt;p&gt;对于一个 Hackathon 萌新来说，这一次的参赛有一些特别。因为是我：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;第一次加入 &lt;a href=&quot;https://github.com/hACKbUSTER/&quot;&gt;hACKbUSTER&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;第一次参加 Hackathon&lt;/li&gt;
+  &lt;li&gt;第一次同时参加两场 Hackathon😂&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;qi-&quot;&gt;起&lt;/h2&gt;
+
+&lt;p&gt;上大学的时候就想着有机会要参加一次 Hackathon。可惜老天看不上我，正准备报名某场 Hackathon 的时候让我&lt;a href=&quot;http://weibo.com/p/1001603916279265274719&quot;&gt;发了病&lt;/a&gt;，于是就在大学期间错过了可以参加的 Hackathon。&lt;/p&gt;
+
+&lt;p&gt;前段时间正好和&lt;a href=&quot;http://sergiochan.xyz&quot;&gt;陈叔&lt;/a&gt;还有&lt;a href=&quot;http://www.justzht.com&quot;&gt;小萌&lt;/a&gt;看到 HACKxFDU 能够报名，而且毕了业的貌似也能报名（笑），就鼓起勇气试了一下。在某个周末竟然收到了入选的消息。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ooo.0o0.ooo/2016/10/17/5804c4ad07c61.jpeg&quot; alt=&quot;HACKxFDU&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;感觉一阵狂喜，焦急地等待官网的上线和选手的注册。结果等到周三还没有任何的通知。陈叔急了，说不如我们去参加 SF 承办的&lt;a href=&quot;https://segmentfault.com/e/1160000007021150&quot;&gt;云赛空间&lt;/a&gt;的吧。点头后遂报名，一看日期还是同一天，自己感觉压力好大。「不过既然报了名两边就得好好做」，心想。&lt;/p&gt;
+
+&lt;p&gt;周五早早的到达火车站，见到了 hACKbUSTER 的另外一名 ACM 大神&lt;a href=&quot;https://github.com/yangsiy&quot;&gt;思宇&lt;/a&gt;。然而可怜的陈叔忘带了身份证，匆匆忙忙补办后一路狂奔至车厢，上车，踏上征战魔都 Hackathon 的旅程。&lt;/p&gt;
+
+&lt;h2 id=&quot;cheng-&quot;&gt;承&lt;/h2&gt;
+
+&lt;p&gt;考虑到后者的奖金丰厚，我们把重心放在了 SF 的比赛上。下午到达酒店放下行李，坐地铁到 FDU 参加晚上的 HACKxFDU 的开幕式。找到 &lt;a href=&quot;https://github.com/WPH95&quot;&gt;WPH&lt;/a&gt; 之后，商讨一下两边的 Hackathon 做什么。晚上九点确定了一下大致的分工：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;重心放在明天的云赛空间的 Hackathon 上&lt;/li&gt;
+  &lt;li&gt;HACKxFDU 应该会左一个类似于 CodeVS 的编辑器或者 IDE，不过适合 k12 的小朋友们使用，避免配置额外的 Runtime 环境&lt;/li&gt;
+  &lt;li&gt;可能有一部分人得来回赶着 Coding&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;考虑到第二天要早起参加骑摩拜的开幕式，晚上就把编辑器的事情讨论到了十一点，就宾馆早点睡了（其实到了宾馆看了下如何开发 Electron App 就一不小心看到了凌晨三点多）。&lt;/p&gt;
+
+&lt;p&gt;周六早上七点半起来，匆忙吃好早饭打了个车赶到云赛空间 Hackathon 的开幕式会场。见到了颜值担当的主持人烧碱，莫名有种已经赚回了来回路费的错觉。在摩拜单车的 CEO 发表致辞后，一行人骑了摩拜单车来到了会场。&lt;/p&gt;
+
+&lt;p&gt;十点比赛正式开始，主题是「如何提升我们的城市生活体验」。拿到题目后感觉有点懵逼，不过在讨论了一些关于智能路灯、垃圾回收的主题后思路开始慢慢清晰——&lt;strong&gt;我们要做的是一款基于 LBS 的信息共享的应用，配合微软的认知服务（比赛必须使用，┑(￣Д ￣)┍）来增进人与人之间的感情，缩短人与人之间的距离&lt;/strong&gt;。名字就取了个和之前 &lt;a href=&quot;https://github.com/hACKbUSTER/FixPlusPlus&quot;&gt;Fix++&lt;/a&gt; 相类似的名字：Connext++。趁着大家都去吃饭的时候，我们团队四个人就又从云赛空间偷偷溜走，骑摩拜到地铁站去复旦 HACKxFDU 露面。算下来这十二个小时什么都没干。&lt;/p&gt;
+
+&lt;p&gt;到达复旦已经是下午两点。正式确认了一下两边的接下来的分配：WPH 负责 Playground 的后端实现和对接企业 SDK；我负责 Playground 的前端、App Icon 设计以及 Electron 的封装对接；剩下三位就开始做 Connect++。定下来这个小的 Playground 叫做 Delight 后，一路踩坑到了晚上九点，自己算是基本完成了前端的界面的改造设计，以及 Electron 文件的初步封装。小萌也基本上做完了 Connect++ 的设计稿，陈叔和思宇也基本接上了 Mapbox。WPH 感冒先回酒店睡觉，于是剩下四个人又打了辆车回到了云赛的比赛场地。晚上十一点，四个人分完设计稿中的内容，开始挑战编程极限。&lt;/p&gt;
+
+&lt;p&gt;中途 Xcode 不知道死了几次，Chrome 和 Safari 的 Tab 可能估计有 100+。到了四点在小萌做完最后一个 TagView 趴下睡觉后，我和陈叔两个人又骑了摩拜单车出去觅食。跨过不知道多少个路口，最后在一个保安的帮助下，终于找到一家 24 小时营业的 Family Mart。两人买完泡面和食物饮料后深感 Connect++ 这个 App 的重要性。回到比赛场地后继续开始修各种 Bug。五点，喝完红牛的我依旧困的不行。在后排找了八张凳子拼了个小床，倒下就躺下睡了一小时。之后陈叔和小萌又轮流睡了一会儿，恢复一下精神。早晨八点多钟，Connect++ 的开发也基本完成，WPH 也从睡梦中醒来，把最后的一点代码交给我打包进 Electron 的工程当中。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ooo.0o0.ooo/2016/10/17/5804e16f9e040.png&quot; alt=&quot;Connect++ Punch Card&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;he-&quot;&gt;合&lt;/h2&gt;
+
+&lt;p&gt;最后等待结果的时候人的状态是又困又紧张又兴奋的。在云赛空间我们是第⑨个上台演示的，而且自我感觉良好，无论对比前面的八组 PPT 还是后面十一组的 PPT。结果很可惜，评委老师的水平太一般，最后只拿了三等奖 1W 元和华硕的键鼠耳机套装。&lt;/p&gt;
+
+&lt;p&gt;知道名次拿到奖品后，听说 Delight 已经进入前九的路演环节，四人马上飞奔至 WPH 那，等待最后的结果。在复旦的食堂中睡了一个半小时后，得知 WPH 最后不幸没拿到前三（据说都是复旦的），五人就去大吃大喝了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ooo.0o0.ooo/2016/10/18/5805843eca058.jpeg&quot; alt=&quot;Sleep @FDU&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;在虹桥睡了一晚上，小萌最后飞机没赶上，我、思宇、陈叔抱着奖品回了北京，这么两场 Hackathon 就这么结束了。&lt;/p&gt;
+
+&lt;h2 id=&quot;gan-shou-he-tu-cao-&quot;&gt;感受和吐嘈&lt;/h2&gt;
+
+&lt;h3 id=&quot;gan-shou-&quot;&gt;感受&lt;/h3&gt;
+
+&lt;p&gt;作为一个萌新第一次参加 Hackathon，第一次就在两天时间内参与了两场平行举行的 Hackathon 比赛😂。这种爆肝做项目的感觉真是好（bu）到（xiang）爆（you）。不过还是要感谢一下 HACKxFDU 以及云赛空间，更感谢一下 hACKbUSTER 的队友们：陈叔、思宇、小萌、WPH🎉。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ooo.0o0.ooo/2016/10/18/58058792d2f7d.jpg&quot; alt=&quot;hACKbUSTER&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;tu-cao-&quot;&gt;吐嘈&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;HACKxFDU 的管理团队实在是好烂，没见过这么烂的。&lt;/li&gt;
+  &lt;li&gt;HACKxFDU 提供的比赛场地就和狗窝一样，还有食品和饮料，简直就是和抢劫一样，实在是好烂，没见过这么烂的。&lt;/li&gt;
+  &lt;li&gt;云赛的评委基本不懂技术，实在是好烂，没见过这么烂的。&lt;/li&gt;
+  &lt;li&gt;云赛的其他组做的产品（PPT）做的实在是好烂，没见过这么烂的。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;zui-hou-jie-shao--xia-liang-ge--app&quot;&gt;最后介绍一下两个 App&lt;/h2&gt;
+
+&lt;h3 id=&quot;delighthttpsgithubcomhackbusterdelight&quot;&gt;&lt;a href=&quot;https://github.com/hACKbUSTER/Delight&quot;&gt;Delight&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ooo.0o0.ooo/2016/10/17/5804d572db2f9.png&quot; alt=&quot;Delight App Icon&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ooo.0o0.ooo/2016/10/17/5804d546e855a.jpeg&quot; alt=&quot;Delight App&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Learn with delight, learn with Delight. Delight is a light-weight code editor and playground that helps connect teacher with students.&lt;/p&gt;
+
+&lt;h3 id=&quot;connecthttpsgithubcomhackbusterconnectplusplus&quot;&gt;&lt;a href=&quot;https://github.com/hACKbUSTER/ConnectPlusPlus&quot;&gt;Connect++&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://github.com/hACKbUSTER/ConnectPlusPlus/raw/master/Screenshot/Screenshot.jpg&quot; alt=&quot;Connect++&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Connect ++ is a LBS information sharing platform. Simple click to share your information and simple click to view the information shared by others, we connect the citizens in this city together to build a smarter city. Furthermore, we could provide open API for public service and utilities to upload their information onto our platform, with more latest and location-related information. It could be the fundamental platform to build smarter city.&lt;/p&gt;
+
+          
+          
+        
+      
+        </content><summary>序</summary></entry><entry><title>A brief introduction to grep, awk &amp; sed</title><id>http://blog.cee.moe/a-brief-introduction-to-grep-awk-and-sed.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/a-brief-introduction-to-grep-awk-and-sed.html" /><published>2016-08-23T00:00:00+08:00</published><updated>2016-08-23T22:16:19+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;grep&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;awk&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;sed&lt;/code&gt; are three of the most useful command-line tools&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; in *nix world. And this article will give you a brief introduction and basic usages of these three different commands.&lt;/p&gt;
 
