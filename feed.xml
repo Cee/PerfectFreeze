@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Perfect Freeze!</title><subtitle>Perfect Freeze! | Cee's Blog v3.0</subtitle><updated>2016-10-19T21:49:33+08:00</updated><id>http://blog.cee.moe/</id><generator uri="http://sparanoid.com/lab/amsf/" version="0.1.11">Almace Scaffolding</generator><link rel="alternate" type="text/html" hreflang="en" href="http://blog.cee.moe/" /><link rel="self" type="application/atom+xml" href="http://blog.cee.moe/feed.xml" /><author><name>Cee</name><uri>http://blog.cee.moe/</uri><email>ceecirno@gmail.com</email></author><entry><title>写在第一次 Hackathon 之后</title><id>http://blog.cee.moe/after-my-first-hackathon.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/after-my-first-hackathon.html" /><published>2016-10-17T00:00:00+08:00</published><updated>2016-10-18T11:14:56+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Perfect Freeze!</title><subtitle>Perfect Freeze! | Cee's Blog v3.0</subtitle><updated>2016-10-26T00:12:06+08:00</updated><id>http://blog.cee.moe/</id><generator uri="http://sparanoid.com/lab/amsf/" version="1.0.0">Almace Scaffolding</generator><link rel="alternate" type="text/html" hreflang="en" href="http://blog.cee.moe/" /><link rel="self" type="application/atom+xml" href="http://blog.cee.moe/feed.xml" /><author><name>Cee</name><uri>http://blog.cee.moe/</uri><email>ceecirno@gmail.com</email></author><entry><title>写在第一次 Hackathon 之后</title><id>http://blog.cee.moe/after-my-first-hackathon.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/after-my-first-hackathon.html" /><published>2016-10-17T00:00:00+08:00</published><updated>2016-10-18T11:14:56+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;h2 id=&quot;xu-&quot;&gt;序&lt;/h2&gt;
 
@@ -111,8 +111,8 @@
   &lt;li&gt;Typical use&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# print every line that contains the word &#39;test&#39;&lt;/span&gt;
-grep &lt;span class=&quot;s1&quot;&gt;&#39;test&#39;&lt;/span&gt; file.txt
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# print every line that contains the word 'test'&lt;/span&gt;
+grep &lt;span class=&quot;s1&quot;&gt;'test'&lt;/span&gt; file.txt
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
@@ -216,10 +216,10 @@ exit [ expression ]
 &lt;/ul&gt;
 
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# print 1st and 4th column&lt;/span&gt;
-awk &lt;span class=&quot;s1&quot;&gt;&#39;{print $1, $4}&#39;&lt;/span&gt; file.txt
+awk &lt;span class=&quot;s1&quot;&gt;'{print $1, $4}'&lt;/span&gt; file.txt
 
-&lt;span class=&quot;c&quot;&gt;# same with &#39;cat file.txt&#39;&lt;/span&gt;
-awk &lt;span class=&quot;s1&quot;&gt;&#39;{print $0}&#39;&lt;/span&gt; file.txt
+&lt;span class=&quot;c&quot;&gt;# same with 'cat file.txt'&lt;/span&gt;
+awk &lt;span class=&quot;s1&quot;&gt;'{print $0}'&lt;/span&gt; file.txt
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
@@ -227,10 +227,10 @@ awk &lt;span class=&quot;s1&quot;&gt;&#39;{print $0}&#39;&lt;/span&gt; file.txt
   &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;-F&lt;/code&gt;: Set input field sparator&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# print 1st and 4th column separated by &#39;:&#39;&lt;/span&gt;
-awk -F: &lt;span class=&quot;s1&quot;&gt;&#39;{print $1, $4}&#39;&lt;/span&gt; file.txt
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# print 1st and 4th column separated by ':'&lt;/span&gt;
+awk -F: &lt;span class=&quot;s1&quot;&gt;'{print $1, $4}'&lt;/span&gt; file.txt
 &lt;span class=&quot;c&quot;&gt;# or&lt;/span&gt;
-awk &lt;span class=&quot;s1&quot;&gt;&#39;BEGIN {FS = &quot;:&quot;} {print $1, $4}&#39;&lt;/span&gt; file.txt
+awk &lt;span class=&quot;s1&quot;&gt;'BEGIN {FS = &quot;:&quot;} {print $1, $4}'&lt;/span&gt; file.txt
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
@@ -238,20 +238,20 @@ awk &lt;span class=&quot;s1&quot;&gt;&#39;BEGIN {FS = &quot;:&quot;} {print $1, 
   &lt;li&gt;Pattern matching&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# print 2nd column when 1st field is precisely &#39;test&#39;&lt;/span&gt;
-awk &lt;span class=&quot;s1&quot;&gt;&#39;$1 == &quot;test&quot; { print $2 }&#39;&lt;/span&gt; file.txt
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# print 2nd column when 1st field is precisely 'test'&lt;/span&gt;
+awk &lt;span class=&quot;s1&quot;&gt;'$1 == &quot;test&quot; { print $2 }'&lt;/span&gt; file.txt
 
-&lt;span class=&quot;c&quot;&gt;# print 2nd column when 1st field contains &#39;test&#39;&lt;/span&gt;
-awk &lt;span class=&quot;s1&quot;&gt;&#39;$1 ~ /test/ { print $2 }&#39;&lt;/span&gt; file.txt
+&lt;span class=&quot;c&quot;&gt;# print 2nd column when 1st field contains 'test'&lt;/span&gt;
+awk &lt;span class=&quot;s1&quot;&gt;'$1 ~ /test/ { print $2 }'&lt;/span&gt; file.txt
 
-&lt;span class=&quot;c&quot;&gt;# print 2nd column when 1st field DOES NOT contain &#39;test&#39;&lt;/span&gt;
-awk &lt;span class=&quot;s1&quot;&gt;&#39;$1 !~ /test/ { print $2 }&#39;&lt;/span&gt; file.txt
+&lt;span class=&quot;c&quot;&gt;# print 2nd column when 1st field DOES NOT contain 'test'&lt;/span&gt;
+awk &lt;span class=&quot;s1&quot;&gt;'$1 !~ /test/ { print $2 }'&lt;/span&gt; file.txt
 
-&lt;span class=&quot;c&quot;&gt;# print 2nd column when this record contains &#39;test&#39;&lt;/span&gt;
-awk &lt;span class=&quot;s1&quot;&gt;&#39;/test/ { print $2 }&#39;&lt;/span&gt; file.txt
+&lt;span class=&quot;c&quot;&gt;# print 2nd column when this record contains 'test'&lt;/span&gt;
+awk &lt;span class=&quot;s1&quot;&gt;'/test/ { print $2 }'&lt;/span&gt; file.txt
 
-&lt;span class=&quot;c&quot;&gt;# print 2nd column when this record DOES NOT contain &#39;test&#39;&lt;/span&gt;
-awk &lt;span class=&quot;s1&quot;&gt;&#39;! /test/ { print $2 }&#39;&lt;/span&gt; file.txt
+&lt;span class=&quot;c&quot;&gt;# print 2nd column when this record DOES NOT contain 'test'&lt;/span&gt;
+awk &lt;span class=&quot;s1&quot;&gt;'! /test/ { print $2 }'&lt;/span&gt; file.txt
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
@@ -269,15 +269,15 @@ awk &lt;span class=&quot;s1&quot;&gt;&#39;! /test/ { print $2 }&#39;&lt;/span&gt
   &lt;li&gt;Print a line: &lt;code class=&quot;highlighter-rouge&quot;&gt;p&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# treat this as using &#39;grep&#39;&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# same with &#39;cat file.txt&#39;&lt;/span&gt;
-sed &lt;span class=&quot;s1&quot;&gt;&#39;&#39;&lt;/span&gt; file.txt
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# treat this as using 'grep'&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# same with 'cat file.txt'&lt;/span&gt;
+sed &lt;span class=&quot;s1&quot;&gt;''&lt;/span&gt; file.txt
 
 &lt;span class=&quot;c&quot;&gt;# print every line that matches the regex pattern&lt;/span&gt;
-sed -n &lt;span class=&quot;s1&quot;&gt;&#39;/test/p&#39;&lt;/span&gt; file.txt
+sed -n &lt;span class=&quot;s1&quot;&gt;'/test/p'&lt;/span&gt; file.txt
 
 &lt;span class=&quot;c&quot;&gt;# match different patterns&lt;/span&gt;
-sed -n &lt;span class=&quot;s1&quot;&gt;&#39;/test1/, /test2/p&#39;&lt;/span&gt; file.txt
+sed -n &lt;span class=&quot;s1&quot;&gt;'/test1/, /test2/p'&lt;/span&gt; file.txt
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
@@ -286,13 +286,13 @@ sed -n &lt;span class=&quot;s1&quot;&gt;&#39;/test1/, /test2/p&#39;&lt;/span&gt;
 &lt;/ul&gt;
 
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# remove every line that matches the regex pattern&lt;/span&gt;
-sed &lt;span class=&quot;s1&quot;&gt;&#39;/test/d&#39;&lt;/span&gt; file.txt
+sed &lt;span class=&quot;s1&quot;&gt;'/test/d'&lt;/span&gt; file.txt
 
 &lt;span class=&quot;c&quot;&gt;# remove 2nd line&lt;/span&gt;
-sed &lt;span class=&quot;s1&quot;&gt;&#39;2d&#39;&lt;/span&gt; file.txt
+sed &lt;span class=&quot;s1&quot;&gt;'2d'&lt;/span&gt; file.txt
 
 &lt;span class=&quot;c&quot;&gt;# remove from 2nd line to the end of the file&lt;/span&gt;
-sed &lt;span class=&quot;s1&quot;&gt;&#39;2,$d&#39;&lt;/span&gt; file.txt
+sed &lt;span class=&quot;s1&quot;&gt;'2,$d'&lt;/span&gt; file.txt
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
@@ -300,20 +300,20 @@ sed &lt;span class=&quot;s1&quot;&gt;&#39;2,$d&#39;&lt;/span&gt; file.txt
   &lt;li&gt;Substitution: &lt;code class=&quot;highlighter-rouge&quot;&gt;s&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# replace the 1st &#39;test&#39; with &#39;text&#39; in each line&lt;/span&gt;
-sed &lt;span class=&quot;s1&quot;&gt;&#39;s/test/text/&#39;&lt;/span&gt; file.txt
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# replace the 1st 'test' with 'text' in each line&lt;/span&gt;
+sed &lt;span class=&quot;s1&quot;&gt;'s/test/text/'&lt;/span&gt; file.txt
 
-&lt;span class=&quot;c&quot;&gt;# replace all &#39;test&#39; with &#39;text&#39; in each line&lt;/span&gt;
-sed &lt;span class=&quot;s1&quot;&gt;&#39;s/test/text/g&#39;&lt;/span&gt; file.txt
+&lt;span class=&quot;c&quot;&gt;# replace all 'test' with 'text' in each line&lt;/span&gt;
+sed &lt;span class=&quot;s1&quot;&gt;'s/test/text/g'&lt;/span&gt; file.txt
 
-&lt;span class=&quot;c&quot;&gt;# replace the 2nd &#39;test&#39; with &#39;text&#39; in each line&lt;/span&gt;
-sed &lt;span class=&quot;s1&quot;&gt;&#39;s/test/text/2&#39;&lt;/span&gt; file.txt
+&lt;span class=&quot;c&quot;&gt;# replace the 2nd 'test' with 'text' in each line&lt;/span&gt;
+sed &lt;span class=&quot;s1&quot;&gt;'s/test/text/2'&lt;/span&gt; file.txt
 
-&lt;span class=&quot;c&quot;&gt;# replace all &#39;test&#39; from the 2nd to the end of each line with &#39;text&#39;&lt;/span&gt;
-sed &lt;span class=&quot;s1&quot;&gt;&#39;s/test/text/2g&#39;&lt;/span&gt; file.txt
+&lt;span class=&quot;c&quot;&gt;# replace all 'test' from the 2nd to the end of each line with 'text'&lt;/span&gt;
+sed &lt;span class=&quot;s1&quot;&gt;'s/test/text/2g'&lt;/span&gt; file.txt
 
-&lt;span class=&quot;c&quot;&gt;# replace the &#39;test&#39; in the 2nd line with &#39;text&#39;&lt;/span&gt;
-sed &lt;span class=&quot;s1&quot;&gt;&#39;2s/test/text/g&#39;&lt;/span&gt; file.txt
+&lt;span class=&quot;c&quot;&gt;# replace the 'test' in the 2nd line with 'text'&lt;/span&gt;
+sed &lt;span class=&quot;s1&quot;&gt;'2s/test/text/g'&lt;/span&gt; file.txt
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
@@ -322,13 +322,13 @@ sed &lt;span class=&quot;s1&quot;&gt;&#39;2s/test/text/g&#39;&lt;/span&gt; file.
 &lt;/ul&gt;
 
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# insert a new line before the 2nd line&lt;/span&gt;
-sed &lt;span class=&quot;s1&quot;&gt;&#39;2 i test&#39;&lt;/span&gt; file.txt
+sed &lt;span class=&quot;s1&quot;&gt;'2 i test'&lt;/span&gt; file.txt
 
 &lt;span class=&quot;c&quot;&gt;# append a new line after the 2nd line&lt;/span&gt;
-sed &lt;span class=&quot;s1&quot;&gt;&#39;2 a test&#39;&lt;/span&gt; file.txt
+sed &lt;span class=&quot;s1&quot;&gt;'2 a test'&lt;/span&gt; file.txt
 
 &lt;span class=&quot;c&quot;&gt;# append a new line after each line that matches the regex pattern&lt;/span&gt;
-sed &lt;span class=&quot;s1&quot;&gt;&#39;/test/a test&#39;&lt;/span&gt; file.txt
+sed &lt;span class=&quot;s1&quot;&gt;'/test/a test'&lt;/span&gt; file.txt
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
@@ -336,11 +336,11 @@ sed &lt;span class=&quot;s1&quot;&gt;&#39;/test/a test&#39;&lt;/span&gt; file.tx
   &lt;li&gt;Replace a whole line: &lt;code class=&quot;highlighter-rouge&quot;&gt;c&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# replace the 2nd line with &#39;test&#39;&lt;/span&gt;
-sed &lt;span class=&quot;s1&quot;&gt;&#39;2 c test&#39;&lt;/span&gt; file.txt
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# replace the 2nd line with 'test'&lt;/span&gt;
+sed &lt;span class=&quot;s1&quot;&gt;'2 c test'&lt;/span&gt; file.txt
 
-&lt;span class=&quot;c&quot;&gt;# replace each line that matches the regex pattern with &#39;text&#39;&lt;/span&gt;
-sed &lt;span class=&quot;s1&quot;&gt;&#39;/test/c text&#39;&lt;/span&gt; file.txt
+&lt;span class=&quot;c&quot;&gt;# replace each line that matches the regex pattern with 'text'&lt;/span&gt;
+sed &lt;span class=&quot;s1&quot;&gt;'/test/c text'&lt;/span&gt; file.txt
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
@@ -349,7 +349,7 @@ sed &lt;span class=&quot;s1&quot;&gt;&#39;/test/c text&#39;&lt;/span&gt; file.tx
 &lt;/ul&gt;
 
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# make immediate change!&lt;/span&gt;
-sed -i &lt;span class=&quot;s1&quot;&gt;&#39;s/test/text/g&#39;&lt;/span&gt; file.txt
+sed -i &lt;span class=&quot;s1&quot;&gt;'s/test/text/g'&lt;/span&gt; file.txt
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
@@ -499,7 +499,7 @@ sed -i &lt;span class=&quot;s1&quot;&gt;&#39;s/test/text/g&#39;&lt;/span&gt; fil
 4
 5
 6&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nv&quot;&gt;feed&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;http://ipkg.nslu2-linux.org/feeds/optware/cs08q1armel/cross/unstable
-&lt;span class=&quot;nv&quot;&gt;ipk_name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;wget -qO- &lt;span class=&quot;nv&quot;&gt;$feed&lt;/span&gt;/Packages | awk &lt;span class=&quot;s1&quot;&gt;&#39;/^Filename: ipkg-opt/ {print $2}&#39;&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;ipk_name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;wget -qO- &lt;span class=&quot;nv&quot;&gt;$feed&lt;/span&gt;/Packages | awk &lt;span class=&quot;s1&quot;&gt;'/^Filename: ipkg-opt/ {print $2}'&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;
 wget &lt;span class=&quot;nv&quot;&gt;$feed&lt;/span&gt;/&lt;span class=&quot;nv&quot;&gt;$ipk_name&lt;/span&gt;
 tar -xOvzf &lt;span class=&quot;nv&quot;&gt;$ipk_name&lt;/span&gt; ./data.tar.gz | tar -C / -xzvf -
 mkdir -p /opt/etc/ipkg
@@ -1714,7 +1714,7 @@ CMSettingViewController ：游戏设置界面&lt;/p&gt;
           
         
       
-        </content><summary></summary></entry><entry><title>Why CSS transform doesn&#39;t work on inline elements</title><id>http://blog.cee.moe/why-css-transform-doesnt-work-on-inline-elements.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/why-css-transform-doesnt-work-on-inline-elements.html" /><published>2015-06-30T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+        </content><summary></summary></entry><entry><title>Why CSS transform doesn't work on inline elements</title><id>http://blog.cee.moe/why-css-transform-doesnt-work-on-inline-elements.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/why-css-transform-doesnt-work-on-inline-elements.html" /><published>2015-06-30T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;p&gt;&lt;strong&gt;CSS TRANSFORM DOESN’T WORK! WHY?&lt;/strong&gt;&lt;/p&gt;
 
@@ -1782,10 +1782,12 @@ p.animation:hover {
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;session-106---whats-new-in-swift&quot;&gt;Session 106 - What’s new in swift&lt;/h2&gt;
-&lt;p&gt;### Why Swift 2
-+ Fundamentals: Refine language and tools fundamentals
-+ Safety: Affordances for writing robust and safe code
-+ Beauty: Enable expressive libraries and APIs&lt;/p&gt;
+&lt;h3 id=&quot;why-swift-2&quot;&gt;Why Swift 2&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fundamentals: Refine language and tools fundamentals&lt;/li&gt;
+  &lt;li&gt;Safety: Affordances for writing robust and safe code&lt;/li&gt;
+  &lt;li&gt;Beauty: Enable expressive libraries and APIs&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;用更好的語言寫更加安全和漂亮的代碼！&lt;/p&gt;
@@ -2526,7 +2528,7 @@ p.animation:hover {
   // ...
   function handleBtnClick() {
   	// Tell stage to update frame
-      // But the button doesn&#39;t know things that the stage does
+      // But the button doesn't know things that the stage does
       stage.updateGameFrame();
   }
 &lt;/code&gt;&lt;/pre&gt;
@@ -2801,8 +2803,8 @@ Y0s0Y&lt;/p&gt;
 &lt;hr /&gt;
 
 &lt;h4 id=&quot;er-fen-cha-zhao-binary-search&quot;&gt;二分查找（Binary Search）&lt;/h4&gt;
-&lt;p&gt;##### 问题
-二分查找又叫做折半查找。我们所碰到的问题也很简单：&lt;/p&gt;
+&lt;h5 id=&quot;wen-ti-&quot;&gt;问题&lt;/h5&gt;
+&lt;p&gt;二分查找又叫做折半查找。我们所碰到的问题也很简单：&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;对于一个已经排好序且元素唯一的数组，如何找到我们需要的值&lt;code class=&quot;highlighter-rouge&quot;&gt;value&lt;/code&gt;？&lt;/p&gt;
@@ -2829,8 +2831,8 @@ Y0s0Y&lt;/p&gt;
 &lt;p&gt;二分查找的应用也很广泛，尤其是利用单调性这一点，可以利用他来猜测答案。具体的应用相信很多OJ菊苣都知道，渣渣在这里也就不谈了。&lt;/p&gt;
 
 &lt;h4 id=&quot;kuai-su-mi-exponentiation-by-squaring&quot;&gt;快速幂（Exponentiation by squaring）&lt;/h4&gt;
-&lt;p&gt;##### 问题
-问题很简单：&lt;/p&gt;
+&lt;h5 id=&quot;wen-ti--1&quot;&gt;问题&lt;/h5&gt;
+&lt;p&gt;问题很简单：&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;怎样计算一个数 &lt;code class=&quot;highlighter-rouge&quot;&gt;N&lt;/code&gt; 的 &lt;code class=&quot;highlighter-rouge&quot;&gt;K&lt;/code&gt; 次方？&lt;/p&gt;
