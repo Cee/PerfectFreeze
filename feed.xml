@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Perfect Freeze!</title><subtitle>Perfect Freeze! | Cee's Blog v3.0</subtitle><updated>2016-11-23T16:10:38+08:00</updated><id>http://blog.cee.moe/</id><generator uri="http://sparanoid.com/lab/amsf/" version="1.0.0">Almace Scaffolding</generator><link rel="alternate" type="text/html" hreflang="en" href="http://blog.cee.moe/" /><link rel="self" type="application/atom+xml" href="http://blog.cee.moe/feed.xml" /><author><name>Cee</name><uri>http://blog.cee.moe/</uri><email>ceecirno@gmail.com</email></author><entry><title>一个在 Swift 3.0 下关于 KVO 和 Cocoa Bindings 的坑</title><id>http://blog.cee.moe/swift-3-kvo-and-cocoa-bindings.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/swift-3-kvo-and-cocoa-bindings.html" /><published>2016-11-23T00:00:00+08:00</published><updated>2016-11-23T16:10:06+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Perfect Freeze!</title><subtitle>Perfect Freeze! | Cee's Blog v3.0</subtitle><updated>2016-12-05T15:39:32+08:00</updated><id>http://blog.cee.moe/</id><generator uri="http://sparanoid.com/lab/amsf/" version="1.0.0">Almace Scaffolding</generator><link rel="alternate" type="text/html" hreflang="en" href="http://blog.cee.moe/" /><link rel="self" type="application/atom+xml" href="http://blog.cee.moe/feed.xml" /><author><name>Cee</name><uri>http://blog.cee.moe/</uri><email>ceecirno@gmail.com</email></author><entry><title>一个在 Swift 3.0 下关于 KVO 和 Cocoa Bindings 的坑</title><id>http://blog.cee.moe/swift-3-kvo-and-cocoa-bindings.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/swift-3-kvo-and-cocoa-bindings.html" /><published>2016-11-23T00:00:00+08:00</published><updated>2016-11-23T16:10:06+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;p&gt;前段时间好好的看了一下 Cocoa Bindings，然后做了一个最基本的 Demo：三个 &lt;code class=&quot;highlighter-rouge&quot;&gt;NSSlider&lt;/code&gt; 控制一个 &lt;code class=&quot;highlighter-rouge&quot;&gt;NSColorWell&lt;/code&gt; 的颜色变化。结果发现无论怎么拖动 slider 都无法改变 well 的颜色。代码如下：&lt;/p&gt;
 
@@ -335,7 +335,7 @@
       
         </content><summary>从上次 Hackathon 回来之后，逛了一些朋友的博客（比如陈叔、小萌、BlueCocoa、执一、soruly），感觉到和这些 Full-Stack Developer 的差距还是挺大的。</summary></entry><entry><title>TouchBar 入门开发指南</title><id>http://blog.cee.moe/touchbar-tutorial.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/touchbar-tutorial.html" /><published>2016-10-28T00:00:00+08:00</published><updated>2016-10-28T18:53:47+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
-            &lt;h2 id=&quot;environments--huan-jing-yao-qiu-&quot;&gt;Environments / 环境要求&lt;/h2&gt;
+            &lt;h2 id=&quot;environments--环境要求&quot;&gt;Environments / 环境要求&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;macOS Sierra 10.12.1 (16B2657)&lt;/li&gt;
@@ -344,7 +344,7 @@
 
 &lt;p&gt;可以通过 &lt;a href=&quot;https://developer.apple.com/&quot;&gt;https://developer.apple.com/&lt;/a&gt; 获取更多配置环境信息。&lt;/p&gt;
 
-&lt;h2 id=&quot;get-started--shang-shou-shi-jian-&quot;&gt;Get Started / 上手实践&lt;/h2&gt;
+&lt;h2 id=&quot;get-started--上手实践&quot;&gt;Get Started / 上手实践&lt;/h2&gt;
 
 &lt;p&gt;要实现 NSTouchBar，我们必须做下面三件事情：&lt;/p&gt;
 
@@ -377,7 +377,7 @@
 
 &lt;p&gt;&lt;img src=&quot;https://ooo.0o0.ooo/2016/10/28/581316d32d43f.png&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;project-init--xin-jian-gong-cheng-&quot;&gt;Project Init / 新建工程&lt;/h3&gt;
+&lt;h3 id=&quot;project-init--新建工程&quot;&gt;Project Init / 新建工程&lt;/h3&gt;
 
 &lt;p&gt;打开 Xcode，并新建一个 Xcode 工程。选择 macOS 上的 Cocoa Application，点击下一步，输入项目名称 TouchBarSample，并在勾选使用 Storyboards。在这里我们选择使用 Swift 3.0 开发。&lt;/p&gt;
 
@@ -426,7 +426,7 @@
 
 &lt;p&gt;现在，可以转战 &lt;code class=&quot;highlighter-rouge&quot;&gt;WindowController.swift&lt;/code&gt;，专注于 TouchBar 的开发了。&lt;/p&gt;
 
-&lt;h3 id=&quot;implement-touchbar--shi-xian--touchbar&quot;&gt;Implement TouchBar / 实现 TouchBar&lt;/h3&gt;
+&lt;h3 id=&quot;implement-touchbar--实现-touchbar&quot;&gt;Implement TouchBar / 实现 TouchBar&lt;/h3&gt;
 
 &lt;p&gt;在实现之前，先来结合文档了解一下接下来所使用到的属性和方法。&lt;/p&gt;
 
@@ -463,7 +463,7 @@
   &lt;li&gt;让 TouchBar 生成这些 Bar Item&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h4 id=&quot;gei-ni-de--touchbar-he--bar-item-sheng-cheng-biao-shi-fu-&quot;&gt;给你的 TouchBar 和 Bar Item 生成标识符&lt;/h4&gt;
+&lt;h4 id=&quot;给你的-touchbar-和-bar-item-生成标识符&quot;&gt;给你的 TouchBar 和 Bar Item 生成标识符&lt;/h4&gt;
 
 &lt;p&gt;打卡 &lt;code class=&quot;highlighter-rouge&quot;&gt;WindowController.swift&lt;/code&gt;，在 &lt;code class=&quot;highlighter-rouge&quot;&gt;import Cocoa&lt;/code&gt; 和 &lt;code class=&quot;highlighter-rouge&quot;&gt;class WindowController&lt;/code&gt; 中间插入以下代码，用于生成 TouchBar 和 Bar Item 的标识符：&lt;/p&gt;
 
@@ -479,7 +479,7 @@
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;h4 id=&quot;gao-su--touchbar-mo-ren-hui-xian-shi-na-xie--bar-item&quot;&gt;告诉 TouchBar 默认会显示哪些 Bar Item&lt;/h4&gt;
+&lt;h4 id=&quot;告诉-touchbar-默认会显示哪些-bar-item&quot;&gt;告诉 TouchBar 默认会显示哪些 Bar Item&lt;/h4&gt;
 
 &lt;p&gt;有了这些标识符，你就可以自定义 TouchBar 中间显示的内容了。在 &lt;code class=&quot;highlighter-rouge&quot;&gt;windowDidLoad()&lt;/code&gt; 方法下方实现 &lt;code class=&quot;highlighter-rouge&quot;&gt;makeTouchBar()&lt;/code&gt;：&lt;/p&gt;
 
@@ -505,7 +505,7 @@
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;h4 id=&quot;rang--touchbar-sheng-cheng-zhe-xie--bar-item&quot;&gt;让 TouchBar 生成这些 Bar Item&lt;/h4&gt;
+&lt;h4 id=&quot;让-touchbar-生成这些-bar-item&quot;&gt;让 TouchBar 生成这些 Bar Item&lt;/h4&gt;
 
 &lt;p&gt;下面来实现 NSTouchBarDelegate。通过不同的标识（identifier）可以区别不同的 Bar Item。&lt;/p&gt;
 
@@ -543,7 +543,7 @@
   &lt;li&gt;NSCandidateListTouchBarItem&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;wan-cheng-sheng-yu-bu-fen-&quot;&gt;完成剩余部分&lt;/h4&gt;
+&lt;h4 id=&quot;完成剩余部分&quot;&gt;完成剩余部分&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;关联组件：使用 Ctrl-drag 将界面组件拖到代码中。&lt;/li&gt;
@@ -615,7 +615,7 @@
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;references---can-kao-&quot;&gt;References - 参考&lt;/h2&gt;
+&lt;h2 id=&quot;references---参考&quot;&gt;References - 参考&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;官方的 NSTouchBar 开发文档：&lt;a href=&quot;https://developer.apple.com/reference/appkit/nstouchbar&quot;&gt;https://developer.apple.com/reference/appkit/nstouchbar&lt;/a&gt;&lt;/li&gt;
@@ -628,7 +628,7 @@
       
         </content><summary>Environments / 环境要求</summary></entry><entry><title>写在第一次 Hackathon 之后</title><id>http://blog.cee.moe/after-my-first-hackathon.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/after-my-first-hackathon.html" /><published>2016-10-17T00:00:00+08:00</published><updated>2016-10-18T11:14:56+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
-            &lt;h2 id=&quot;xu-&quot;&gt;序&lt;/h2&gt;
+            &lt;h2 id=&quot;序&quot;&gt;序&lt;/h2&gt;
 
 &lt;p&gt;对于一个 Hackathon 萌新来说，这一次的参赛有一些特别。因为是我：&lt;/p&gt;
 
@@ -638,7 +638,7 @@
   &lt;li&gt;第一次同时参加两场 Hackathon😂&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;qi-&quot;&gt;起&lt;/h2&gt;
+&lt;h2 id=&quot;起&quot;&gt;起&lt;/h2&gt;
 
 &lt;p&gt;上大学的时候就想着有机会要参加一次 Hackathon。可惜老天看不上我，正准备报名某场 Hackathon 的时候让我&lt;a href=&quot;http://weibo.com/p/1001603916279265274719&quot;&gt;发了病&lt;/a&gt;，于是就在大学期间错过了可以参加的 Hackathon。&lt;/p&gt;
 
@@ -650,7 +650,7 @@
 
 &lt;p&gt;周五早早的到达火车站，见到了 hACKbUSTER 的另外一名 ACM 大神&lt;a href=&quot;https://github.com/yangsiy&quot;&gt;思宇&lt;/a&gt;。然而可怜的陈叔忘带了身份证，匆匆忙忙补办后一路狂奔至车厢，上车，踏上征战魔都 Hackathon 的旅程。&lt;/p&gt;
 
-&lt;h2 id=&quot;cheng-&quot;&gt;承&lt;/h2&gt;
+&lt;h2 id=&quot;承&quot;&gt;承&lt;/h2&gt;
 
 &lt;p&gt;考虑到后者的奖金丰厚，我们把重心放在了 SF 的比赛上。下午到达酒店放下行李，坐地铁到 FDU 参加晚上的 HACKxFDU 的开幕式。找到 &lt;a href=&quot;https://github.com/WPH95&quot;&gt;WPH&lt;/a&gt; 之后，商讨一下两边的 Hackathon 做什么。晚上九点确定了一下大致的分工：&lt;/p&gt;
 
@@ -672,7 +672,7 @@
 
 &lt;p&gt;&lt;img src=&quot;https://ooo.0o0.ooo/2016/10/17/5804e16f9e040.png&quot; alt=&quot;Connect++ Punch Card&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;he-&quot;&gt;合&lt;/h2&gt;
+&lt;h2 id=&quot;合&quot;&gt;合&lt;/h2&gt;
 
 &lt;p&gt;最后等待结果的时候人的状态是又困又紧张又兴奋的。在云赛空间我们是第⑨个上台演示的，而且自我感觉良好，无论对比前面的八组 PPT 还是后面十一组的 PPT。结果很可惜，评委老师的水平太一般，最后只拿了三等奖 1W 元和华硕的键鼠耳机套装。&lt;/p&gt;
 
@@ -682,15 +682,15 @@
 
 &lt;p&gt;在虹桥睡了一晚上，小萌最后飞机没赶上，我、思宇、陈叔抱着奖品回了北京，这么两场 Hackathon 就这么结束了。&lt;/p&gt;
 
-&lt;h2 id=&quot;gan-shou-he-tu-cao-&quot;&gt;感受和吐嘈&lt;/h2&gt;
+&lt;h2 id=&quot;感受和吐嘈&quot;&gt;感受和吐嘈&lt;/h2&gt;
 
-&lt;h3 id=&quot;gan-shou-&quot;&gt;感受&lt;/h3&gt;
+&lt;h3 id=&quot;感受&quot;&gt;感受&lt;/h3&gt;
 
 &lt;p&gt;作为一个萌新第一次参加 Hackathon，第一次就在两天时间内参与了两场平行举行的 Hackathon 比赛😂。这种爆肝做项目的感觉真是好（bu）到（xiang）爆（you）。不过还是要感谢一下 HACKxFDU 以及云赛空间，更感谢一下 hACKbUSTER 的队友们：陈叔、思宇、小萌、WPH🎉。&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://ooo.0o0.ooo/2016/10/18/58058792d2f7d.jpg&quot; alt=&quot;hACKbUSTER&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;tu-cao-&quot;&gt;吐嘈&lt;/h3&gt;
+&lt;h3 id=&quot;吐嘈&quot;&gt;吐嘈&lt;/h3&gt;
 
 &lt;ol&gt;
   &lt;li&gt;HACKxFDU 的管理团队实在是好烂，没见过这么烂的。&lt;/li&gt;
@@ -701,9 +701,9 @@
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;zui-hou-jie-shao--xia-liang-ge--app&quot;&gt;最后介绍一下两个 App&lt;/h2&gt;
+&lt;h2 id=&quot;最后介绍一下两个-app&quot;&gt;最后介绍一下两个 App&lt;/h2&gt;
 
-&lt;h3 id=&quot;delighthttpsgithubcomhackbusterdelight&quot;&gt;&lt;a href=&quot;https://github.com/hACKbUSTER/Delight&quot;&gt;Delight&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;delight&quot;&gt;&lt;a href=&quot;https://github.com/hACKbUSTER/Delight&quot;&gt;Delight&lt;/a&gt;&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://ooo.0o0.ooo/2016/10/17/5804d572db2f9.png&quot; alt=&quot;Delight App Icon&quot; /&gt;&lt;/p&gt;
 
@@ -711,7 +711,7 @@
 
 &lt;p&gt;Learn with delight, learn with Delight. Delight is a light-weight code editor and playground that helps connect teacher with students.&lt;/p&gt;
 
-&lt;h3 id=&quot;connecthttpsgithubcomhackbusterconnectplusplus&quot;&gt;&lt;a href=&quot;https://github.com/hACKbUSTER/ConnectPlusPlus&quot;&gt;Connect++&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;connect&quot;&gt;&lt;a href=&quot;https://github.com/hACKbUSTER/ConnectPlusPlus&quot;&gt;Connect++&lt;/a&gt;&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://github.com/hACKbUSTER/ConnectPlusPlus/raw/master/Screenshot/Screenshot.jpg&quot; alt=&quot;Connect++&quot; /&gt;&lt;/p&gt;
 
@@ -1070,7 +1070,7 @@ sed -i &lt;span class=&quot;s1&quot;&gt;'s/test/text/g'&lt;/span&gt; file.txt
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;sheng-huo-&quot;&gt;生活&lt;/h2&gt;
+&lt;h2 id=&quot;生活&quot;&gt;生活&lt;/h2&gt;
 
 &lt;p&gt;开始做早饭：下面、下饺子、下汤圆、烤面包。除了没怎么做过沙拉（冰箱里的紫甘蓝也快坏了吧）还有饼和煮粥，倒是基本上都做过了。&lt;/p&gt;
 
@@ -1086,7 +1086,7 @@ sed -i &lt;span class=&quot;s1&quot;&gt;'s/test/text/g'&lt;/span&gt; file.txt
 
 &lt;p&gt;晚饭就更加随意，这一个月的约饭特别多。以至于回家做饭就做了一次，吃完饭洗完竟然已经十点半了，不禁觉得做晚饭这种事情还是放在周末做吧。&lt;/p&gt;
 
-&lt;h2 id=&quot;gong-zuo-&quot;&gt;工作&lt;/h2&gt;
+&lt;h2 id=&quot;工作&quot;&gt;工作&lt;/h2&gt;
 
 &lt;p&gt;去了渡鸦科技的 Lab 组，真的非常的 Geek（Especially 说的是陈叔），但是忙的时候真的忙成狗。没有打卡考勤，and do everything geek and you like！&lt;/p&gt;
 
@@ -1098,7 +1098,7 @@ sed -i &lt;span class=&quot;s1&quot;&gt;'s/test/text/g'&lt;/span&gt; file.txt
 
 &lt;p&gt;其他工作方面的东西，还是保密😂！&lt;/p&gt;
 
-&lt;h2 id=&quot;qi-ta-&quot;&gt;其他&lt;/h2&gt;
+&lt;h2 id=&quot;其他&quot;&gt;其他&lt;/h2&gt;
 
 &lt;ol&gt;
   &lt;li&gt;办了一次 &lt;T&gt; 沙龙。希望八月份各位也能多多支持，在征集 CI 的 Speaker。&lt;/T&gt;&lt;/li&gt;
@@ -1317,7 +1317,7 @@ ipkg install &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;YOUR PACKAGES] &lt;sp
           
             &lt;p&gt;统计了一下公共号后台所回复的信息，结合自身的思考给大家一些提示。&lt;/p&gt;
 
-&lt;h3 id=&quot;xue-hui-shi-yong-he-gua-de-sou-suo-yin-qing-&quot;&gt;学会使用合适的&lt;strong&gt;搜索引擎&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;学会使用合适的搜索引擎&quot;&gt;学会使用合适的&lt;strong&gt;搜索引擎&lt;/strong&gt;&lt;/h3&gt;
 
 &lt;p&gt;搜索，就要选算法好的 &lt;strong&gt;Google&lt;/strong&gt;，而且请学会看&lt;strong&gt;英文&lt;/strong&gt;。Google 能够提供很多的功能，例如：&lt;/p&gt;
 
@@ -1332,23 +1332,23 @@ ipkg install &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;YOUR PACKAGES] &lt;sp
 
 &lt;p&gt;此外码农需要多多接触 &lt;strong&gt;StackOverflow&lt;/strong&gt;，其实很多你们犯过的问题大多都能在上面搜索得到。&lt;/p&gt;
 
-&lt;h3 id=&quot;tiao-xuan--kuan-he-gua-de-wen-ben-bian-ji-qi-&quot;&gt;挑选一款合适的&lt;strong&gt;文本编辑器&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;挑选一款合适的文本编辑器&quot;&gt;挑选一款合适的&lt;strong&gt;文本编辑器&lt;/strong&gt;&lt;/h3&gt;
 
 &lt;p&gt;当碰到「你会推荐用什么文本编辑器？」这种问题时，我都会比较小心谨慎地推荐你使用 &lt;strong&gt;Sublime Text&lt;/strong&gt; 或者 &lt;strong&gt;Atom&lt;/strong&gt;，因为并不想发起 &lt;strong&gt;Vim&lt;/strong&gt; 和 &lt;strong&gt;Emacs&lt;/strong&gt; 之争。自然以上都是玩笑话，用什么文本编辑器还是得看个人习惯。文本编辑器用顺了比其他一切都重要。所以尽早挑定一款适合自己的文本编辑器吧！当发现另有一款能够提高效率的文本编辑器时，请尽早切换过去（例如 &lt;strong&gt;Nano&lt;/strong&gt; → &lt;strong&gt;Vim&lt;/strong&gt;，并不是说 &lt;strong&gt;Emacs&lt;/strong&gt; 不好）。&lt;/p&gt;
 
-&lt;h3 id=&quot;xue-hui--chong-xiang-mu-guan-li-de-ji-neng-&quot;&gt;学会一种&lt;strong&gt;项目管理&lt;/strong&gt;的技能&lt;/h3&gt;
+&lt;h3 id=&quot;学会一种项目管理的技能&quot;&gt;学会一种&lt;strong&gt;项目管理&lt;/strong&gt;的技能&lt;/h3&gt;
 
 &lt;p&gt;同样，重要的不是你会 &lt;strong&gt;Git&lt;/strong&gt; 还是 &lt;strong&gt;SVN&lt;/strong&gt;，更重要的是培养这种&lt;strong&gt;项目管理&lt;/strong&gt;的技能。知道数据的重要性，懂得为什么能够通过这样的&lt;strong&gt;版本控制系统&lt;/strong&gt;来保存你的文件。学会使用 &lt;strong&gt;Git&lt;/strong&gt; 或者 &lt;strong&gt;SVN&lt;/strong&gt; 的最基础的功能。尤其是随着 &lt;strong&gt;Git&lt;/strong&gt; 的普及，更多得懂一些 &lt;strong&gt;Git&lt;/strong&gt; 的高级知识显得格外的重要。感谢 @loddit 推荐了一篇关于如何写好 Commit 做好 Code Review 的&lt;a href=&quot;http://blog.psjay.com/posts/code-review-guide/&quot;&gt;文章&lt;/a&gt;。&lt;/p&gt;
 
 &lt;p&gt;学会如何和团队的成员&lt;strong&gt;沟通&lt;/strong&gt;和&lt;strong&gt;写作&lt;/strong&gt;，使用你们所用的&lt;strong&gt;项目管理工具&lt;/strong&gt;进行无缝交流和对接。&lt;/p&gt;
 
-&lt;h3 id=&quot;dong--dian-she-ji-&quot;&gt;懂一点&lt;strong&gt;设计&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;懂一点设计&quot;&gt;懂一点&lt;strong&gt;设计&lt;/strong&gt;&lt;/h3&gt;
 
 &lt;p&gt;带上一本小本子、一支笔，背上包，出去走走。碰到灵感来了，马上拿出来把灵感&lt;strong&gt;记录&lt;/strong&gt;下来，甚至&lt;strong&gt;画&lt;/strong&gt;下来。&lt;/p&gt;
 
 &lt;p&gt;打开电脑上的 &lt;strong&gt;Sketch&lt;/strong&gt;、&lt;strong&gt;Photoshop&lt;/strong&gt; 还有 &lt;strong&gt;Illustrator&lt;/strong&gt;，用简单的图形构建出理想的那种感觉。从点到线再到面，从草稿到原型到产品，在设计中会不断提升对产品的理解（越是理解产品，越能写出好代码哦）。&lt;/p&gt;
 
-&lt;h3 id=&quot;zui-hou-ji-de-yong-yuan-jiang-jian-kang-he-zi-you-fang-zai-shou-wei-&quot;&gt;最后记得永远将&lt;strong&gt;健康&lt;/strong&gt;和&lt;strong&gt;自由&lt;/strong&gt;放在首位&lt;/h3&gt;
+&lt;h3 id=&quot;最后记得永远将健康和自由放在首位&quot;&gt;最后记得永远将&lt;strong&gt;健康&lt;/strong&gt;和&lt;strong&gt;自由&lt;/strong&gt;放在首位&lt;/h3&gt;
 
 &lt;p&gt;引用一段话：「要为自己喜欢的而活；健康与自由比一切都重要；业余爱好和工作一样重要；有能力的人绝不加班；远离那些不聪明且勤奋的人。」&lt;/p&gt;
 
@@ -1491,7 +1491,7 @@ ipkg install &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;YOUR PACKAGES] &lt;sp
 
 &lt;p&gt;（下面就只谈谈题目，答案各自都有各自的答案:) ）&lt;/p&gt;
 
-&lt;h3 id=&quot;mian-&quot;&gt;一面&lt;/h3&gt;
+&lt;h3 id=&quot;一面&quot;&gt;一面&lt;/h3&gt;
 
 &lt;ol&gt;
   &lt;li&gt;理所当然简单介绍一下自己和做过的项目，没什么好说的都在简历上。&lt;/li&gt;
@@ -1505,7 +1505,7 @@ ipkg install &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;YOUR PACKAGES] &lt;sp
   &lt;li&gt;笔试题，给定两个 str1，str2（比如「BDAFEC」和「DAFCEA」）作为起始和终止态和一个交换规则（B &amp;lt;–&amp;gt; A），能否从 str1 转换为 str2。&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&quot;er-mian-&quot;&gt;二面&lt;/h3&gt;
+&lt;h3 id=&quot;二面&quot;&gt;二面&lt;/h3&gt;
 
 &lt;ol&gt;
   &lt;li&gt;&lt;strong&gt;你是来实习还是来做正式员工？此时我心中千万头草泥马飞奔而过。&lt;/strong&gt;&lt;/li&gt;
@@ -1547,7 +1547,7 @@ ipkg install &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;YOUR PACKAGES] &lt;sp
       
         </content><summary>2015/12/08 17:05 Update</summary></entry><entry><title>About Co!orMix (3) - Co!orMix 小记：关于开发的那点儿事</title><id>http://blog.cee.moe/about-colormix-3.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/about-colormix-3.html" /><published>2015-09-10T00:00:00+08:00</published><updated>2016-08-18T11:53:25+08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
-            &lt;h2 id=&quot;guan-yu--coormix&quot;&gt;关于 Co!orMix&lt;/h2&gt;
+            &lt;h2 id=&quot;关于-coormix&quot;&gt;关于 Co!orMix&lt;/h2&gt;
 
 &lt;p&gt;前几天， Cee 童鞋把 &lt;a href=&quot;https://github.com/Cee/ColorMix&quot;&gt;Co!orMix&lt;/a&gt; 开源了。当时刚上架的时候，团队里的另外两个童鞋都发了文，@Cee 讲&lt;a href=&quot;http://blog.cee.moe/about-colormix-1.html&quot;&gt;产品&lt;/a&gt;，@Albus 讲&lt;a href=&quot;http://blog.cee.moe/about-colormix-2.html&quot;&gt;设计&lt;/a&gt;（这两篇文章都在 V2EX 上发布过）。&lt;/p&gt;
 
@@ -1555,7 +1555,7 @@ ipkg install &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;YOUR PACKAGES] &lt;sp
 
 &lt;p&gt;Co!orMix 里面并没有什么特别有技术含量的东西，可以说，任何一个人都可以毫不费力地把它做出来。对于新手来说，也值得一试。不过毫不谦虚地说，如果要达到零错误率，还是有一定难度的，而上线至今，它的 Crash 率一直保持在 0 ，这是我所引以为豪的。（欢迎大家试玩！偷偷说一句，我可是跟组里承诺过，只要出现一个 crash ，就请吃饭的哦！）&lt;/p&gt;
 
-&lt;h2 id=&quot;dong-shou-zhi-qian-de-si-kao-&quot;&gt;动手之前的思考&lt;/h2&gt;
+&lt;h2 id=&quot;动手之前的思考&quot;&gt;动手之前的思考&lt;/h2&gt;
 
 &lt;p&gt;无论是多简单的项目，开动之前必须要思考一下大致的架构。 Co!orMix 本身是一个相对很简单的游戏。&lt;/p&gt;
 
@@ -1589,7 +1589,7 @@ CMSettingViewController ：游戏设置界面&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;xiang-mu-jie-gou-&quot;&gt;项目结构&lt;/h2&gt;
+&lt;h2 id=&quot;项目结构&quot;&gt;项目结构&lt;/h2&gt;
 
 &lt;p&gt;由于项目比较简单，所以并没有按照功能模块进行分类，项目的结构大致如下：&lt;/p&gt;
 
@@ -1622,7 +1622,7 @@ CMSettingViewController ：游戏设置界面&lt;/p&gt;
 
 &lt;p&gt;项目并没有使用任何第三方库（除了友盟统计），所以自然也就没有使用 Cocoapods 了。&lt;/p&gt;
 
-&lt;h2 id=&quot;guan-yu-kai-fa-xi-jie-&quot;&gt;关于开发细节&lt;/h2&gt;
+&lt;h2 id=&quot;关于开发细节&quot;&gt;关于开发细节&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;规范&lt;/li&gt;
@@ -1722,7 +1722,7 @@ CMSettingViewController ：游戏设置界面&lt;/p&gt;
 
 &lt;p&gt;项目虽小，可以用任何方式实现。不过这样一个小项目可以把面向对象思想很好地加以实践。所有的类都实现了对应的职能，隐藏了内部细节。&lt;/p&gt;
 
-&lt;h2 id=&quot;zong-jie-&quot;&gt;总结&lt;/h2&gt;
+&lt;h2 id=&quot;总结&quot;&gt;总结&lt;/h2&gt;
 
 &lt;p&gt;以前写过不少项目，不过都比较庞大，而且基本都是负面教材。 Co!orMix 是一个小而精的 App ，从萌生想法，到 Demo ，到设计出炉正式完工，整个周期一共就一星期：设计花了一整天做出了可供交互的原型；在代码上只花了两天，但是却不仓促。代码均在 GitHub 上托管，测试上使用 TestFlight 完成分发，通过种子用户的体验修改游戏参数，提高用户体验。同时兼顾各种极端操作，保证代码安全性，做到零错误率。&lt;/p&gt;
 
@@ -2286,14 +2286,14 @@ CMSettingViewController ：游戏设置界面&lt;/p&gt;
           
             &lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/bmiddle/aa266f4dgw1etqi32r084j20k006o3z7.jpg&quot; alt=&quot;logo&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;you-xi-jie-shao-&quot;&gt;游戏介绍&lt;/h3&gt;
+&lt;h3 id=&quot;游戏介绍&quot;&gt;游戏介绍&lt;/h3&gt;
 
 &lt;p&gt;你唯一需要做的就是选择正确的颜色！很简单吧？
 千万别把背景色、词语的颜色和词语的意思搞混了哦！&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/bmiddle/aa266f4dgw1etqi6iaf5xj20ku11240z.jpg&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;kai-fa-xi-jie-&quot;&gt;开发细节&lt;/h3&gt;
+&lt;h3 id=&quot;开发细节&quot;&gt;开发细节&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Replay 按钮的布局：第一版的设计稿放在了和 Home 按钮一样的位置，考虑到整个游戏用户点按的区域只在屏幕的下方区域，于是后来 Replay 的位置被放在了即使是单手操作也能放到的下方区域。&lt;/li&gt;
@@ -2310,7 +2310,7 @@ CMSettingViewController ：游戏设置界面&lt;/p&gt;
   &lt;li&gt;Android 版本：快结束了，应该过两天能和大家见面(&amp;lt;ゝω·)☆&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&quot;kai-fa-ren-yuan-&quot;&gt;开发人员&lt;/h3&gt;
+&lt;h3 id=&quot;开发人员&quot;&gt;开发人员&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/bmiddle/aa266f4dgw1etqjgruv1jj20m60hu408.jpg&quot; alt=&quot;GitHub&quot; /&gt;&lt;/p&gt;
 
@@ -3186,7 +3186,7 @@ p.animation:hover {
 
 &lt;hr /&gt;
 
-&lt;h3 id=&quot;x00-fuck-your-brain&quot;&gt;0x00 Fuck your brain&lt;/h3&gt;
+&lt;h3 id=&quot;0x00-fuck-your-brain&quot;&gt;0x00 Fuck your brain&lt;/h3&gt;
 
 &lt;p&gt;正如其名：Brainfuck。给了一段brainfuck的代码放在解释器里跑一下就得到了下一关的答案。&lt;/p&gt;
 
@@ -3199,7 +3199,7 @@ p.animation:hover {
 
 &lt;hr /&gt;
 
-&lt;h3 id=&quot;x01-multiply&quot;&gt;0x01 Multiply&lt;/h3&gt;
+&lt;h3 id=&quot;0x01-multiply&quot;&gt;0x01 Multiply&lt;/h3&gt;
 
 &lt;p&gt;乘法，求得&lt;code class=&quot;highlighter-rouge&quot;&gt;X * Y&lt;/code&gt;就可以得到答案了。&lt;/p&gt;
 
@@ -3218,7 +3218,7 @@ p.animation:hover {
 
 &lt;hr /&gt;
 
-&lt;h3 id=&quot;x02-keyboard&quot;&gt;0x02 Keyboard&lt;/h3&gt;
+&lt;h3 id=&quot;0x02-keyboard&quot;&gt;0x02 Keyboard&lt;/h3&gt;
 
 &lt;p&gt;点开图是一个Wiki，讲的是Dvorak Simplified Keyboard。意思就是把下面的密文按照键盘替换。得到解密后的程序：&lt;/p&gt;
 
@@ -3238,7 +3238,7 @@ p.animation:hover {
 
 &lt;hr /&gt;
 
-&lt;h3 id=&quot;x03-qr-code&quot;&gt;0x03 QR Code&lt;/h3&gt;
+&lt;h3 id=&quot;0x03-qr-code&quot;&gt;0x03 QR Code&lt;/h3&gt;
 
 &lt;p&gt;扫一下二维码，得到&lt;code class=&quot;highlighter-rouge&quot;&gt;a-z&lt;/code&gt;的转换表&lt;code class=&quot;highlighter-rouge&quot;&gt;[abcdefghijklmnopqrstuvwxyz] &amp;lt;=&amp;gt; [pvwdgazxubqfsnrhocitlkeymj]&lt;/code&gt;。替换下面的乱码得到问题：&lt;/p&gt;
 
@@ -3257,7 +3257,7 @@ p.animation:hover {
 
 &lt;hr /&gt;
 
-&lt;h3 id=&quot;x04-cat&quot;&gt;0x04 Cat&lt;/h3&gt;
+&lt;h3 id=&quot;0x04-cat&quot;&gt;0x04 Cat&lt;/h3&gt;
 
 &lt;p&gt;（这一关卡了很久，我都快绝望的时候在v2ex上看到了用Sublime正则查找，豁然开朗）&lt;/p&gt;
 
@@ -3293,7 +3293,7 @@ Y0s0Y&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&quot;x05-variables&quot;&gt;0x05 Variables&lt;/h3&gt;
+&lt;h3 id=&quot;0x05-variables&quot;&gt;0x05 Variables&lt;/h3&gt;
 
 &lt;p&gt;Keep Going，点开图之后有新的网页，数字是32722。替换2014为32722，又出现了新的数字。猜测和以前的贴吧那种链接差不多，写个js搞定。&lt;/p&gt;
 
@@ -3301,7 +3301,7 @@ Y0s0Y&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&quot;x06-tree&quot;&gt;0x06 Tree&lt;/h3&gt;
+&lt;h3 id=&quot;0x06-tree&quot;&gt;0x06 Tree&lt;/h3&gt;
 
 &lt;p&gt;给了张图，写了一棵树的中序和后序遍历。&lt;del&gt;还好电脑里有大二上学期数据结构的求先序的C++程序就跑了一下。&lt;/del&gt;得到树之后先序遍历得到数的深度最长的路径&lt;code class=&quot;highlighter-rouge&quot;&gt;zWp8LGn01wxJ7&lt;/code&gt;。下面有一串小字&lt;code class=&quot;highlighter-rouge&quot;&gt;openssl enc -aes-128-cbc -a -d -pass pass:???&lt;/code&gt;。经过&lt;a href=&quot;http://ricter.me&quot;&gt;Ricter菊苣&lt;/a&gt;指点，把&lt;code class=&quot;highlighter-rouge&quot;&gt;U2FsdGVkX1+gxunKbemS2193vhGGQ1Y8pc5gPegMAcg=&lt;/code&gt;放入&lt;code class=&quot;highlighter-rouge&quot;&gt;test.in&lt;/code&gt;中再用terminal执行：&lt;code class=&quot;highlighter-rouge&quot;&gt;openssl enc -aes-128-cbc -a -d -pass pass:zWp8LGn01wxJ7 -in test.in -out test.out&lt;/code&gt;得到答案。&lt;/p&gt;
 
@@ -3315,7 +3315,7 @@ Y0s0Y&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&quot;x07-n-queens&quot;&gt;0x07 N Queens&lt;/h3&gt;
+&lt;h3 id=&quot;0x07-n-queens&quot;&gt;0x07 N Queens&lt;/h3&gt;
 
 &lt;p&gt;给了个&lt;code class=&quot;highlighter-rouge&quot;&gt;code = 57138642&lt;/code&gt;发现就是图上的解答。提示要我们使用⑨皇后问题生成这个&lt;code class=&quot;highlighter-rouge&quot;&gt;code&lt;/code&gt;。写个python暴力跑一下（python技术烂到家）：&lt;/p&gt;
 
@@ -3332,7 +3332,7 @@ Y0s0Y&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&quot;x08-excel-column&quot;&gt;0x08 Excel Column&lt;/h3&gt;
+&lt;h3 id=&quot;0x08-excel-column&quot;&gt;0x08 Excel Column&lt;/h3&gt;
 
 &lt;p&gt;26进制表示。求得&lt;code class=&quot;highlighter-rouge&quot;&gt;COOLSHELL = 3×(26^8)+15×(26^7)+15×(26^6)+12×(26^5)+19×(26^4)+8×(26^3)+5×(26^2)+12×(26^1)+12 = 751743486376&lt;/code&gt;和&lt;code class=&quot;highlighter-rouge&quot;&gt;SHELL = 19×(26^4)+8×(26^3)+5×(26^2)+12×(26^1)+12 = 8826856&lt;/code&gt;。两个除一下得到答案&lt;code class=&quot;highlighter-rouge&quot;&gt;85165&lt;/code&gt;。结果进了这个网页还让我们再用字符表示，也是败了。&lt;/p&gt;
 
@@ -3346,7 +3346,7 @@ Y0s0Y&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&quot;x09-fraternal-organisation&quot;&gt;0x09 Fraternal Organisation&lt;/h3&gt;
+&lt;h3 id=&quot;0x09-fraternal-organisation&quot;&gt;0x09 Fraternal Organisation&lt;/h3&gt;
 
 &lt;p&gt;Google搜索了两张图，原来是&lt;code class=&quot;highlighter-rouge&quot;&gt;Pigpen Cipher&lt;/code&gt;。Wiki上说明这是一种加密方式（&lt;del&gt;zxw大神说他给妹子写过情书&lt;/del&gt;）。根据下面的一张图得到最后的破解密文。&lt;/p&gt;
 
@@ -3360,7 +3360,7 @@ Y0s0Y&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&quot;x0a-congratulations&quot;&gt;0x0a Congratulations!&lt;/h3&gt;
+&lt;h3 id=&quot;0x0a-congratulations&quot;&gt;0x0a Congratulations!&lt;/h3&gt;
 
 &lt;p&gt;Update：耗子说还有个迷。于是继续打开这个网页把图片down下来之后vim打开后发现了可以是一个rar&lt;del&gt;（感觉就是个种子）&lt;/del&gt;。解包之后有个txt得到了最终的答案。&lt;/p&gt;
 
@@ -3430,15 +3430,15 @@ Y0s0Y&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h4 id=&quot;er-fen-cha-zhao-binary-search&quot;&gt;二分查找（Binary Search）&lt;/h4&gt;
-&lt;h5 id=&quot;wen-ti-&quot;&gt;问题&lt;/h5&gt;
+&lt;h4 id=&quot;二分查找binary-search&quot;&gt;二分查找（Binary Search）&lt;/h4&gt;
+&lt;h5 id=&quot;问题&quot;&gt;问题&lt;/h5&gt;
 &lt;p&gt;二分查找又叫做折半查找。我们所碰到的问题也很简单：&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;对于一个已经排好序且元素唯一的数组，如何找到我们需要的值&lt;code class=&quot;highlighter-rouge&quot;&gt;value&lt;/code&gt;？&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h5 id=&quot;jie-jue-si-lu-&quot;&gt;解决思路&lt;/h5&gt;
+&lt;h5 id=&quot;解决思路&quot;&gt;解决思路&lt;/h5&gt;
 &lt;p&gt;想法也很明了：通过不断缩小包含我们要找到的这个值&lt;code class=&quot;highlighter-rouge&quot;&gt;value&lt;/code&gt;的范围，我们就能最终找到它。很明显，一开始的范围是整个数组长度，利用中间项的大小和&lt;code class=&quot;highlighter-rouge&quot;&gt;value&lt;/code&gt;比较我们可以缩小一半的比较范围，以此类推直到我们找到这个&lt;code class=&quot;highlighter-rouge&quot;&gt;value&lt;/code&gt;或者判断这个&lt;code class=&quot;highlighter-rouge&quot;&gt;value&lt;/code&gt;不在数组中。通过每次一半一半的筛选，二分查找的时间复杂度就是O（logn）。&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;（建议大家试着写一下二分查找的代码，看看自己会有什么问题）&lt;/strong&gt;&lt;/p&gt;
@@ -3455,18 +3455,18 @@ Y0s0Y&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;h5 id=&quot;ying-yong-&quot;&gt;应用&lt;/h5&gt;
+&lt;h5 id=&quot;应用&quot;&gt;应用&lt;/h5&gt;
 &lt;p&gt;二分查找的应用也很广泛，尤其是利用单调性这一点，可以利用他来猜测答案。具体的应用相信很多OJ菊苣都知道，渣渣在这里也就不谈了。&lt;/p&gt;
 
-&lt;h4 id=&quot;kuai-su-mi-exponentiation-by-squaring&quot;&gt;快速幂（Exponentiation by squaring）&lt;/h4&gt;
-&lt;h5 id=&quot;wen-ti--1&quot;&gt;问题&lt;/h5&gt;
+&lt;h4 id=&quot;快速幂exponentiation-by-squaring&quot;&gt;快速幂（Exponentiation by squaring）&lt;/h4&gt;
+&lt;h5 id=&quot;问题-1&quot;&gt;问题&lt;/h5&gt;
 &lt;p&gt;问题很简单：&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;怎样计算一个数 &lt;code class=&quot;highlighter-rouge&quot;&gt;N&lt;/code&gt; 的 &lt;code class=&quot;highlighter-rouge&quot;&gt;K&lt;/code&gt; 次方？&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h5 id=&quot;jie-jue-si-lu--1&quot;&gt;解决思路&lt;/h5&gt;
+&lt;h5 id=&quot;解决思路-1&quot;&gt;解决思路&lt;/h5&gt;
 &lt;p&gt;正常的话我们会用一个递归的思路去解决：&lt;/p&gt;
 
 &lt;script src=&quot;https://gist.github.com/cee/42341c228c9a44eb133b.js&quot;&gt;&lt;/script&gt;
@@ -3479,7 +3479,7 @@ Y0s0Y&lt;/p&gt;
 
 &lt;p&gt;(非递归的也很好写，Have a try！）&lt;/p&gt;
 
-&lt;h5 id=&quot;ying-yong--1&quot;&gt;应用&lt;/h5&gt;
+&lt;h5 id=&quot;应用-1&quot;&gt;应用&lt;/h5&gt;
 &lt;ol&gt;
   &lt;li&gt;和矩阵运算有关。计算递推数列 &lt;code class=&quot;highlighter-rouge&quot;&gt;A(n) = C(1)A(n-1) + C(2)A(n-2) + ... + C(k)A(n-k)&lt;/code&gt;（其中&lt;code class=&quot;highlighter-rouge&quot;&gt;C(i)&lt;/code&gt;为常数）时，若 n 较大的时候，我们往往把它转换成向量和矩阵的乘法进行操作，对矩阵求 n 次乘法往往会用到快速幂。&lt;/li&gt;
   &lt;li&gt;快速幂取模。在 RSA 加密中我们会用到 &lt;code class=&quot;highlighter-rouge&quot;&gt;a^b mod c&lt;/code&gt;，当 a 和 b 很大的时候，使用 O（logn）的时间计算 &lt;code class=&quot;highlighter-rouge&quot;&gt;a^b mod c&lt;/code&gt; 是非常有必要的，想法类似于快速幂，可自行实现一下。&lt;/li&gt;
@@ -3517,7 +3517,7 @@ Y0s0Y&lt;/p&gt;
 
 &lt;p&gt;今天给大家介绍的话还是主要是通过 64 位系统下的操作。毕竟寄存器数量翻了一番，位数也翻了一番，效率也更高了。最最最不同的就是汇编的代码也就是实现方式不同了。这里的话先讲一点基础知识(｢･ω･)｢。&lt;/p&gt;
 
-&lt;h4 id=&quot;guan-yu-ji-cun-qi-&quot;&gt;关于寄存器&lt;/h4&gt;
+&lt;h4 id=&quot;关于寄存器&quot;&gt;关于寄存器&lt;/h4&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
@@ -3558,7 +3558,7 @@ Y0s0Y&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;guan-yu-nei-cun-&quot;&gt;关于内存&lt;/h4&gt;
+&lt;h4 id=&quot;关于内存&quot;&gt;关于内存&lt;/h4&gt;
 
 &lt;ol&gt;
   &lt;li&gt;分为运行时栈（Stack），堆（Heap），数据（Data）和指令（Text）四部分：&lt;/li&gt;
@@ -3771,7 +3771,7 @@ retq&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&quot;phase6&quot;&gt;Phase_6&lt;/h3&gt;
+&lt;h3 id=&quot;phase_6&quot;&gt;Phase_6&lt;/h3&gt;
 
 &lt;p&gt;作业的要求也就是做到 phase_5，但是很感兴趣所以继续往下做~&lt;/p&gt;
 
@@ -3795,7 +3795,7 @@ retq&lt;/p&gt;
   &lt;p&gt;取 600 ~ 673（分别对应 &lt;code class=&quot;highlighter-rouge&quot;&gt;node8&lt;/code&gt; 和 &lt;code class=&quot;highlighter-rouge&quot;&gt;node6&lt;/code&gt;）中的任意一个整数&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;secretphase&quot;&gt;Secret_Phase&lt;/h3&gt;
+&lt;h3 id=&quot;secret_phase&quot;&gt;Secret_Phase&lt;/h3&gt;
 
 &lt;p&gt;最好玩的莫过于做完了布置的作业继续探索了！Let’s Go On！&lt;/p&gt;
 
@@ -3899,7 +3899,7 @@ retq&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&quot;phase1&quot;&gt;Phase_1&lt;/h3&gt;
+&lt;h3 id=&quot;phase_1&quot;&gt;Phase_1&lt;/h3&gt;
 
 &lt;p&gt;反编译 phase_1 的代码 &lt;code class=&quot;highlighter-rouge&quot;&gt;disassemble phase_1&lt;/code&gt;，得到：&lt;/p&gt;
 
@@ -3915,7 +3915,7 @@ retq&lt;/p&gt;
 
 &lt;p&gt;phase_1 结束！&lt;/p&gt;
 
-&lt;h3 id=&quot;phase2&quot;&gt;Phase_2&lt;/h3&gt;
+&lt;h3 id=&quot;phase_2&quot;&gt;Phase_2&lt;/h3&gt;
 
 &lt;p&gt;进入 phase_2，&lt;code class=&quot;highlighter-rouge&quot;&gt;disassemble phase_2&lt;/code&gt; 得到：&lt;/p&gt;
 
@@ -3939,7 +3939,7 @@ retq&lt;/p&gt;
 
 &lt;p&gt;输入符合条件的六个数即可~难度也不是很大(｢･ω･)｢&lt;/p&gt;
 
-&lt;h3 id=&quot;phase3&quot;&gt;Phase_3&lt;/h3&gt;
+&lt;h3 id=&quot;phase_3&quot;&gt;Phase_3&lt;/h3&gt;
 
 &lt;p&gt;开始进入比较有挑战性的 phase_3，同样使用 &lt;code class=&quot;highlighter-rouge&quot;&gt;disassenmble phase_3&lt;/code&gt;：&lt;/p&gt;
 
@@ -3970,7 +3970,7 @@ retq&lt;/p&gt;
 
 &lt;p&gt;当屏幕显示 &lt;code class=&quot;highlighter-rouge&quot;&gt;Phase 3 cleared!&lt;/code&gt; 的时候，我们已经解决了一半的问题了！&lt;/p&gt;
 
-&lt;h3 id=&quot;phase4&quot;&gt;Phase_4&lt;/h3&gt;
+&lt;h3 id=&quot;phase_4&quot;&gt;Phase_4&lt;/h3&gt;
 
 &lt;p&gt;Move on, 进入到 phase_4，&lt;code class=&quot;highlighter-rouge&quot;&gt;disassemble phase_4&lt;/code&gt;：&lt;/p&gt;
 
@@ -3995,7 +3995,7 @@ retq&lt;/p&gt;
 9&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;phase5&quot;&gt;Phase_5&lt;/h3&gt;
+&lt;h3 id=&quot;phase_5&quot;&gt;Phase_5&lt;/h3&gt;
 
 &lt;script src=&quot;https://gist.github.com/cee/97931960a941fbda380a.js&quot;&gt;&lt;/script&gt;
 
@@ -4057,14 +4057,14 @@ retq&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;an-zhuang--ipsec-tools-racoon&quot;&gt;安装 IPSec-Tools Racoon&lt;/h2&gt;
+&lt;h2 id=&quot;安装-ipsec-tools-racoon&quot;&gt;安装 IPSec-Tools Racoon&lt;/h2&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 2&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c&quot;&gt;# apt-get install ipsec-tools&lt;/span&gt;
 &lt;span class=&quot;c&quot;&gt;# apt-get install racoon&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h2 id=&quot;pei-zhi--ipsec-tools-racoon&quot;&gt;配置 IPSec-tools Racoon&lt;/h2&gt;
+&lt;h2 id=&quot;配置-ipsec-tools-racoon&quot;&gt;配置 IPSec-tools Racoon&lt;/h2&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-conf&quot; data-lang=&quot;conf&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 2
@@ -4179,14 +4179,14 @@ retq&lt;/p&gt;
 &lt;span class=&quot;err&quot;&gt;#&lt;/span&gt; 欢迎信息，貌似一定要填写？&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h2 id=&quot;tian-jia-yong-hu-ming-he-mi-ma-&quot;&gt;添加用户名和密码&lt;/h2&gt;
+&lt;h2 id=&quot;添加用户名和密码&quot;&gt;添加用户名和密码&lt;/h2&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 2&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c&quot;&gt;# useradd -MN -b /tmp -s /sbin/nologin YOUR.USERNAME &lt;/span&gt;
 &lt;span class=&quot;c&quot;&gt;# passwd YOUR.USERNAME&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h2 id=&quot;she-zhi--iptables-de-gui-ze-he--ipv4-forward&quot;&gt;设置 iptables 的规则和 IPv4 forward&lt;/h2&gt;
+&lt;h2 id=&quot;设置-iptables-的规则和-ipv4-forward&quot;&gt;设置 iptables 的规则和 IPv4 forward&lt;/h2&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 2
@@ -4208,7 +4208,7 @@ retq&lt;/p&gt;
 &lt;span class=&quot;n&quot;&gt;sysctl&lt;/span&gt; -&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h2 id=&quot;zui-hou-qi-dong--&quot;&gt;最后启动 &amp;gt;&amp;lt;&lt;/h2&gt;
+&lt;h2 id=&quot;最后启动-&quot;&gt;最后启动 &amp;gt;&amp;lt;&lt;/h2&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 2&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c&quot;&gt;# service racoon start&lt;/span&gt;
