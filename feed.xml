@@ -1,4 +1,82 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Perfect Freeze!</title><subtitle>Perfect Freeze! | Cee's Blog v3.0</subtitle><updated>2017-04-25T20:40:24-07:00</updated><id>http://blog.cee.moe/</id><generator uri="https://sparanoid.com/lab/amsf/" version="1.1.8">Almace Scaffolding</generator><link rel="alternate" type="text/html" hreflang="en" href="http://blog.cee.moe/" /><link rel="self" type="application/atom+xml" href="http://blog.cee.moe/feed.xml" /><author><name>Cee</name><uri>http://blog.cee.moe/</uri><email>ceecirno@gmail.com</email></author><entry><title>Oh My 2016</title><id>http://blog.cee.moe/Oh-My-2016.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/Oh-My-2016.html" /><published>2016-12-31T00:00:00-08:00</published><updated>2016-12-30T20:46:48-08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Perfect Freeze!</title><subtitle>Perfect Freeze! | Cee's Blog v3.0</subtitle><updated>2017-04-27T20:45:06-07:00</updated><id>http://blog.cee.moe/</id><generator uri="https://sparanoid.com/lab/amsf/" version="1.1.8">Almace Scaffolding</generator><link rel="alternate" type="text/html" hreflang="en" href="http://blog.cee.moe/" /><link rel="self" type="application/atom+xml" href="http://blog.cee.moe/feed.xml" /><author><name>Cee</name><uri>http://blog.cee.moe/</uri><email>ceecirno@gmail.com</email></author><entry><title>装了啥 | 其实我也不知道手机里装了啥，直到写了这篇文章</title><id>http://blog.cee.moe/Apps-Inside-iPhone.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/Apps-Inside-iPhone.html" /><published>2017-04-27T00:00:00-07:00</published><updated>2017-04-27T20:44:46-07:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
+          
+            &lt;blockquote&gt;
+  &lt;p&gt;本文首发于少数派，原文链接：https://sspai.com/post/38970。转载请说明出处。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;q1-简单介绍一下你自己&quot;&gt;Q1. 简单介绍一下你自己。&lt;/h2&gt;
+
+&lt;p&gt;大家好，我叫 Cee。现在是一名开发工程师（大概算半个 Growth Hacker），也是一名独立开发者。现在在渡（bai）鸦（du）工作，即将出国继续读 CS 方向的研究生。&lt;/p&gt;
+
+&lt;h2 id=&quot;q2-哪些-app-对你的工作--学习--生活最重要提供一下你的主屏列举一些-app建议不超过-3-个&quot;&gt;Q2. 哪些 App 对你的工作 / 学习 / 生活最重要？（提供一下你的主屏，列举一些 App，建议不超过 3 个）&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ooo.0o0.ooo/2017/04/27/5901bc7b03670.jpg&quot; alt=&quot;Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;主屏幕上的 App 并不是特别的多，主要分为几类：社交、照片、支付、日常以及娱乐。可以说这些应用基本上每天都会打开一下。最最最常用的可能就是放在 Dock 上的四个应用：&lt;strong&gt;Expense&lt;/strong&gt;、&lt;strong&gt;Telegram&lt;/strong&gt;（自己在用 Swift 重写的 Beta 版本）、&lt;strong&gt;OmniFocus&lt;/strong&gt; 以及 &lt;strong&gt;Safari&lt;/strong&gt;。不要介意主屏幕上有那么多小红点，自己对他们并不感冒。&lt;/p&gt;
+
+&lt;h2 id=&quot;q3-那么能否具体说说你是如何使用这些-app-的呢&quot;&gt;Q3. 那么，能否具体说说你是如何使用这些 App 的呢？&lt;/h2&gt;
+
+&lt;p&gt;首先介绍一下 &lt;strong&gt;Expense&lt;/strong&gt;。Expense 是让我一直坚持记账的一款软件。它的界面非常的清爽简洁，而且只有记账功能，并不像其他的记账应用花里胡哨，还有各种广告。当你吃完饭、买买买刷完卡的时候，使用 Expense 记上一笔，就知道这个月——又没钱了。&lt;/p&gt;
+
+&lt;p&gt;其次是 &lt;strong&gt;Telegram&lt;/strong&gt;。作为一款需要〇〇的实时 IM 软件，无论从界面还是功能来说，Telegram 都秒杀微信、QQ 几个大街（尤其是贴纸表情的管理）。当主要的联系人都在 Telegram 上后，你就发现开微信和 QQ 也就只有谈工作上的事情了。&lt;del&gt;如果说 Telegram 再支持个收付款的功能，那就更好了。&lt;/del&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;OmniFocus&lt;/strong&gt;，一款老牌的 GTD 应用。在 Mac 上也有对应的版本可以下载。用于生活和学习的任务管理。对于自控能力比较差，或者是经常忘记做事情的同学来说，OmniFocus 绝对是神器。少数派也有太多太多介绍 OmniFocus 的文章了，这里也不再赘述。&lt;/p&gt;
+
+&lt;p&gt;剩下来的一些 App 再介绍一下：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Social 文件夹：全是聊天工具或者消遣的 App，除了 Tweetbot 用的多把它放在外面之外，剩下的都在里面；&lt;/li&gt;
+  &lt;li&gt;Photos 文件夹：处理图片，比如有 Instagram 家的三件套，拼长图的工具 Picsaw、Tailor 和 LongScreen（都很推荐），微软的 Lens 适合把照片或者名片电子化；&lt;/li&gt;
+  &lt;li&gt;Credit 文件夹：银行讨债用，日常浦发抽积分；&lt;/li&gt;
+  &lt;li&gt;Alipay：人人喊打，但是要买个东西付个款你还得用；&lt;/li&gt;
+  &lt;li&gt;Tweetbot：刷推；&lt;/li&gt;
+  &lt;li&gt;Lightroom + Instagram + Swarm：签到，拍照，记录生活；&lt;/li&gt;
+  &lt;li&gt;网易云音乐：日常上下班听歌，或者开 Castro 听 Podcast；&lt;/li&gt;
+  &lt;li&gt;Dropbox + Paper：文件共享和协作；&lt;/li&gt;
+  &lt;li&gt;Youtube：看 Unbox Therapy 等等视频；&lt;/li&gt;
+  &lt;li&gt;Calendars 5 + Mail：处理工作日程和邮件；&lt;/li&gt;
+  &lt;li&gt;Reeder：订阅 RSS，知识和信息的获取来源。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;q4-推荐一个让生活更美好的物件&quot;&gt;Q4. 推荐一个让生活更美好的物件？&lt;/h2&gt;
+
+&lt;p&gt;不得不提的是 &lt;strong&gt;Sony MDR-1000X&lt;/strong&gt;。隔音的效果太好了，能在上班的时候减少很多外界的干扰。同时如果喜欢听歌的话，1000X 的音质也是不用说的，效果棒棒哒！&lt;/p&gt;
+
+&lt;h2 id=&quot;q5-分享一个改善生活的小习惯&quot;&gt;Q5. 分享一个改善生活的小习惯。&lt;/h2&gt;
+
+&lt;p&gt;睡觉前戴一下花王的蒸汽眼罩，第二天会发现睡得特别的好！&lt;/p&gt;
+
+&lt;h2 id=&quot;q6-说一个你很喜欢但还少有人知道的-app&quot;&gt;Q6. 说一个你很喜欢、但还少有人知道的 App。&lt;/h2&gt;
+
+&lt;p&gt;Euclidea。非常小众的一款智力游戏，就是尺规作图。无聊的时候可以玩玩，挑战自己的脑力极限。他们家还有个好玩的智力游戏叫作 Tchisla（希腊文中「算数」的意思）。&lt;/p&gt;
+
+&lt;h2 id=&quot;q7-在你订阅的付费服务当中哪一些是不可或缺的&quot;&gt;Q7. 在你订阅的付费服务当中哪一些是不可或缺的？&lt;/h2&gt;
+
+&lt;p&gt;列个列表吧：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;iCloud Drive：用来同步我的照片（这个人照片太多了）；&lt;/li&gt;
+  &lt;li&gt;PlayStation Plus：每个月都有想玩的游戏；&lt;/li&gt;
+  &lt;li&gt;Apple Developer Program：没有这个我就要死了。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;q8-有什么自己用过-100-元以内提升自己生活品质的好东西吗&quot;&gt;Q8. 有什么自己用过 100 元以内提升自己生活品质的好东西吗？&lt;/h2&gt;
+
+&lt;p&gt;MUJI 的靠枕和证件包。靠枕在&lt;a href=&quot;https://sspai.com/post/38949&quot;&gt;这篇文章&lt;/a&gt;中有说明；证件包自然就是能帮助我收纳护照、证件的一个非常大的夹子，出国旅行的时候特别有用。&lt;/p&gt;
+
+&lt;h2 id=&quot;q9-厚颜无耻地问一下怎么联系你&quot;&gt;Q9. 厚颜无耻地问一下怎么联系你？&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Telegram: &lt;a href=&quot;https://t.me/Ceeee&quot;&gt;@Ceeee&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Twitter: &lt;a href=&quot;https://twitter.com/ceecirno&quot;&gt;@Ceecirno&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Blog: &lt;a href=&quot;http://blog.cee.moe&quot;&gt;Perfect Freeze&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Mail: ceecirno#gmail.com&lt;/li&gt;
+&lt;/ul&gt;
+
+          
+          
+        
+      
+        </content><summary>  本文首发于少数派，原文链接：https://sspai.com/post/38970。转载请说明出处。</summary></entry><entry><title>Oh My 2016</title><id>http://blog.cee.moe/Oh-My-2016.html</id><link rel="alternate" type="text/html" href="http://blog.cee.moe/Oh-My-2016.html" /><published>2016-12-31T00:00:00-08:00</published><updated>2016-12-30T20:46:48-08:00</updated><author><name>Cee</name><uri>http://cee.moe/</uri><email>ceecirno@gmail.com</email></author><content type="html" xml:base="http://blog.cee.moe/">
           
             &lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
 
